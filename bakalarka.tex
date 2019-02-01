@@ -1,0 +1,195 @@
+%!TEX program = xelatex
+\documentclass[a4paper,12pt,openany,twoside]{book} % twoside
+\usepackage[inner=3.5cm,outer=2.5cm, top=2.5cm]{geometry} %showframe
+
+\usepackage{url}
+\usepackage{fontspec}
+\usepackage{lmodern}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage[rgb]{xcolor}
+\graphicspath{ {img/} }
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{chngcntr}
+\usepackage[czech]{babel}
+\usepackage[pagestyles,medium]{titlesec}
+\usepackage{setspace}
+\usepackage{emptypage}
+\usepackage{xpatch}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{ragged2e}
+\usepackage{pbox}
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{afterpage}
+\usepackage{tipa}
+
+\usepackage{hyperref}
+\usepackage{mdframed}
+\usepackage{framed}
+\def\tightlist{}
+
+\xpatchcmd{\part}{\thispagestyle{plain}}{\thispagestyle{empty}}{}{}
+
+
+\newcommand\exmp{\textsf}
+
+\counterwithout{figure}{chapter}
+\counterwithout{footnote}{chapter}
+
+
+\newpagestyle{sensible}{
+	\headrule\sethead{}{}{\MakeUppercase{\chaptertitle}}
+	\setfoot{}{\thepage}{}
+}
+
+\setlength\emergencystretch{1em}
+\setlength\headheight{14pt}
+\setstretch{1.1}
+\setcounter{secnumdepth}{4}
+
+\widowpenalty10000
+\clubpenalty10000
+
+\hyphenation{выпа-дений}
+
+\setmainfont[Ligatures=TeX]{CMU Serif Roman}
+
+\usepackage[backend=biber, style=iso-authoryear, sortlocale=cs\_CZ, uniquelist=false, autocite=footnote, maxcitenames=2, maxbibnames=99, minnames=1, urldate=long, spacecolon=false,bibencoding=UTF8
+]{biblatex}
+\let\oldmultinamedelim\multinamedelim
+\let\oldfinalnamedelim\finalnamedelim
+\renewcommand*{\multinamedelim}{~a~}
+\renewcommand*{\finalnamedelim}{~a~}
+\renewcommand*{\nameyeardelim}{~}
+\AtBeginBibliography{%
+  \renewcommand*{\multinamedelim}{~--\space}%
+  \renewcommand*{\finalnamedelim}{~--\space}%
+}
+\DefineBibliographyStrings{czech}{%
+  mathesis = {Magisterská diplomová práce},
+  editors = {eds.}
+}
+
+\addbibresource{bibliography.bib}
+
+\newcommand{\sign}[1]{%      
+  \begin{tabular}[t]{@{}r@{}}
+  \makebox[2.5in]{\dotfill}\\
+  \strut#1\strut
+  \end{tabular}%
+}
+
+
+\begin{document}
+	\clearpage
+	\pagenumbering{gobble}
+
+	\begin{titlepage}
+		\begin{center}
+			{\Large\uppercase{Masarykova univerzita}}
+
+			\vspace{1em}
+
+			{\Large Filozofická fakulta}
+
+			\vspace{1em}
+
+			{\large Ústav českého jazyka}
+
+			\vspace{1em}
+
+			{\large Český jazyk se specializací počítačová lingvistika}
+
+			\vspace{11em}
+
+			{\large Kryštof Davídek }
+			
+			\vspace{3em}
+			
+			{\LARGE\bf Název}
+
+			\vspace{1.5em}
+
+			{\Large Bakalářská diplomová práce}
+
+			\vfill
+			\vspace{3em}
+			Vedoucí práce: Mgr. Adriana Válková
+			
+			2019
+		\end{center}
+	\end{titlepage}
+
+
+\cleardoublepage
+
+\par
+\par\vspace*{\fill}
+	\pagestyle{plain}
+\pagenumbering{roman}
+\begin{flushright}
+	Prohlašuji, že jsem bakalářskou diplomovou práci vypracoval samostatně s~využitím uvedených pramenů a~literatury.
+
+	\vspace{3em}
+
+	    \makebox[2.5in][r]{\dotfill}
+	    
+	    autor práce
+
+	    \par
+
+\end{flushright}
+\clearpage
+
+\par
+\par\vspace*{\fill}
+
+Na tomto místě bych rád poděkoval...
+
+\clearpage
+
+\section*{Abstrakt}
+
+Případný abstrakt.
+
+\section*{Abstract}
+
+Potential abstract in English.
+
+\section*{Klíčová slova}
+
+Klíčová, slova
+
+\section*{Keywords}
+
+Key, words, in, English
+
+\clearpage
+
+\tableofcontents
+
+
+\cleardoublepage
+\pagenumbering{gobble}
+
+% \newgeometry{top=2.5cm}
+
+
+\include{src/uvod}
+
+\include{src/1-kapitola}
+
+
+\clearpage
+
+\pagestyle{plain}
+
+\addcontentsline{toc}{chapter}{Seznam literatury}
+\begin{spacing}{1.05}
+\printbibliography[title={Seznam literatury}]
+\end{spacing}
+
+\end{document}
