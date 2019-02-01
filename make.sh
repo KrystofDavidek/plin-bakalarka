@@ -17,7 +17,7 @@ for FILE in src/*.md; do
   sed -ie 's/\\chapter{Úvod}\\label{uxfavod}/'\
 '\\chapter\*{Úvod}\\label{uvod}\n\\addcontentsline{toc}{chapter}{Úvod}/g' "${FILE%.md}.tex"
 
-  sed -ie 's/\\section{Závěr}\\label{zuxe1vux11br}/'\
+  sed -ie 's/\\chapter{Závěr}\\label{zuxe1vux11br}/'\
 '\\chapter\*{Závěr}\\label{zaver}\n\\addcontentsline{toc}{chapter}{Závěr}/g' "${FILE%.md}.tex"
 
 
