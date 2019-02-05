@@ -6,12 +6,9 @@
   
 # Onomaziologická teorie slovotvorby
 
-  
-## Základní charakteristika
+## Ukotvení teorie, stručná historie
 
-### Ukotvení teorie, stručná historie
-
-### Způsoby a prostředky tvoření nových pojmenování
+## Způsoby a prostředky tvoření nových pojmenování
 
 ## Lexikální a strukturální význam
 
@@ -39,11 +36,12 @@
 
 ### Činitelská jména
 
-####	-tel
+####	suffix tel
 
-#### to co stihneme implementovat...
+#### to co stihneme implementovat
 
  
+  
 
 \part{Praktická část}
 
