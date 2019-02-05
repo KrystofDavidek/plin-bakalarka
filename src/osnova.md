@@ -3,7 +3,6 @@
 
 \part{Teoretická část}
 
-  
 # Onomaziologická teorie slovotvorby
 
 ## Ukotvení teorie, stručná historie
@@ -34,17 +33,26 @@
 
 ### Dělení
 
-### Činitelská jména
+# Činitelská jména a jejich typy nebo teorie ohledně tvorby definic (tvůj výzkum)?
 
-####	suffix tel
+## sufix tel a případě další implementované sufixy
 
-#### to co stihneme implementovat
-
- 
-  
+## problematika alternací 
 
 \part{Praktická část}
 
-  
+# Derinet
+
+# Implementace elektronického derivačního slovníku
+
+## Použité technologie
+
+### Principy hybridních aplikací
+
+### Framework Angular a Ionic
+
+##  Tvorba definic
+
+## Cizojazyčný slovník 
 
 # Závěr
