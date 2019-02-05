@@ -13,7 +13,7 @@
 
 ##  Slovotvorné vztahy
 
-### Fundace (slovotvorná hnízda/svazky/čeledi, role lexikálního významu)
+### Fundace
 
 ### Motivace
 
@@ -35,9 +35,7 @@
 
 # Činitelská jména a jejich typy nebo teorie ohledně tvorby definic (tvůj výzkum)?
 
-## sufix tel a případě další implementované sufixy
-
-## problematika alternací 
+## sufix -tel a případě další implementované sufixy
 
 \part{Praktická část}
 
@@ -51,7 +49,7 @@
 
 ### Framework Angular a Ionic
 
-##  Tvorba definic
+##  Tvorba slovníkových definic
 
 ## Cizojazyčný slovník 
 
