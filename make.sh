@@ -2,7 +2,9 @@
 
 echo -e "\n\n### Converting Markdown to LaTeX ###\n\n"
 
-for FILE in src/*.md; do
+rm tex/*
+
+for FILE in markdown/*.md; do
   pandoc ${FILE} -o "${FILE%.md}.tex"
   vlna -r -l -v KkSsVvZzOoUuAaIi "${FILE%.md}.tex"
   sed -ie 's/\s\\parencite/~\\parencite/g' "${FILE%.md}.tex"
@@ -20,6 +22,7 @@ for FILE in src/*.md; do
 
 
   rm "${FILE%.md}.texe"
+  rename 's/^markdown(.*)/tex$1/' "${FILE%.md}.tex"
 done
 
 
