@@ -1,7 +1,5 @@
 #!/bin/bash
 
-MAIN="bakalarka"
-
 echo -e "\n\n### Converting Markdown to LaTeX ###\n\n"
 
 for FILE in src/*.md; do
