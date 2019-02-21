@@ -3,6 +3,12 @@
 
 \part{Teoretická část}
 
+# Slovotvorba
+
+## Obecná definice
+
+## Přístupy a teorie
+
 # Onomaziologická teorie slovotvorby
 
 ## Ukotvení teorie, stručná historie
@@ -33,13 +39,19 @@
 
 ### Dělení
 
-# Činitelská jména a jejich typy nebo teorie ohledně tvorby definic (tvůj výzkum)?
+# Derivační morfologie
+
+# Dostupné e-slovníky
+
+# Zpracované slovotvorné typy
 
 ## sufix -tel a případě další implementované sufixy
 
 \part{Praktická část}
 
-# Derinet
+# Použité jazykové zdroje
+
+## DeriNet
 
 # Implementace elektronického derivačního slovníku
 
