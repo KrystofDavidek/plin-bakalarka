@@ -1,3 +1,5 @@
+\part{Teoretická část}
+
 # Slovotvorba
 
 V této úvodní kapitole si představíme slovotvorbu tak, jak ji vnímá dnešní tuzemská lingvistika, a ve stručnosti si popíšeme hlavní přístupy k této problematice v českém prostředí.
