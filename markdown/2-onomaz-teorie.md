@@ -12,7 +12,17 @@ Teorie jako taková je založena na propracovaném systému onomaziologických a
 
 ## Způsoby a prostředky tvoření nových pojmenování
 
+Potřebu nových pojmenování lze naplnit různými způsoby, prvním z nich je využití již vytvořených pojmenování z cizích jazyků -- k tomuto přejímání může docházet z vícero důvodů, například když nemá domácí jazyk pro daný pojem z nějaké příčiny výraz (*whiskey*), ale také může jít o nějakou formu jazykové módy (*cool*) nebo eufemismu (*toaleta*). \parencite[19]{dokulil62}
 
+Druhým způsobem, jak vytvářet nová pojmenování, je tvorba nových výrazů z vlastní slovní zásoby daného jazyka. Podle Dokulila lze v této oblasti mluvit o tvoření pojmenování víceslovných a jednoslovných. U víceslovných novotvarů jde typicky jen o novou kombinaci slov již existujících (*strojový překlad*), tento typ tvorby nových pojmenování je v českém jazyce nejčastější a nejjednodušší, nicméně existují důkazy, že čeština dává z důvodu své flektivní povahy přednost právě druhému typu. Ten je založen na tom, že nová jednoslovná pojmenování vznikají prostřednictvím morfologických změn ze slov už vytvořených -- může se tak jednat buď o skládání slov (kompozici) nebo odvozování slov (derivaci). \parencite[21]{dokulil62}
+
+### Kompozice
+
+Výrazy vzniklé tímto postupem mají společné to, že obsahují více než jeden slovní základ (*černovlasý*), někdy tedy bývá označován za přechodný způsob mezi tvořením slov víceslovný a jednoslovných. Za specifický typ kompozit bývají označovány spřežky (nevlastní složeniny) -- tato slova vznikla spřáhnutím slov, která se často objevovala v nějak slovním spojení (*bojeschopný*). Jejich vlastností je, že je lze za určitých podmínek zpětně rozpojit do separátního stavu (*schopný boje*). \parencite[22]{dokulil62}
+
+Ostatní složená slova jsou nerozložitelná do víceslovného pojmenování a jejich první člen nebývá hodnocen jako úplný tvar slova, taktéž bývá mezi tvary přítomen kompoziční vokál *o*, *e* nebo *i*.  Skládání slov není ve slovanských jazycích častým jevem, a proto i v češtině za nejdůležitější postup ve slovotvorbě považujeme derivaci. \parencite[22]{dokulil62}
+
+### Derivace
 
 ## Lexikální a strukturální význam
 
