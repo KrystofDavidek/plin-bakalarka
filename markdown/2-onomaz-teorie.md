@@ -18,7 +18,7 @@ Druhým způsobem, jak vytvářet nová pojmenování, je tvorba nových výraz�
 
 ### Kompozice
 
-Charakteristickým rysem výrazů vzniklých skládáním slov je to, že obsahují více než jeden slovní základ (*černovlasý*), někdy tedy bývá kompozice označována za přechodný způsob mezi tvořením slov víceslovný a jednoslovných. Za specifický typ kompozit bývají označovány spřežky (nevlastní složeniny) -- tato slova vznikla spřáhnutím slov, která se často objevovala v nějak slovním spojení (*bojeschopný*). Jejich vlastností je, že je lze za určitých podmínek zpětně rozpojit do separátního stavu (*schopný boje*). \parencite[22]{dokulil62}
+Charakteristickým rysem výrazů vzniklých skládáním slov je to, že obsahují více než jeden slovní základ (*čern-o-vlasý*), někdy tedy bývá kompozice označována za přechodný způsob mezi tvořením slov víceslovný a jednoslovných. Za specifický typ kompozit bývají označovány spřežky (nevlastní složeniny) -- tato slova vznikla spřáhnutím slov, která se často objevovala v nějak slovním spojení (*boj-e-schopný*). Jejich vlastností je, že je lze za určitých podmínek zpětně rozpojit do separátního stavu (*schopný boje*). \parencite[22]{dokulil62}
 
 Ostatní složená slova jsou nerozložitelná do víceslovného pojmenování a jejich první člen nebývá hodnocen jako úplný tvar slova, taktéž bývá mezi tvary přítomen kompoziční vokál *o*, *e* nebo *i*.  Skládání slov není ve slovanských jazycích častým jevem, a proto i v češtině za nejdůležitější postup ve slovotvorbě považujeme derivaci. \parencite[22]{dokulil62}
 
@@ -28,12 +28,14 @@ Odvozování slov je založeno na tvoření slov od slov jiných (označujeme je
 
 Podle pozice jednotlivých formantů můžeme vydělit několik základních slovotvorných postupů:
 
- - prefixace,
- - sufixace,
- - reflexivizace,
- - postfixace,
- - deprefixace,
- - desufiaxce. \parencite[93--94]{dokulil00}
+ - prefixace -- před slovo základové je umístěn slovotvorný morfém (prefix), jenž kromě slovesného vidu nemění mluvnické charakteristiky (*ne-vinný*),
+ - sufixace -- za slovo základové je umístěn slovotvorný morfém (sufix), ten se vždy připojuje za základ slova, nikoliv za celé základové slovo (*prav-ic-e*). Sufixace je nejdůležitější slovotvorný postup v češtině \parencite[23]{dokulil62} a je spjata se souborem koncovek určitého paradigmatu \parencite[93]{dokulil00}, 
+ - reflexivizace -- odvozování zvratných sloves pomocí volných zvratných formantů *se*, *si* (*bavit se*),
+ - postfixace -- odvozování od úplného slovního tvaru pomocí zvláštní přípony (*koho-si*),
+ - deprefixace -- odsunutí prefixu (*poslat* --> *slát*),
+ - desufiaxce -- odsunutí sufixu (*plamen* --> *plan*). \parencite[93--94]{dokulil00}
+
+Na závěr této podkapitoly je nutné poznamenat, že se výše vypsané slovotvorné způsoby mohou různě kombinovat \parencite[93]{dokulil00}, například podstatné jméno *výsadek* je odvozeno od slova *sad* nebo *sázet* jak pomocí prefixu *vý*, tak prostřednictvím sufixu -ek.
 
 ## Lexikální a strukturální význam
 
