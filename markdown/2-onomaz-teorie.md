@@ -8,7 +8,7 @@ Onomaziologie zkoumá takové motivace, postupy a prostředky, prostřednictvím
 
 Po metodické stránce Dokulil u tvoření slov rozlišuje aspekt genetický, který je zaměřený na vlastní slovotvorné procesy, a na aspekt funkčně strukturní, jenž sleduje výsledek těchto procesů (*utvářenost slov*).  Nicméně jak sám autor teorie potvrzuje, je mezi těmito přístupy těsná spojitost.  \parencite[9]{dokulil62}
 
-Teorie jako taková je založena na propracovaném systému onomaziologických a pojmových kategoriích, které obsahy vědomí strukturují, tedy zobecňují nebo konkretizují. Tato problematika je dále rozebírána v KAPITOLE NEVÍM KOLIK. \parencite{enc-onomaz-kateg17}
+Teorie jako taková je založena na propracovaném systému onomaziologických a pojmových kategoriích, které obsahy vědomí strukturují, tedy zobecňují nebo konkretizují. Tato problematika je dále rozebírána v XXX. \parencite{enc-onomaz-kateg17}
 
 ## Způsoby a prostředky tvoření nových pojmenování
 
@@ -18,11 +18,22 @@ Druhým způsobem, jak vytvářet nová pojmenování, je tvorba nových výraz�
 
 ### Kompozice
 
-Výrazy vzniklé tímto postupem mají společné to, že obsahují více než jeden slovní základ (*černovlasý*), někdy tedy bývá označován za přechodný způsob mezi tvořením slov víceslovný a jednoslovných. Za specifický typ kompozit bývají označovány spřežky (nevlastní složeniny) -- tato slova vznikla spřáhnutím slov, která se často objevovala v nějak slovním spojení (*bojeschopný*). Jejich vlastností je, že je lze za určitých podmínek zpětně rozpojit do separátního stavu (*schopný boje*). \parencite[22]{dokulil62}
+Charakteristickým rysem výrazů vzniklých skládáním slov je to, že obsahují více než jeden slovní základ (*černovlasý*), někdy tedy bývá kompozice označována za přechodný způsob mezi tvořením slov víceslovný a jednoslovných. Za specifický typ kompozit bývají označovány spřežky (nevlastní složeniny) -- tato slova vznikla spřáhnutím slov, která se často objevovala v nějak slovním spojení (*bojeschopný*). Jejich vlastností je, že je lze za určitých podmínek zpětně rozpojit do separátního stavu (*schopný boje*). \parencite[22]{dokulil62}
 
 Ostatní složená slova jsou nerozložitelná do víceslovného pojmenování a jejich první člen nebývá hodnocen jako úplný tvar slova, taktéž bývá mezi tvary přítomen kompoziční vokál *o*, *e* nebo *i*.  Skládání slov není ve slovanských jazycích častým jevem, a proto i v češtině za nejdůležitější postup ve slovotvorbě považujeme derivaci. \parencite[22]{dokulil62}
 
 ### Derivace
+
+Odvozování slov je založeno na tvoření slov od slov jiných (označujeme je jako základové) prostřednictvím změny v morfologické stavbě -- tyto změny bývají způsobeny určitými odvozovacími prostředky (formanty). \parencite[93]{dokulil00}
+
+Podle pozice jednotlivých formantů můžeme vydělit několik základních slovotvorných postupů:
+
+ - prefixace,
+ - sufixace,
+ - reflexivizace,
+ - postfixace,
+ - deprefixace,
+ - desufiaxce. \parencite[93--94]{dokulil00}
 
 ## Lexikální a strukturální význam
 
