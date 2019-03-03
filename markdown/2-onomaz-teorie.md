@@ -33,7 +33,7 @@ Podle pozice jednotlivých formantů můžeme vydělit několik základních slo
  - reflexivizace -- odvozování zvratných sloves pomocí volných zvratných formantů *se*, *si* (*bavit se*),
  - postfixace -- odvozování od úplného slovního tvaru pomocí zvláštní přípony (*koho-si*),
  - deprefixace -- odsunutí prefixu (*poslat* --> *slát*),
- - desufiaxce -- odsunutí sufixu (*plamen* --> *plan*). \parencite[93--94]{dokulil00}
+ - desufiaxce -- odsunutí sufixu (*plamen* --> *plam*). \parencite[93--94]{dokulil00}
 
 Na závěr této podkapitoly je nutné poznamenat, že se výše vypsané slovotvorné způsoby mohou různě kombinovat \parencite[93]{dokulil00}, například podstatné jméno *výsadek* je odvozeno od slova *sad* nebo *sázet* jak pomocí prefixu *vý*, tak prostřednictvím sufixu -ek.
 
