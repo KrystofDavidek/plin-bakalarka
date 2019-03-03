@@ -18,7 +18,7 @@ Druhým způsobem, jak vytvářet nová pojmenování, je tvorba nových výraz�
 
 ### Kompozice
 
-Charakteristickým rysem výrazů vzniklých skládáním slov je to, že obsahují více než jeden slovní základ (*čern-o-vlasý*), někdy tedy bývá kompozice označována za přechodný způsob mezi tvořením slov víceslovný a jednoslovných. Za specifický typ kompozit bývají označovány spřežky (nevlastní složeniny) -- tato slova vznikla spřáhnutím slov, která se často objevovala v nějak slovním spojení (*boj-e-schopný*). Jejich vlastností je, že je lze za určitých podmínek zpětně rozpojit do separátního stavu (*schopný boje*). \parencite[22]{dokulil62}
+Charakteristickým rysem výrazů vzniklých skládáním slov je to, že obsahují více než jeden slovní základ (*čern-o-vlasý*), někdy tedy bývá kompozice označována za přechodný způsob mezi tvořením slov víceslovných a jednoslovných. Za specifický typ kompozit bývají označovány spřežky (nevlastní složeniny) -- tato slova vznikla spřáhnutím slov, která se často objevovala v nějak slovním spojení (*boj-e-schopný*). Jejich vlastností je, že je lze za určitých podmínek zpětně rozpojit do separátního stavu (*schopný boje*). \parencite[22]{dokulil62}
 
 Ostatní složená slova jsou nerozložitelná do víceslovného pojmenování a jejich první člen nebývá hodnocen jako úplný tvar slova, taktéž bývá mezi tvary přítomen kompoziční vokál *o*, *e* nebo *i*.  Skládání slov není ve slovanských jazycích častým jevem, a proto i v češtině za nejdůležitější postup ve slovotvorbě považujeme derivaci. \parencite[22]{dokulil62}
 
@@ -35,15 +35,25 @@ Podle pozice jednotlivých formantů můžeme vydělit několik základních slo
  - deprefixace -- odsunutí prefixu (*poslat* --> *slát*),
  - desufiaxce -- odsunutí sufixu (*plamen* --> *plam*). \parencite[93--94]{dokulil00}
 
-Na závěr této podkapitoly je nutné poznamenat, že se výše vypsané slovotvorné způsoby mohou různě kombinovat \parencite[93]{dokulil00}, například podstatné jméno *výsadek* je odvozeno od slova *sad* nebo *sázet* jak pomocí prefixu *vý*, tak prostřednictvím sufixu -ek.
+Na závěr této podkapitoly je nutné poznamenat, že se výše vypsané slovotvorné způsoby mohou různě kombinovat \parencite[93]{dokulil00}, například podstatné jméno *výsadek* je odvozeno od slova *sad* nebo *sázet*,  a to jak pomocí prefixu *vý*, tak prostřednictvím sufixu -ek.
+
+Ve zbytku práce budeme teorii rozebírat výhradně na příkladech derivace -- jednak z důvod výše zmíněného, tedy že je v českém jazyce tento způsob nejčastější, a jednak z ryze praktické příčiny, protože se praktická část věnuje aplikaci derivačních rysů. 
+
+## Slovotvorné vztahy
+
+Pro popis slovotvorných vztahů přišla OTS s dvěma základními termíny, jde o vztah fundace a motivace.
+
+Vztah fundace (zakládání se jednoho slova na druhém) je založen na tom principu, že slovo, které je významově i formálně složitější (slovo fundované), se zakládá na slově jiném, které je pro něj základové (slovo fundující), a tím pádem zpravidla významově i formálně jednodušší. \parencite[95]{dokulil00}
+
+Tento vztah je základním slovotvorným vztahem, a tedy pokud u nějaké dvojice slov chybí, nelze pak tvrdit, že tato slova spolu jakkoliv slovotvorně souvisí. Příkladem fundace může být slovo *učitel*, které je fundované (je od něj odvozeno) fundujícím slovem *učit*.
+
+Na dvojicích slov ve vztahu fundace se mohou dále tvořit složitější a rozvětvenější vztahy, jde o:
+ 
+ - slovotvorné svazky -- jedno slovo má vícečlennou množinu fundovaných anebo fundujících slov, (Slovo *list* má více fundovaných slov -- *lístek*, *listopad*, *listovat* atd. Slovo *listopad* má větší počet slov fundujících -- *list*, *padat*, *pád* atd.)
+ - slovotvorné řády -- vztah fundace platí i mezi sousedními členy (řetězec slov *učit* --> *učitel* --> *učitelka*),
+- slovotvorná hnízda (čeledě) -- komplexnější síť vztahů, kterou vytváří jedno slovo základové prostřednictvím většího množství slovotvorných řad a svazků. \parencite[12--13]{dokulil62}
 
 ## Lexikální a strukturální význam
-
-##  Slovotvorné vztahy
-
-### Fundace
-
-### Motivace
 
 ## Onomaziologické kategorie a jejich klasifikace
 
