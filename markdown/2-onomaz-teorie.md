@@ -43,6 +43,8 @@ Ve zbytku práce budeme teorii rozebírat výhradně na příkladech derivace --
 
 Pro popis slovotvorných vztahů přišla OTS s dvěma základními termíny, jde o vztah fundace a motivace.
 
+### Fundace
+
 Vztah fundace (zakládání se jednoho slova na druhém) je založen na tom principu, že slovo, které je významově i formálně složitější (slovo fundované), se zakládá na slově jiném, které je pro něj základové (slovo fundující), a tím pádem zpravidla významově i formálně jednodušší. \parencite[95]{dokulil00}
 
 Tento vztah je základním slovotvorným vztahem, a tedy pokud u nějaké dvojice slov chybí, nelze pak tvrdit, že tato slova spolu jakkoliv slovotvorně souvisí. Příkladem fundace může být slovo *učitel*, které je fundované (je od něj odvozeno) fundujícím slovem *učit*.
@@ -52,6 +54,10 @@ Na dvojicích slov ve vztahu fundace se mohou dále tvořit složitější a roz
  - slovotvorné svazky -- jedno slovo má vícečlennou množinu fundovaných anebo fundujících slov, (Slovo *list* má více fundovaných slov -- *lístek*, *listopad*, *listovat* atd. Slovo *listopad* má větší počet slov fundujících -- *list*, *padat*, *pád* atd.)
  - slovotvorné řády -- vztah fundace platí i mezi sousedními členy (řetězec slov *učit* --> *učitel* --> *učitelka*),
 - slovotvorná hnízda (čeledě) -- komplexnější síť vztahů, kterou vytváří jedno slovo základové prostřednictvím většího množství slovotvorných řad a svazků. \parencite[12--13]{dokulil62}
+
+### Motivace
+
+Vztah motivace mezi dvěma slovy je pak o významovém objasnění slova
 
 ## Lexikální a strukturální význam
 
