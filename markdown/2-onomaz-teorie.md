@@ -57,7 +57,14 @@ Na dvojicích slov ve vztahu fundace se mohou dále tvořit složitější a roz
 
 ### Motivace
 
-Vztah motivace mezi dvěma slovy je pak o významovém objasnění slova
+Vztah motivace mezi dvěma slovy je pak především určité významové odvozenosti, tedy že základové slovo (motivující) sémanticky předurčuje slovo motivované, jehož význam lze takto ozřejmit. \parencite[96]{dokulil00} Příklad motivace může být na výraz *mladice*, který je motivován substantivem *mladík* (ve významu *mladý muž*) a adjektivem *mladý*. \parencite[110]{dokulil62}
+
+Obecně označujeme slova motivovaná za popisná (*prodat*), protože je lze popsat významem slova motivujícího. Výrazy, které tuto vlastnost nemají (*dát*) pak definujeme jako značková. \parencite[96]{dokulil00}
+
+Vztahy fundace a motivace mají typicky jasný směr od slova základového k odvozenému, nicméně ne vždy může být směr fundace/motivace zřejmý, proto v určitých případech považujeme vztah za oboustranný (*jablko* <--> *jabloň*). \parencite[96]{dokulil00}
+
+
+
 
 ## Lexikální a strukturální význam
 
