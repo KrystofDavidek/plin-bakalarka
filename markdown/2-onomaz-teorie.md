@@ -57,7 +57,7 @@ Na dvojicích slov ve vztahu fundace se mohou dále tvořit složitější a roz
 
 ### Motivace
 
-Vztah motivace mezi dvěma slovy je pak především určité o významové odvozenosti, tedy že základové slovo (motivující) sémanticky předurčuje slovo motivované, jehož význam lze takto ozřejmit. \parencite[96]{dokulil00} Příklad motivace může být například výraz *mladice*, který je motivován substantivem *mladík* (ve významu *mladý muž*) a adjektivem *mladý*. \parencite[110]{dokulil62}
+Vztah motivace mezi dvěma slovy je pak především určité o významové odvozenosti, tedy že základové slovo (motivující) sémanticky předurčuje slovo motivované, jehož význam lze takto ozřejmit. \parencite[96]{dokulil00} Příklad motivace může být výraz *mladice*, který je motivován substantivem *mladík* (ve významu *mladý muž*) a adjektivem *mladý*. \parencite[110]{dokulil62}
 
 Obecně označujeme slova motivovaná za popisná (*prodat*), protože je lze popsat významem slova motivujícího (*dát*). Výrazy, které tuto vlastnost nemají pak definujeme jako značková. \parencite[96]{dokulil00}
 
