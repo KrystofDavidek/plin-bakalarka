@@ -65,7 +65,7 @@ Vztahy fundace a motivace mají typicky jasný směr od slova základového k od
 
 ### Slovotvorný a lexikální význam
 
-/parencite{enc-slovot-vyznam17}
+\parencite{enc-slovot-vyznam17}
 
 ## Lexikální a strukturální význam
 
