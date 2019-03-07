@@ -65,7 +65,7 @@ Vztahy fundace a motivace mají typicky jasný směr od slova základového k od
 
 ### Slovotvorný a lexikální význam
 
-\parencite{enc-slovot-vyznam17}
+V rámci problematiky slovotvorných vztahů si je taktéž zapotřebí vydělit dva základní typy významu, se kterými teorie pracuje.  Prvním z nich je význam slovotvorný (strukturní), který je založen na jednotlivých významech slovotvorných složek, to znamená, že jej lze do určité míry predikovat podle morfému/ů, o který/é je slovo odvozené obohaceno oproti slovu základovém. \parencite{enc-slovot-vyznam17} Například výraz *pra-dědeček* vychází ze slova *dědeček* a je doplněn o prefix *pre*, který podle \textcite{simandl2016} „označuje osoby o generaci starší“ -- proto je slovotvorný význam slova *pradědeček*: „Ten, kdo je o generaci starší než dědeček“.
 
 ## Lexikální a strukturální význam
 
