@@ -13,6 +13,7 @@ for FILE in markdown/*.md; do
   sed -ie 's/\\subsubsection/\\subsection/g' "${FILE%.md}.tex"
   sed -ie 's/\\paragraph/\\subsubsection/g' "${FILE%.md}.tex"
   sed -ie 's/\s\\%/\~\\%/g' "${FILE%.md}.tex"
+  sed -ie 's/afixů\s*„/afixů „/g' "${FILE%.md}.tex"
 
   sed -ie 's/\\chapter{Úvod}\\label{uxfavod}/'\
 '\\chapter\*{Úvod}\\label{uvod}\n\\addcontentsline{toc}{chapter}{Úvod}/g' "${FILE%.md}.tex"
