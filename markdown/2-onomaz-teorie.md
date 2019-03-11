@@ -65,19 +65,25 @@ Vztahy fundace a motivace mají typicky jasný směr od slova základového k od
 
 ### Slovotvorný a lexikální význam
 
-V rámci problematiky slovotvorných vztahů si je taktéž zapotřebí vydělit dva základní typy významu, se kterými teorie pracuje.  Prvním z nich je význam slovotvorný (strukturní), který je založen na jednotlivých významech slovotvorných složek, to znamená, že jej lze do určité míry predikovat podle morfému/ů, o který/é je slovo odvozené obohaceno oproti slovu základovém. \parencite{enc-slovot-vyznam17} Například výraz *pra-dědeček* vychází ze slova *dědeček* a je doplněn o prefix *pre*, který podle slovníku afixů „označuje osoby o generaci starší“ \parencite{simandl2016} -- proto je slovotvorný význam slova *pradědeček* „ten, kdo je o generaci starší než dědeček“.
+V rámci problematiky slovotvorných vztahů si je taktéž zapotřebí vydělit dva základní typy významu, se kterými teorie pracuje.  Prvním z nich je význam slovotvorný (strukturní), který je založen na jednotlivých významech slovotvorných složek, to znamená, že jej lze do určité míry predikovat podle morfému/ů, o který/é je slovo odvozené obohaceno oproti slovu základovém. \parencite{enc-slovot-vyznam17} Například výraz *pra-dědeček* vychází ze slova *dědeček* a je doplněn o prefix *pre*, který podle slovníku afixů „označuje osoby o generaci starší“ \parencite{simandl2016} -- proto je slovotvorný význam slova *pradědeček* „ten, kdo je o generaci starší než dědeček“.
 
 Lexikální význam je na rozdíl od významu slovotvorného záležitostí konvence a úzu, tedy se může od strukturního významu vzdálit (lexikalizovat), a tím získat význam nový, jenž nelze vyčíst ze slovotvorné struktury daného slova a nelze ho tak nijak predikovat. Příkladem může být výraz *krejčí*, u něhož máme strukturní význam „ten, kdo krájí“ a lexikální „ten, kdo šije šaty“. \parencite{enc-slovot-vyznam17}
 
 ## Onomaziologické kategorie a jejich klasifikace
 
-### Substance, vlastnost, děj, okolnost
+Jak bylo v předešlých podkapitolách poznamenáno, OTS je založena na teorii pojmenování, tedy pracuje s předpokladem, že se jednotlivé pojmy před samotnou realizací musí nejprve v rámci daných jazykových zákonitostí určitého jazyka utřídit, zobecnit či konkretizovat. Tyto onomaziologické kategorie se pak vzájemně odlišují podle jednotlivých pojmenovávacích vlastností a přístupů. \parencite[29]{dokulil62} 
 
-### Mutace
+### Pojmové kategorie
 
-### Modifikace
+Teorie dělí jednotlivé pojmy do čtyř základních pojmových (obsahových) kategorií -- jde o kategorie substance (podstata), vlastnosti (kvalita), děje (proces) a okolnosti (způsobem či míra příznaku), které odpovídají základním slovním druhům, jimiž jsou substantiva, adjektiva, verba a adverbia. \parencite[102]{dokulil00}
 
-### Transpozice
+### Základní pojmenovávací kategorie 
+
+#### Mutace
+
+#### Modifikace
+
+#### Transpozice
 
 ## Slovotvorné třídy a typy
 
