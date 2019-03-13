@@ -75,9 +75,9 @@ Jak bylo v předešlých podkapitolách poznamenáno, OTS je založena na teorii
 
 ### Pojmové kategorie
 
-Teorie dělí jednotlivé pojmy do čtyř základních pojmových (obsahových) kategorií -- jde o kategorie substance (podstata), vlastnosti (kvalita), děje (proces) a okolnosti (způsobem či míra příznaku), které odpovídají základním slovním druhům, jimiž jsou substantiva, adjektiva, verba a adverbia. \parencite[102]{dokulil00}
+Teorie dělí jednotlivé pojmy do čtyř základních pojmových (obsahových) kategorií -- jde o kategorie substance (podstata), vlastnosti (kvalita), děje (proces) a okolnosti (způsobem či míra příznaku), které odpovídají základním slovním druhům, jimiž jsou substantiva, adjektiva, verba a adverbia. \parencite[102]{dokulil00} Moc hezké
 
-### Základní pojmenovávací kategorie 
+### Základní pojmenovávací kategorie
 
 #### Mutace
 
