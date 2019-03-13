@@ -75,17 +75,33 @@ Jak bylo v předešlých podkapitolách poznamenáno, OTS je založena na teorii
 
 ### Pojmové kategorie
 
-Teorie dělí jednotlivé pojmy do čtyř základních pojmových (obsahových) kategorií -- jde o kategorie substance (podstata), vlastnosti (kvalita), děje (proces) a okolnosti (způsob či míra příznaku), které odpovídají základním slovním druhům, jimiž jsou substantiva, adjektiva, verba a adverbia, a proto tyto kategorie můžeme nazývat i jako slovnědruhové. \parencite[102]{dokulil00} 
+Teorie dělí jednotlivé pojmy do čtyř základních pojmových (obsahových) kategorií -- jde o kategorie substance (podstata), vlastnosti (kvalita), děje (proces) a okolnosti (způsob či míra příznaku), které odpovídají základním slovním druhům, jimiž jsou substantiva, adjektiva, verba a adverbia, a proto tyto kategorie můžeme nazývat i jako slovnědruhové. \parencite[102]{dokulil00}
 
 ### Pojmenovávací kategorie
 
+Onomaziologické kategorie lze pak popsat jako „strukturu pojmových kategorií“, protože v rámci nich jsou vždy pojmové kategorie v nějakém vztahu -- jde tedy o vztah mezi pojmovou bází a  příznakem. \parencite{enc-onomaz-kateg17}
 
+Pod pojmovou bází si lze představit výsledek počátečního zařazení jevu, který má být pojmenován, do jedné ze čtyř z pojmových kategorií. Výsledné pojmenování je pak určeno určitým onomaziologickým příznakem -- příkladem může být výraz *bažinatý*, jehož pojmovou bázi je vlastnost (takové místo, kde jsou bažiny) a které je určeno příznakem substance (*bažina*), výsledné pojmenování je pak utvořeno vzájemným vztahem těchto dvou složek. \parencite[29]{dokulil62}
+
+Vztahy mezi pojmovou bází a příznakem při utváření nových slov mají více druhů, proto si níže ty nejdůležitější více rozvedeme. Nebudeme u nich uvádět příklady všech kombinací napříč všemi pojmovými třídami, ale pomocí vybraných výrazu budeme demonstrovat jejich podstatu.
 
 #### Mutace
 
+Významnou pojmenovávací kategorií je kategorie mutační (relační), u nových pojmenování vzniklých mutací dochází k výrazné proměně obsahu výchozího pojmu \parencite[102]{dokulil00}, tuhle změnu určuje onomaziologický příznak, jenž je také určujícím rysem, který výsledný pojem od ostatních prvků dané třídy odlišuje. \parencite{enc-mutace17}
+
+Za příklad si můžeme uvést pojem výrazu *učitel* (ten, kdo učí), jde o kategorii substance, která je vymezena vztahem k ději (konkrétně k ději *učit*). Tento dějový příznak tedy plně odlišuje výsledný pojem v rámci třídy podobných jevů, v tomto konkrétním případě jde o třídu činitelských jmen (viz XXX).
+
 #### Modifikace
 
+Na rozdíl od mutace je kategorie modifikační (obměnná) založena na přidání určitého dodatečného příznaku, to znamená, že výrazně nemění obsah výchozího pojmu, ale jen jej modifikuje (nedochází tedy ke změněně pojmové kategorie). \parencite[102]{dokulil00}
+
+Například u pojmenování založených na kategorii substance je tento příznak typicky příznakem deminuce (*hotel* --> *hotýlek*), augmentace (chlap --> chlapák) nebo přirozeného rodu (*pes* --> *psice*).
+
 #### Transpozice
+
+Poslední onomaziologickou kategorií je kategorie modifikační (převodová), u níž je vždy obsah výchozí pojmové kategorie přesunut do pojmové kategorie jiné. Jde o případy, kdy výsledná pojmová kategorie není určena pojmenovávacím příznakem, protože tím je vlastně výsledný pojem sám o sobě -- z toho důvodu dochází pouze ke změně pojmové třídy. \parencite[103]{dokulil00}
+
+Tuto kategorii můžeme sledovat např. u zpředmětnění vlastností (*marnivý* --> *marnivost*) nebo dějů (*jezdit* --> **jízda), zvlastnostnění dějů (*myslet* --> *myslící*) nebo zdějovění vlastností (*modrý* --> *modrat se*).   
 
 ## Slovotvorné třídy a typy
 
