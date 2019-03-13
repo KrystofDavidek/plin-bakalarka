@@ -8,7 +8,7 @@ Onomaziologie zkoumá takové motivace, postupy a prostředky, prostřednictvím
 
 Po metodické stránce Dokulil u tvoření slov rozlišuje aspekt genetický, který je zaměřený na vlastní slovotvorné procesy, a na aspekt funkčně strukturní, jenž sleduje výsledek těchto procesů (*utvářenost slov*).  Nicméně jak sám autor teorie potvrzuje, je mezi těmito přístupy těsná spojitost.  \parencite[9]{dokulil62}
 
-Teorie jako taková je založena na propracovaném systému onomaziologických a pojmových kategoriích, které obsahy vědomí strukturují, tedy zobecňují nebo konkretizují. \parencite{enc-onomaz-kateg17} Tato problematika je dále rozebírána v \autoref{onomaziologickuxe9-kategorie-a-jejich-klasifikace}.
+Teorie jako taková je založena na propracovaném systému onomaziologických a pojmových kategoriích, které obsahy vědomí strukturují, tedy zobecňují nebo konkretizují. \parencite{enc-onomaz-kateg17} Tato problematika je dále rozebírána v podkapitole \ref{onomaziologickuxe9-kategorie-a-jejich-klasifikace}.
 
 ## Způsoby a prostředky tvoření nových pojmenování
 
