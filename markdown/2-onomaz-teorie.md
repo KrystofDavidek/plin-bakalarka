@@ -8,7 +8,7 @@ Onomaziologie zkoumá takové motivace, postupy a prostředky, prostřednictvím
 
 Po metodické stránce Dokulil u tvoření slov rozlišuje aspekt genetický, který je zaměřený na vlastní slovotvorné procesy, a na aspekt funkčně strukturní, jenž sleduje výsledek těchto procesů (*utvářenost slov*).  Nicméně jak sám autor teorie potvrzuje, je mezi těmito přístupy těsná spojitost.  \parencite[9]{dokulil62}
 
-Teorie jako taková je založena na propracovaném systému onomaziologických a pojmových kategoriích, které obsahy vědomí strukturují, tedy zobecňují nebo konkretizují. Tato problematika je dále rozebírána v XXX. \parencite{enc-onomaz-kateg17}
+Teorie jako taková je založena na propracovaném systému onomaziologických a pojmových kategoriích, které obsahy vědomí strukturují, tedy zobecňují nebo konkretizují. \parencite{enc-onomaz-kateg17} Tato problematika je dále rozebírána v \autoref{onomaziologickuxe9-kategorie-a-jejich-klasifikace}.
 
 ## Způsoby a prostředky tvoření nových pojmenování
 
@@ -57,7 +57,7 @@ Na dvojicích slov ve vztahu fundace se mohou dále tvořit složitější a roz
 
 ### Motivace
 
-Vztah motivace mezi dvěma slovy je pak především určité o významové odvozenosti, tedy že základové slovo (motivující) sémanticky předurčuje slovo motivované, jehož význam lze takto ozřejmit. \parencite[96]{dokulil00} Příklad motivace může být výraz *mladice*, který je motivován substantivem *mladík* (ve významu *mladý muž*) a adjektivem *mladý*. \parencite[110]{dokulil62}
+Vztah motivace mezi dvěma slovy je pak především o určité významové odvozenosti, tedy že základové slovo (motivující) sémanticky předurčuje slovo motivované, jehož význam lze takto ozřejmit. \parencite[96]{dokulil00} Příklad motivace může být výraz *mladice*, který je motivován substantivem *mladík* (ve významu *mladý muž*) a adjektivem *mladý*. \parencite[110]{dokulil62}
 
 Obecně označujeme slova motivovaná za popisná (*prodat*), protože je lze popsat významem slova motivujícího (*dát*). Výrazy, které tuto vlastnost nemají pak definujeme jako značková. \parencite[96]{dokulil00}
 
@@ -75,9 +75,11 @@ Jak bylo v předešlých podkapitolách poznamenáno, OTS je založena na teorii
 
 ### Pojmové kategorie
 
-Teorie dělí jednotlivé pojmy do čtyř základních pojmových (obsahových) kategorií -- jde o kategorie substance (podstata), vlastnosti (kvalita), děje (proces) a okolnosti (způsobem či míra příznaku), které odpovídají základním slovním druhům, jimiž jsou substantiva, adjektiva, verba a adverbia. \parencite[102]{dokulil00} Moc hezké
+Teorie dělí jednotlivé pojmy do čtyř základních pojmových (obsahových) kategorií -- jde o kategorie substance (podstata), vlastnosti (kvalita), děje (proces) a okolnosti (způsob či míra příznaku), které odpovídají základním slovním druhům, jimiž jsou substantiva, adjektiva, verba a adverbia, a proto tyto kategorie můžeme nazývat i jako slovnědruhové. \parencite[102]{dokulil00} 
 
-### Základní pojmenovávací kategorie
+### Pojmenovávací kategorie
+
+
 
 #### Mutace
 
