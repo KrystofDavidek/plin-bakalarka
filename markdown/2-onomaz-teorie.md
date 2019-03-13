@@ -28,11 +28,11 @@ Odvozování slov je založeno na tvoření slov od slov jiných (označujeme je
 
 Podle pozice jednotlivých formantů můžeme vydělit několik základních slovotvorných postupů:
 
- - prefixace -- před slovo základové je umístěn slovotvorný morfém (prefix), jenž kromě slovesného vidu nemění mluvnické charakteristiky (*ne-vinný*),
- - sufixace -- za slovo základové je umístěn slovotvorný morfém (sufix), ten se vždy připojuje za základ slova, nikoliv za celé základové slovo (*prav-ic-e*). Sufixace je nejdůležitější slovotvorný postup v češtině \parencite[23]{dokulil62} a je spjata se souborem koncovek určitého paradigmatu \parencite[93]{dokulil00}, 
- - reflexivizace -- odvozování zvratných sloves pomocí volných zvratných formantů *se*, *si* (*bavit se*),
- - postfixace -- odvozování od úplného slovního tvaru pomocí zvláštní přípony (*koho-si*),
- - deprefixace -- odsunutí prefixu (*poslat* --> *slát*),
+ - prefixace -- před slovo základové je umístěn slovotvorný morfém (prefix), jenž kromě slovesného vidu nemění mluvnické charakteristiky (*ne-vinný*);
+ - sufixace -- za slovo základové je umístěn slovotvorný morfém (sufix), ten se vždy připojuje za základ slova, nikoliv za celé základové slovo (*prav-ic-e*). Sufixace je nejdůležitější slovotvorný postup v češtině \parencite[23]{dokulil62} a je spjata se souborem koncovek určitého paradigmatu \parencite[93]{dokulil00};
+ - reflexivizace -- odvozování zvratných sloves pomocí volných zvratných formantů *se*, *si* (*bavit se*);
+ - postfixace -- odvozování od úplného slovního tvaru pomocí zvláštní přípony (*koho-si*);
+ - deprefixace -- odsunutí prefixu (*poslat* --> *slát*);
  - desufiaxce -- odsunutí sufixu (*plamen* --> *plam*). \parencite[93--94]{dokulil00}
 
 Na závěr této podkapitoly je nutné poznamenat, že se výše vypsané slovotvorné způsoby mohou různě kombinovat \parencite[93]{dokulil00}, například podstatné jméno *výsadek* je odvozeno od slova *sad* nebo *sázet*,  a to jak pomocí prefixu *vý*, tak prostřednictvím sufixu -ek.
@@ -51,8 +51,8 @@ Tento vztah je základním slovotvorným vztahem, a tedy pokud u nějaké dvojic
 
 Na dvojicích slov ve vztahu fundace se mohou dále tvořit složitější a rozvětvenější vztahy, jde o:
  
- - slovotvorné svazky -- jedno slovo má vícečlennou množinu fundovaných anebo fundujících slov, (Slovo *list* má více fundovaných slov -- *lístek*, *listopad*, *listovat* atd. Slovo *listopad* má větší počet slov fundujících -- *list*, *padat*, *pád* atd.)
- - slovotvorné řády -- vztah fundace platí i mezi sousedními členy (řetězec slov *učit* --> *učitel* --> *učitelka*),
+ - slovotvorné svazky -- jedno slovo má vícečlennou množinu fundovaných anebo fundujících slov (Slovo *list* má více fundovaných slov -- *lístek*, *listopad*, *listovat* atd. Slovo *listopad* má větší počet slov fundujících -- *list*, *padat*, *pád* atd.);
+ - slovotvorné řády -- vztah fundace platí i mezi sousedními členy (řetězec slov *učit* --> *učitel* --> *učitelka*);
 - slovotvorná hnízda (čeledě) -- komplexnější síť vztahů, kterou vytváří jedno slovo základové prostřednictvím většího množství slovotvorných řad a svazků. \parencite[12--13]{dokulil62}
 
 ### Motivace
@@ -101,10 +101,14 @@ Například u pojmenování založených na kategorii substance je tento přízn
 
 Poslední onomaziologickou kategorií je kategorie modifikační (převodová), u níž je vždy obsah výchozí pojmové kategorie přesunut do pojmové kategorie jiné. Jde o případy, kdy výsledná pojmová kategorie není určena pojmenovávacím příznakem, protože tím je vlastně výsledný pojem sám o sobě -- z toho důvodu dochází pouze ke změně pojmové třídy. \parencite[103]{dokulil00}
 
-Tuto kategorii můžeme sledovat např. u zpředmětnění vlastností (*marnivý* --> *marnivost*) nebo dějů (*jezdit* --> **jízda), zvlastnostnění dějů (*myslet* --> *myslící*) nebo zdějovění vlastností (*modrý* --> *modrat se*).   
+Tuto kategorii můžeme sledovat např. u zpředmětnění vlastností (*marnivý* --> *marnivost*) nebo dějů (*jezdit* --> *jízda*), zvlastnostnění dějů (*myslet* --> *myslící*) nebo zdějovění vlastností (*modrý* --> *modrat se*).   
 
 ## Slovotvorné třídy a typy
 
-### Definice
+V oblasti klasifikace slovotvorného systému pracuje OTS s dvěma základními termíny -- slovotvorný typ a slovotvorná třída.
 
-### Dělení
+Slovotvorná třída je považována za základní jednotku slovotvorného systému a hierarchicky je bezprostředně nadřazená slovotvorným typům. Tyto jednotky vydělujeme podle několika charakteristik, jednak podle slovnědruhové třídy (\ref{pojmovuxe9-kategorie}), dále podle slovotvorného základu (XXX) a nakonec dle slovotvorného významu (\ref{slovotvornuxfd-a-lexikuxe1lnuxed-vuxfdznam}). \parencite[107]{dokulil00}
+
+Tyto třídy jsou pak různé jak pro jednotlivé pojmenovací kategorie, tak pro každou slovnědruhou třídu. Tedy v rámci transpozice u substantiv tak můžeme vyčlenit za slovotvornou třídu například *názvy vlastností*, *názvy dějů* nebo *nositele vlastností*, u téhož slovního druhu u modifikace *jména přechýlená* či *jména hromadná/jednotlivin* a u mutace např. *jména podle příslušníků* nebo *jména podle původu a látky* atd. Stejně bychom dále mohli postupovat i u adjektiv, verb a adverbií.
+
+Slovotvorné typy pak vždy spadají do určité slovotvorné třídy a vydělují se podle slovotvorných formantů, například ve slovotvorné třídě *jmen činitelských* máme velké množství jednotlivých slovotvorných typů -- jde např. o slovotvorné typy se slovotvorným formantem (dále jen typ) *-tel*, *-č* nebo *-ák*. \parencite[108]{dokulil00} Jednotlivých formantů je napříč různými třídami velké množství, a proto budeme v kapitole XXX detailněji rozebírat pouze a jen ty, které jsou pro praktickou část této práce relevantní.
