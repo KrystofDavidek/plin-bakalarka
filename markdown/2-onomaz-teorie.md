@@ -69,6 +69,18 @@ V rámci problematiky slovotvorných vztahů si je taktéž zapotřebí vydělit
 
 Lexikální význam je na rozdíl od významu slovotvorného záležitostí konvence a úzu, tedy se může od strukturního významu vzdálit (lexikalizovat), a tím získat význam nový, jenž nelze vyčíst ze slovotvorné struktury daného slova a nelze ho tak nijak predikovat. Příkladem může být výraz *krejčí*, u něhož máme strukturní význam „ten, kdo krájí“ a lexikální „ten, kdo šije šaty“. \parencite{enc-slovot-vyznam17}
 
+## Morfologická stavba slov
+
+Jelikož máme již vyjasněnou problematiku slovotvorných vztahů, můžeme se teď detailněji zaměřit na Dokulilovo pojetí morfologické struktury slov.
+
+Teorie nepojímá morfologickou stavbu slova jako posloupnost jednotlivých morfémů, které mají určitou funkci v celkovém významu slova, ale jako stavbu tvarotvornou a slovotvornou -- tím je myšleno, že se na morfologickou strukturu slova dívá ze dvou různých perspektiv. \parencite[118]{dokulil62} 
+
+První z nich, stavba tvarotvorná, je založena na rozdělení slovního tvaru na dvě složky, tedy na tvarotvorný základ (lexikální složka) a tvarotvorný formant (gramatická složka). Na příklad u slova *bažina* můžeme vydělit tvarotvorný základ *bažin* a formant *-a*, nicméně slovotvorný formant nemusí být pouze jednočlenný, protože v sobě obsahuje (pokud se v daném slově vyskytuje) kmenotvornou příponu. Mějme druhý příklad, slovo *kuřata*, kde za tvaroslovný základ považujeme morfém *kuř*, za kmenotvornou příponu *-at-* a za celý slovotvorný formant vícečlennou složku *-ata* -- tím se tento formant odlišuje od tradičního pojetí koncovky.
+
+Slovotvorná stavba slova se pak analogicky dělí na dvě složky, ale u ní bereme zřetel právě na slovotvorné charakteristiky. Za slovotvorný základ (bázi) slova typicky považujeme buď celé slovo základové (případy prefixace, reflexivizace nebo kompozice -- *ne-**pěkný***)
+
+ 
+
 ## Onomaziologické kategorie a jejich klasifikace
 
 Jak bylo v předešlých podkapitolách poznamenáno, OTS je založena na teorii pojmenování, tedy pracuje s předpokladem, že se jednotlivé pojmy před samotnou realizací musí nejprve v rámci daných jazykových zákonitostí určitého jazyka utřídit, zobecnit či konkretizovat. Tyto onomaziologické kategorie se pak vzájemně odlišují podle jednotlivých pojmenovávacích vlastností a přístupů. \parencite[29]{dokulil62} 
