@@ -35,7 +35,7 @@ Podle pozice jednotlivých formantů můžeme vydělit několik základních slo
  - deprefixace -- odsunutí prefixu (*poslat* --> *slát*);
  - desufiaxce -- odsunutí sufixu (*plamen* --> *plam*). \parencite[93--94]{dokulil00}
 
-Na závěr této podkapitoly je nutné poznamenat, že se výše vypsané slovotvorné způsoby mohou různě kombinovat \parencite[93]{dokulil00}, například podstatné jméno *výsadek* je odvozeno od slova *sad* nebo *sázet*,  a to jak pomocí prefixu *vý*, tak prostřednictvím sufixu -ek.
+Na závěr této podkapitoly je nutné poznamenat, že se výše vypsané slovotvorné způsoby mohou různě kombinovat \parencite[93]{dokulil00}, například podstatné jméno *výsadek* je odvozeno od slova *sad* nebo *sázet*,  a to jak pomocí prefixu *vý-*, tak prostřednictvím sufixu *-ek*.
 
 Ve zbytku práce budeme teorii rozebírat výhradně na příkladech derivace -- jednak z důvod výše zmíněného, tedy že je v českém jazyce tento způsob nejčastější, a jednak z ryze praktické příčiny, protože se praktická část věnuje aplikaci derivačních rysů. 
 
@@ -59,7 +59,7 @@ Na dvojicích slov ve vztahu fundace se mohou dále tvořit složitější a roz
 
 Vztah motivace mezi dvěma slovy je pak především o určité významové odvozenosti, tedy že základové slovo (motivující) sémanticky předurčuje slovo motivované, jehož význam lze takto ozřejmit. \parencite[96]{dokulil00} Příklad motivace může být výraz *mladice*, který je motivován substantivem *mladík* (ve významu *mladý muž*) a adjektivem *mladý*. \parencite[110]{dokulil62}
 
-Obecně označujeme slova motivovaná za popisná (*prodat*), protože je lze popsat významem slova motivujícího (*dát*). Výrazy, které tuto vlastnost nemají pak definujeme jako značková. \parencite[96]{dokulil00}
+Obecně označujeme slova motivovaná za popisná (*učitel*), protože je lze popsat významem slova motivujícího (*učit*). Výrazy, které tuto vlastnost nemají pak definujeme jako značková. \parencite[96]{dokulil00}
 
 Vztahy fundace a motivace mají typicky jasný směr od slova základového k odvozenému, nicméně ne vždy může být směr fundace/motivace zřejmý, proto v určitých případech považujeme vztah za oboustranný (*jablko* <--> *jabloň*) Jde o slova, kterým chybí formální příznak odvozenosti, tedy jasně pozorovatelná morfologická změna. \parencite[96]{dokulil00}
 
@@ -99,7 +99,7 @@ Například u pojmenování založených na kategorii substance je tento přízn
 
 #### Transpozice
 
-Poslední onomaziologickou kategorií je kategorie modifikační (převodová), u níž je vždy obsah výchozí pojmové kategorie přesunut do pojmové kategorie jiné. Jde o případy, kdy výsledná pojmová kategorie není určena pojmenovávacím příznakem, protože tím je vlastně výsledný pojem sám o sobě -- z toho důvodu dochází pouze ke změně pojmové třídy. \parencite[103]{dokulil00}
+Poslední hlavní onomaziologickou kategorií je kategorie modifikační (převodová), u níž je vždy obsah výchozí pojmové kategorie přesunut do pojmové kategorie jiné. Jde o případy, kdy výsledná pojmová kategorie není určena pojmenovávacím příznakem, protože tím je vlastně výsledný pojem sám o sobě -- z toho důvodu dochází pouze ke změně pojmové třídy. \parencite[103]{dokulil00}
 
 Tuto kategorii můžeme sledovat např. u zpředmětnění vlastností (*marnivý* --> *marnivost*) nebo dějů (*jezdit* --> *jízda*), zvlastnostnění dějů (*myslet* --> *myslící*) nebo zdějovění vlastností (*modrý* --> *modrat se*).   
 
