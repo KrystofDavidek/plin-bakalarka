@@ -4,9 +4,9 @@
 
 Jak bylo v minulé kapitole naznačeno, onomaziologická teorie slovotvorby (dále jen OTS) Miloše Dokulila výrazně ovlivnila přístup ke slovotvorbě jako takové, protože si kladla za cíl popsat proces tvoření slov soudobé češtiny a zároveň definovat hranici s dalšími lingvistickými disciplínami jako jsou morfologie či lexikologie -- jedná se tedy o ryze synchronní přístup, který je založen na onomaziologii (obecné teorii pojmenovávání). \parencite{enc-ots17}
 
-Onomaziologie zkoumá takové motivace, postupy a prostředky, prostřednictvím kterých jsou v daném jazyce vyjadřovány určité obsahy. Na rozdíl od sémaziologie postupuje od obsahu k formě, to znamená, že vychází od pojmu k pojmenování, kterým je daný pojem vyjádřen. \parencite{enc-onomaz17} Díky těmto termínům OTS terminologicky vyřešila problematiku slov *pojem* a *slovo*, která byla dříve často nesystematicky zaměňována. \parencite[267]{rousinova07}
+Onomaziologie zkoumá takové motivace, postupy a prostředky, prostřednictvím kterých jsou v daném jazyce vyjadřovány určité obsahy. Na rozdíl od sémaziologie postupuje od obsahu k formě, to znamená, že vychází od pojmu k pojmenování, kterým je daný pojem vyjádřen. \parencite{enc-onomaz17} Díky těmto termínům OTS terminologicky vyřešila problematiku výrazů *pojem* a *slovo*, která byla dříve často nesystematicky zaměňována. \parencite[267]{rousinova07}
 
-Po metodické stránce Dokulil u tvoření slov rozlišuje aspekt genetický, který je zaměřený na vlastní slovotvorné procesy, a na aspekt funkčně strukturní, jenž sleduje výsledek těchto procesů (*utvářenost slov*).  Nicméně jak sám autor teorie potvrzuje, je mezi těmito přístupy těsná spojitost.  \parencite[9]{dokulil62}
+Po metodické stránce Dokulil u tvoření slov rozlišuje aspekt genetický, který je zaměřený na vlastní slovotvorné procesy, a na aspekt funkčně strukturní, jenž sleduje výsledek těchto procesů (utvářenost slov).  Nicméně jak sám autor teorie potvrzuje, je mezi těmito přístupy těsná spojitost.  \parencite[9]{dokulil62}
 
 Teorie jako taková je založena na propracovaném systému onomaziologických a pojmových kategoriích, které obsahy vědomí strukturují, tedy zobecňují nebo konkretizují. \parencite{enc-onomaz-kateg17} Tato problematika je dále rozebírána v podkapitole \ref{onomaziologickuxe9-kategorie-a-jejich-klasifikace}.
 
@@ -37,7 +37,7 @@ Podle pozice jednotlivých formantů můžeme vydělit několik základních slo
 
 Na závěr této podkapitoly je nutné poznamenat, že se výše vypsané slovotvorné způsoby mohou různě kombinovat \parencite[93]{dokulil00}, například podstatné jméno *výsadek* je odvozeno od slova *sad* nebo *sázet*,  a to jak pomocí prefixu *vý-*, tak prostřednictvím sufixu *-ek*.
 
-Ve zbytku práce budeme teorii rozebírat výhradně na příkladech derivace -- jednak z důvod výše zmíněného, tedy že je v českém jazyce tento způsob nejčastější, a jednak z ryze praktické příčiny, protože se praktická část věnuje aplikaci derivačních rysů. 
+Ve zbytku práce budeme teorii rozebírat výhradně na příkladech derivace -- jednak z příčiny výše zmíněné, tedy že je v českém jazyce tento způsob nejčastější, a jednak z ryze pragmatického důvodu, protože se praktická část věnuje aplikaci derivačních rysů. 
 
 ## Slovotvorné vztahy
 
@@ -121,7 +121,7 @@ Tuto kategorii můžeme sledovat např. u zpředmětnění vlastností (*marniv�
 
 V oblasti klasifikace slovotvorného systému pracuje OTS s dvěma základními termíny -- slovotvorný typ a slovotvorná třída.
 
-Slovotvorná třída je považována za základní jednotku slovotvorného systému a hierarchicky je bezprostředně nadřazená slovotvorným typům. Tyto jednotky vydělujeme podle několika charakteristik, jednak podle slovnědruhové třídy (\ref{pojmovuxe9-kategorie}), dále podle slovotvorného základu (XXX) a nakonec dle slovotvorného významu (\ref{slovotvornuxfd-a-lexikuxe1lnuxed-vuxfdznam}). \parencite[107]{dokulil00}
+Slovotvorná třída je považována za základní jednotku slovotvorného systému a hierarchicky je bezprostředně nadřazená slovotvorným typům. Tyto jednotky vydělujeme podle několika charakteristik, jednak podle slovnědruhové třídy (\ref{pojmovuxe9-kategorie}), dále podle slovotvorného základu (\ref{morfologickuxe1-stavba-slov}) a nakonec dle slovotvorného významu (\ref{slovotvornuxfd-a-lexikuxe1lnuxed-vuxfdznam}). \parencite[107]{dokulil00}
 
 Tyto třídy jsou pak různé jak pro jednotlivé pojmenovací kategorie, tak pro každou slovnědruhou třídu. Tedy v rámci transpozice u substantiv tak můžeme vyčlenit za slovotvornou třídu například *názvy vlastností*, *názvy dějů* nebo *nositele vlastností*, u téhož slovního druhu u modifikace *jména přechýlená* či *jména hromadná/jednotlivin* a u mutace např. *jména podle příslušníků* nebo *jména podle původu a látky* atd. Stejně bychom dále mohli postupovat i u adjektiv, verb a adverbií.
 

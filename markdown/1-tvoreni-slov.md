@@ -2,7 +2,7 @@
 
 # Slovotvorba
 
-V této úvodní kapitole si představíme slovotvorbu tak, jak ji vnímá dnešní lingvistika, a ve stručnosti si popíšeme hlavní přístupy k této problematice v českém prostředí.
+V úvodní kapitole si představíme slovotvorbu tak, jak ji vnímá dnešní lingvistika, a ve stručnosti si popíšeme hlavní přístupy k této problematice v českém prostředí.
 
 ## Uvedení do problematiky
 
