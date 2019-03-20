@@ -6,15 +6,15 @@ V úvodní kapitole si představíme slovotvorbu tak, jak ji vnímá dnešní li
 
 ## Uvedení do problematiky
 
-Za slovotvorbu (derivologii) lze v lingvistice v nejobecnějším pojetí považovat nauku o tvoření slov, jde tedy o takovou vědní disciplínu, která zkoumá a popisuje procesy, které doprovází vznik nových slov v daném jazyce.
+Za slovotvorbu (derivologii) lze v lingvistice v nejobecnějším pojetí považovat nauku o tvoření slov, jde tedy o takovou vědní disciplínu, která zkoumá a popisuje procesy, které doprovází vznik nových slov (neologismů) v daném jazyce.
 
 V užším pojetí pod tvořením slov myslíme právě ty procesy, jež pod sebou zahrnují různé způsoby, postupy a prostředky, díky nimž dochází k produkci nových slov (tyto slovotvorné postupy jsou často reprodukovány). Důležitou součástí slovotvorby jsou pak výsledné stavy těchto procesů, které označujeme jako slovotvornou stavbu.  \parencite[92]{dokulil00}
 
-Ze slovotvorné stavby lze typicky odvodit samotnou genezi daného nového pojmenování, to znamená, že by mělo být zřejmé, z jakého slova je slovo nové vytvořeno (například u slova *ne-dobrý* lze lehko vyčíst, že je pomocí prefixu *ne* odvozeno od adjektiva *dobrý*). To ale nemusí platit vždy, často není u odvozovaných slov (viz kapitola \ref{slovotvornuxe9-vztahy}) úplně zřejmé, které slovo bylo tvarem základovým. \parencite[92--93]{dokulil00}
+Ze slovotvorné stavby lze typicky odvodit samotný vznik (genezi) daného nového pojmenování, to znamená, že by mělo být zřejmé, z jakého slova je slovo nové vytvořeno (například u slova *ne-dobrý* lze lehko vyčíst, že je pomocí prefixu *ne* odvozeno od adjektiva *dobrý*). To ale nemusí platit vždy, často není u odvozovaných slov (viz kapitola \ref{slovotvornuxe9-vztahy}) úplně zřejmé, které slovo bylo tvarem základovým. \parencite[92--93]{dokulil00}
 
 ## Přístupy a teorie
 
-Jako většina lingvistických disciplín, prošla si i tato oblast svým vlastním vývojem, jehož dobře mapuje kapitola *Slovotvorba* v publikaci Zdeny Rousínové -- *Dějiny českého jazykovědného myšlení*. Pro účely této práce vynecháme historický exkurz a zaměříme se na nejvýznamnější synchronní přístupy v rámci tvoření slov ve 20. a 21. století.
+Jako většina lingvistických disciplín, prošla si i tato oblast svým vlastním vývojem, jehož dobře mapuje kapitola *Slovotvorba* v publikaci Zdenky Rousínové -- *Dějiny českého jazykovědného myšlení*. Pro účely této práce vynecháme historický exkurz a zaměříme se na nejvýznamnější synchronní přístupy v rámci tvoření slov ve 20. a 21. století.
 
 Za jedno z prvních významných děl lze považovat *Mluvnici spisovné češtiny* od Františka Trávníčka (1. vydání vyšlo v roce 1948), která jako jedna z prvních gramatik synchronně popisuje problematiku slovotvorby. Zde je nutno podotknout, že zde Trávníček tvoření nových slov úzce spojoval s lexikologií a nevyčlenil jej tak jako samostatnou disciplínu. \parencite[263]{rousinova07}
 

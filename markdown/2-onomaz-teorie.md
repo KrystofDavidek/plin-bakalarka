@@ -28,7 +28,7 @@ Odvozování slov je založeno na tvoření slov od slov jiných (označujeme je
 
 Podle pozice jednotlivých formantů můžeme vydělit několik základních slovotvorných postupů:
 
- - prefixace -- před slovo základové je umístěn slovotvorný morfém (prefix), jenž kromě slovesného vidu nemění mluvnické charakteristiky (*ne-vinný*);
+ - prefixace -- před slovo základové je umístěn slovotvorný morfém (prefix), jenž u většiny slovních druhů nemění mluvnické charakteristiky (*vinný* --> *ne-vinný*), pouze u verb může a nemusí prefixace měnit slovesný vid (imperfektivum *dělat* --> perfektivum *dodělat*, ale imperfektivum *dělávat* --> imperfektivum *dodělávat*);
  - sufixace -- za slovo základové je umístěn slovotvorný morfém (sufix), ten se vždy připojuje za základ slova, nikoliv za celé základové slovo (*prav-ic-e*). Sufixace je nejdůležitější slovotvorný postup v češtině \parencite[23]{dokulil62} a je spjata se souborem koncovek určitého paradigmatu \parencite[93]{dokulil00};
  - reflexivizace -- odvozování zvratných sloves pomocí volných zvratných formantů *se*, *si* (*bavit se*);
  - postfixace -- odvozování od úplného slovního tvaru pomocí zvláštní přípony (*koho-si*);
@@ -65,15 +65,13 @@ Vztahy fundace a motivace mají typicky jasný směr od slova základového k od
 
 ### Slovotvorný a lexikální význam
 
-V rámci problematiky slovotvorných vztahů si je taktéž zapotřebí vydělit dva základní typy významu, se kterými teorie pracuje.  Prvním z nich je význam slovotvorný (strukturní), který je založen na jednotlivých významech slovotvorných složek, to znamená, že jej lze do určité míry predikovat podle morfému/ů, o který/é je slovo odvozené obohaceno oproti slovu základovém. \parencite{enc-slovot-vyznam17} Například výraz *pra-dědeček* vychází ze slova *dědeček* a je doplněn o prefix *pre*, který podle slovníku afixů „označuje osoby o generaci starší“ \parencite{simandl2016} -- proto je slovotvorný význam slova *pradědeček* „ten, kdo je o generaci starší než dědeček“.
+V rámci problematiky slovotvorných vztahů si je taktéž zapotřebí vydělit dva základní typy významu, se kterými teorie pracuje.  Prvním z nich je význam slovotvorný (strukturní), který je založen na jednotlivých významech slovotvorných složek, to znamená, že jej lze do určité míry predikovat podle morfému/ů, o který/é je slovo odvozené obohaceno oproti slovu základovém. \parencite{enc-slovot-vyznam17} Například výraz *pra-dědeček* vychází ze slova *dědeček* a je doplněn o prefix *pra*, který podle slovníku afixů „označuje osoby o generaci starší“ \parencite{simandl2016} -- proto je slovotvorný význam slova *pradědeček* „ten, kdo je o generaci starší než dědeček“.
 
-Lexikální význam je na rozdíl od významu slovotvorného záležitostí konvence a úzu, tedy se může od strukturního významu vzdálit (lexikalizovat), a tím získat význam nový, jenž nelze vyčíst ze slovotvorné struktury daného slova a nelze ho tak nijak predikovat. Příkladem může být výraz *krejčí*, u něhož máme strukturní význam „ten, kdo krájí“ a lexikální „ten, kdo šije šaty“. \parencite{enc-slovot-vyznam17}
+Lexikální význam je na rozdíl od významu slovotvorného záležitostí konvence a úzu, tedy se může od strukturního významu vzdálit (lexikalizovat), a tím získat význam nový, jenž nelze vyčíst ze slovotvorné struktury daného slova a nelze ho tak nijak predikovat. Příkladem může být výraz *krejčí*, u něhož je strukturní význam „ten, kdo krájí“ a lexikální „ten, kdo šije šaty“. \parencite{enc-slovot-vyznam17}
 
 ## Morfologická stavba slov
 
-Jelikož máme již vyjasněnou problematiku slovotvorných vztahů, můžeme se teď detailněji zaměřit na Dokulilovo pojetí morfologické struktury slov.
-
-Teorie nepojímá morfologickou stavbu slova jako posloupnost jednotlivých morfémů, které mají určitou funkci v celkovém významu slova, ale jako stavbu tvarotvornou a slovotvornou -- tím je myšleno, že se na morfologickou strukturu slova dívá ze dvou různých perspektiv. \parencite[118]{dokulil62} 
+Na problematiku slovotvorných vztahů plynule navazuje další podkapitola, kterou je morfologická struktura slov. Teorie nepojímá morfologickou stavbu slova jako posloupnost jednotlivých morfémů, které mají určitou funkci v celkovém významu slova, ale jako stavbu tvarotvornou a slovotvornou -- tím je myšleno, že se na morfologickou strukturu slova dívá ze dvou různých perspektiv. \parencite[118]{dokulil62} 
 
 První z nich, stavba tvarotvorná, je založena na rozdělení slovního tvaru na dvě složky, tedy na tvarotvorný základ (lexikální složka, kořen) a tvarotvorný formant (gramatická složka). Na příklad u slova *bažina* můžeme vydělit tvarotvorný základ *bažin-* a formant *-a*, nicméně tvarotvorný formant nemusí být pouze jednočlenný, protože v sobě obsahuje (pokud se v daném slově vyskytuje) kmenotvornou příponu\footnote{Terminologicky se pak tvarotvorný základ spolu s kmenotvornou příponou označuje za kmen slova}. Mějme druhý příklad, slovo *kuřata*, kde za tvaroslovný základ považujeme morfém *kuř-*, za kmenotvornou příponu *-at-* a za celý slovotvorný formant vícečlennou složku *-ata* -- tím se tento formant odlišuje od tradičního pojetí koncovky. \parencite{enc-tvar-zaklad17}
 
