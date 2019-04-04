@@ -1,16 +1,14 @@
-# Derivační morfologie
+# Nástroje pro práci s derivací v českém prostředí
 
-# Dostupné e-slovníky
+## Elektronické slovníky
+
+## Derivační sítě
+
+\part{Praktická část}
 
 # Zpracované slovotvorné typy
 
 ## sufix -tel a případě další implementované sufixy
-
-\part{Praktická část}
-
-# Použité jazykové zdroje
-
-## DeriNet
 
 # Implementace elektronického derivačního slovníku
 
@@ -22,4 +20,6 @@
 
 ##  Tvorba slovníkových definic
 
-## Cizojazyčný slovník
+## Cizojazyčný slovník 
+
+# Závěr

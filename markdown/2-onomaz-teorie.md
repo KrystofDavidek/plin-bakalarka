@@ -1,8 +1,6 @@
 # Onomaziologická teorie slovotvorby
 
-## Základní charakteristika
-
-Jak bylo v minulé kapitole naznačeno, onomaziologická teorie slovotvorby (dále jen OTS) Miloše Dokulila výrazně ovlivnila přístup ke slovotvorbě jako takové, protože si kladla za cíl popsat proces tvoření slov soudobé češtiny a zároveň definovat hranici s dalšími lingvistickými disciplínami jako jsou morfologie či lexikologie -- jedná se tedy o ryze synchronní přístup, který je založen na onomaziologii (obecné teorii pojmenovávání). \parencite{enc-ots17}
+Jak bylo v minulé kapitole naznačeno, onomaziologická teorie slovotvorby (dále jen OTS) je v českém prostředí spjata s dílem Miloše Dokulila -- *Tvoření slov v češtině* a *Tvoření slov v češtině 2* (TSČ a TSČ 2). Jeho teorie výrazně ovlivnila přístup ke slovotvorbě jako takové, protože si kladla za cíl popsat proces tvoření slov soudobé češtiny a zároveň definovat hranici s dalšími lingvistickými disciplínami jako jsou morfologie či lexikologie -- jedná se tedy o ryze synchronní přístup, který je založen na onomaziologii (obecné teorii pojmenovávání). \parencite{enc-ots17}
 
 Onomaziologie zkoumá takové motivace, postupy a prostředky, prostřednictvím kterých jsou v daném jazyce vyjadřovány určité obsahy. Na rozdíl od sémaziologie postupuje od obsahu k formě, to znamená, že vychází od pojmu k pojmenování, kterým je daný pojem vyjádřen. \parencite{enc-onomaz17} Díky těmto termínům OTS terminologicky vyřešila problematiku výrazů *pojem* a *slovo*, která byla dříve často nesystematicky zaměňována. \parencite[267]{rousinova07}
 
@@ -61,13 +59,23 @@ Vztah motivace mezi dvěma slovy je pak především o určité významové odvo
 
 Obecně označujeme slova motivovaná za popisná (*učitel*), protože je lze popsat významem slova motivujícího (*učit*). Výrazy, které tuto vlastnost nemají pak definujeme jako značková. \parencite[96]{dokulil00}
 
-Vztahy fundace a motivace mají typicky jasný směr od slova základového k odvozenému, nicméně ne vždy může být směr fundace/motivace zřejmý, proto v určitých případech považujeme vztah za oboustranný (*jablko* <--> *jabloň*) Jde o slova, kterým chybí formální příznak odvozenosti, tedy jasně pozorovatelná morfologická změna. \parencite[96]{dokulil00}
+Vztahy fundace a motivace mají typicky jasný směr od slova základového k odvozenému, nicméně ne vždy může být směr fundace/motivace zřejmý, proto v určitých případech považujeme vztah za oboustranný. Obecně jde o taková slova, kterým chybí formální příznak odvozenosti, tedy jasně pozorovatelná morfologická změna, v češtině tak nejčastěji derivační sufix. \parencite[96]{dokulil00}
+
+Pokud tento tento formální příznak odvozenosti zcela chybí, lze směr fundace/motivace často odhadnout na základě analogie, tedy na příklad u dějového jména *zloba* ve vztahu se slovesem *zlobit* nelze vyčíst žádný formální prostředek, který by směr odvozenosti určoval. Lze ale využít analogie, tedy odvozenosti jiných dějových jmen, u kterých tento prostředek existuje (*zlobit* --> *zlobení*, *zabíjet* --> *zabíjení*), a tak ozřejmit směr fundace/motivace, v tomto případě tedy *zlobit* --> *zloba*. \parencite[96]{dokulil00}
+
+V okamžiku, kdy nelze využít analogie, pracujeme s oboustrannou fundací/motivací -- jde o takové dvojice slov, kde:
+		
+- má každý výraz svůj vlastní slovotvorný formant (*jablko* <--> *jabloň*);
+- tento formant u obou slov chybí (*doma* <--> domů);
+- je formální a sémantické kritérium v rozporu  (*něha* <--> *něžný). \parencite[96]{dokulil00}
 
 ### Slovotvorný a lexikální význam
 
-V rámci problematiky slovotvorných vztahů si je taktéž zapotřebí vydělit dva základní typy významu, se kterými teorie pracuje.  Prvním z nich je význam slovotvorný (strukturní), který je založen na jednotlivých významech slovotvorných složek, to znamená, že jej lze do určité míry predikovat podle morfému/ů, o který/é je slovo odvozené obohaceno oproti slovu základovém. \parencite{enc-slovot-vyznam17} Například výraz *pra-dědeček* vychází ze slova *dědeček* a je doplněn o prefix *pra*, který podle slovníku afixů „označuje osoby o generaci starší“ \parencite{simandl2016} -- proto je slovotvorný význam slova *pradědeček* „ten, kdo je o generaci starší než dědeček“.
+V rámci problematiky slovotvorných vztahů si je taktéž zapotřebí vydělit dva základní typy významu, se kterými teorie pracuje.  Prvním z nich je význam slovotvorný (strukturní), který je založen na jednotlivých významech slovotvorných složek, to znamená, že jej lze do určité míry predikovat podle morfému/ů, o který/é je slovo odvozené obohaceno oproti slovu základovém. \parencite{enc-slovot-vyznam17}
 
-Lexikální význam je na rozdíl od významu slovotvorného záležitostí konvence a úzu, tedy se může od strukturního významu vzdálit (lexikalizovat), a tím získat význam nový, jenž nelze vyčíst ze slovotvorné struktury daného slova a nelze ho tak nijak predikovat. Příkladem může být výraz *krejčí*, u něhož je strukturní význam „ten, kdo krájí“ a lexikální „ten, kdo šije šaty“. \parencite{enc-slovot-vyznam17}
+Lexikální význam je na rozdíl od významu slovotvorného záležitostí konvence a úzu, tedy se může od strukturního významu vzdálit (lexikalizovat), a tím získat význam nový, jenž nelze vyčíst ze slovotvorné struktury daného slova a nelze ho tak nijak predikovat. \parencite{enc-slovot-vyznam17}
+
+Hlavní rozdíl mezi těmito dvěma pojmy je tedy ten, že slova značková mají pouze lexikální význam, jelikož jsou typicky na počátku případného derivačního řetězce, a nemohou proto nabývat významu slovotvorného. Například značkové slovo *les* má pouze význam lexikální, jenž lze najít ve výkladových slovnících, na druhou stranu výraz *lesnatý* je již slovem odvozeným, a proto u něj můžeme vydělit oba druhy významu -- lexikální zase z výkladového slovníku, ale nově i slovotvorný, který je dán určitým afixem, v tomto případě sufixem *-natý*, který je ve slovníku afixu definován takto: „mající v hojné míře to, co označuje základové substantivum“ \parencite{simandl2016}. Jak bylo již výše naznačeno, oba typy významu se mohou více či méně rozejít, tuto divergenci pěkně demonstruje výraz *krejčí*, u něhož je strukturní význam „ten, kdo krájí“ a lexikální „ten, kdo šije šaty“.
 
 ## Morfologická stavba slov
 
