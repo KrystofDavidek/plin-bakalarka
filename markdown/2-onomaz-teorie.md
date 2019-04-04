@@ -67,7 +67,7 @@ V okamžiku, kdy nelze využít analogie, pracujeme s oboustrannou fundací/moti
 		
 - má každý výraz svůj vlastní slovotvorný formant (*jablko* <--> *jabloň*);
 - tento formant u obou slov chybí (*doma* <--> domů);
-- je formální a sémantické kritérium v rozporu  (*něha* <--> *něžný). \parencite[96]{dokulil00}
+- je formální a sémantické kritérium v rozporu  (*něha* <--> něžný). \parencite[96]{dokulil00}
 
 ### Slovotvorný a lexikální význam
 

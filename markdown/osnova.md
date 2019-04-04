@@ -20,6 +20,4 @@
 
 ##  Tvorba slovníkových definic
 
-## Cizojazyčný slovník 
-
-# Závěr
+## Cizojazyčný slovník
