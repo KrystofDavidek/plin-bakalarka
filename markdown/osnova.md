@@ -1,9 +1,3 @@
-# Nástroje pro práci s derivací v českém prostředí
-
-## Elektronické slovníky
-
-## Derivační sítě
-
 \part{Praktická část}
 
 # Zpracované slovotvorné typy
