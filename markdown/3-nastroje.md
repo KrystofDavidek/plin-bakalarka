@@ -11,19 +11,24 @@ Webová aplikace Morfio je jedním z projektů Českého národního korpusu, kt
 
 ### Morfologické analyzátory Ajka
 
-Dalším nástrojem je morfologický analyzátor Ajka, jehož hlavní složkou je analýza flektivní morfologie -- to znamená, že obsahuje rozsáhlý systém vzorů spolu se sadami určitých koncovek a morfologických značek. Ve webovém rozhraní je možnost vstupní text buď segmentovat na jednotlivé morfologické segmenty, analyzovat z pohledu určitého paradigmatu nebo vyhledat existující akcentovaný výraz (například pro vstup *blázen* je výstupem výraz *blažen*).  Nástroj nicméně akcentuje i složku derivační, a to ve formě hierarchického systému morfologických paradigmat, který slouží pro zachycení všech úrovní derivační morfologie. \parencite{ajka}
+Dalším nástrojem je morfologický analyzátor Ajka (vyvinutý na Masarykově univerzitě), jehož hlavní složkou je analýza flektivní morfologie -- to znamená, že obsahuje rozsáhlý systém vzorů spolu se sadami určitých koncovek a morfologických značek. Ve webovém rozhraní je možnost vstupní text buď segmentovat na jednotlivé morfologické segmenty, analyzovat z pohledu určitého paradigmatu nebo vyhledat existující akcentovaný výraz (například pro vstup *blázen* je výstupem výraz *blažen*).  Nástroj nicméně akcentuje i složku derivační, a to ve formě hierarchického systému morfologických paradigmat, který slouží pro zachycení všech úrovní derivační morfologie. \parencite{ajka}
 
 V průběhu času vznikl z potřeby efektivnějšího zpracování textu z morfologického analyzátoru Ajka nástroj Majka, který používá stejná jazyková data, ale kompletně proměnil jejich formát a stejně tak algoritmus, který nad nimi operuje -- tak bylo docíleno větší rychlosti zpracování. \parencite{majka}
 
 ### Deriv
 
-Třetím relevantním softwarovým řešením zabývající se slovní derivací je projekt Masarykovy univerzity Deriv, jenž je víceúčelovým nástrojem pro automatické zpracování přirozeného jazyka s primárním cílem testovat možnosti automatické slovotvorné analýzy. Jeho webového rozhraní se skládá ze dvou základních funkcí -- vyhledávání podle formálního zadání a kategorizace vyhledaných dat. Samotný Deriv je založený na automatickém morfologickém analyzátoru Ajka (později Majka), v rámci kterého využívá jeho morfologický slovník kmenů a vyhledává v něm prostřednictvím morfologických značek a regulárních výrazu\footnote{Nástroj využívá regulární výrazy programovacího jazyka Perl verze 5.10 a novější}. Velkou výhodou aplikace je fakt, že jsou výsledky hledání propojeny s českými výkladovými slovníky (SSČ, SSJČ, PSJČ) a s některými českými korpusy (konkrétně CzTenTen, SYN2000). \parencite{deriv}
-
- 
+Třetím relevantním softwarovým řešením zabývající se slovní derivací je projekt Masarykovy univerzity Deriv, jenž je víceúčelovým nástrojem pro automatické zpracování přirozeného jazyka s primárním cílem testovat možnosti automatické slovotvorné analýzy. Jeho webového rozhraní se skládá ze dvou základních funkcí -- vyhledávání podle formálního zadání a kategorizace vyhledaných dat. Samotný Deriv je založený na automatickém morfologickém analyzátoru Ajka (později Majka), v rámci kterého využívá jeho morfologický slovník kmenů a vyhledává v něm prostřednictvím morfologických značek a regulárních výrazu\footnote{Nástroj využívá regulární výrazy programovacího jazyka Perl verze 5.10 a novější.}. Velkou výhodou aplikace je fakt, že jsou výsledky hledání propojeny s českými výkladovými slovníky (SSČ, SSJČ, PSJČ) a s některými českými korpusy (konkrétně CzTenTen, SYN2000). \parencite{deriv}
 
 ### Derivancze
 
-Prvním nástrojem, který zde uvádíme, je Reams and reams
-Něco hezkého \parencite[516]{pala15}
+Předposledním rozebíraným nástrojem je derivační analyzátor Derivancze, který analyzuje slovotvorné vztahy mezi slovy. Využívá veřejně přístupná data derivační sítě Derinet, ale na rozdíl od ní pracuje pouze se sémantickými vztahy, to znamená, že pokud se liší formální a významový aspekt derivačního vztahu, tak je vyžadováno explicitní označkovaní, díky kterému pak dochází ke konzistenci napříč daty. Nástroj využívá sedmnácti značek označující typ sémantického vztahu -- může jít  například o značku *k1ag*, která označuje vztah odvození verba směrem k činitelskému jménu. Nicméně tento přístup vytváří určité problémy, nastroj je problematické použit v rámci větších sofistikovanějších aplikací (například automatické generování textu), protože by bylo zapotřebí dodat více informací o typech jednotlivých slovotvorných vztahů. \parencite{derivancze}
 
 ## Derivační síť Derinet
+
+Text.
+
+\begin{center}
+    \includegraphics{derinet}
+\end{center}
+
+Text. \parencite{derinet-cz}

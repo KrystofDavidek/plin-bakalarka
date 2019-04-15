@@ -32,16 +32,16 @@ označkována, může docházet k~chybám například z~důvodu homonymie.
 \subsection{Morfologické analyzátory
 Ajka}\label{morfologickuxe9-analyzuxe1tory-ajka}}
 
-Dalším nástrojem je morfologický analyzátor Ajka, jehož hlavní složkou
-je analýza flektivní morfologie -- to znamená, že obsahuje rozsáhlý
-systém vzorů spolu se sadami určitých koncovek a~morfologických značek.
-Ve webovém rozhraní je možnost vstupní text buď segmentovat na
-jednotlivé morfologické segmenty, analyzovat z~pohledu určitého
-paradigmatu nebo vyhledat existující akcentovaný výraz (například pro
-vstup \emph{blázen} je výstupem výraz \emph{blažen}). Nástroj nicméně
-akcentuje i~složku derivační, a~to ve formě hierarchického systému
-morfologických paradigmat, který slouží pro zachycení všech úrovní
-derivační morfologie.~\parencite{ajka}
+Dalším nástrojem je morfologický analyzátor Ajka (vyvinutý na Masarykově
+univerzitě), jehož hlavní složkou je analýza flektivní morfologie -- to
+znamená, že obsahuje rozsáhlý systém vzorů spolu se sadami určitých
+koncovek a~morfologických značek. Ve webovém rozhraní je možnost vstupní
+text buď segmentovat na jednotlivé morfologické segmenty, analyzovat
+z~pohledu určitého paradigmatu nebo vyhledat existující akcentovaný výraz
+(například pro vstup \emph{blázen} je výstupem výraz \emph{blažen}).
+Nástroj nicméně akcentuje i~složku derivační, a~to ve formě
+hierarchického systému morfologických paradigmat, který slouží pro
+zachycení všech úrovní derivační morfologie.~\parencite{ajka}
 
 V~průběhu času vznikl z~potřeby efektivnějšího zpracování textu
 z~morfologického analyzátoru Ajka nástroj Majka, který používá stejná
@@ -61,7 +61,7 @@ a~kategorizace vyhledaných dat. Samotný Deriv je založený na
 automatickém morfologickém analyzátoru Ajka (později Majka), v~rámci
 kterého využívá jeho morfologický slovník kmenů a~vyhledává v~něm
 prostřednictvím morfologických značek a~regulárních
-výrazu\footnote{Nástroj využívá regulární výrazy programovacího jazyka Perl verze 5.10 a~novější}.
+výrazu\footnote{Nástroj využívá regulární výrazy programovacího jazyka Perl verze 5.10 a~novější.}.
 Velkou výhodou aplikace je fakt, že jsou výsledky hledání propojeny
 s~českými výkladovými slovníky (SSČ, SSJČ, PSJČ) a~s~některými českými
 korpusy (konkrétně CzTenTen, SYN2000).~\parencite{deriv}
@@ -69,9 +69,28 @@ korpusy (konkrétně CzTenTen, SYN2000).~\parencite{deriv}
 \hypertarget{derivancze}{%
 \subsection{Derivancze}\label{derivancze}}
 
-Prvním nástrojem, který zde uvádíme, je Reams and reams Něco hezkého
-\parencite[516]{pala15}
+Předposledním rozebíraným nástrojem je derivační analyzátor Derivancze,
+který analyzuje slovotvorné vztahy mezi slovy. Využívá veřejně přístupná
+data derivační sítě Derinet, ale na rozdíl od ní pracuje pouze se
+sémantickými vztahy, to znamená, že pokud se liší formální a~významový
+aspekt derivačního vztahu, tak je vyžadováno explicitní označkovaní,
+díky kterému pak dochází ke konzistenci napříč daty. Nástroj využívá
+sedmnácti značek označující typ sémantického vztahu -- může jít
+například o~značku \emph{k1ag}, která označuje vztah odvození verba
+směrem k~činitelskému jménu. Nicméně tento přístup vytváří určité
+problémy, nastroj je problematické použit v~rámci větších
+sofistikovanějších aplikací (například automatické generování textu),
+protože by bylo zapotřebí dodat více informací o~typech jednotlivých
+slovotvorných vztahů.~\parencite{derivancze}
 
 \hypertarget{derivaux10dnuxed-suxedux165-derinet}{%
 \section{Derivační síť
 Derinet}\label{derivaux10dnuxed-suxedux165-derinet}}
+
+Text.
+
+\begin{center}
+    \includegraphics{derinet}
+\end{center}
+
+Text.~\parencite{derinet-cz}
