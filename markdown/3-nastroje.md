@@ -25,7 +25,7 @@ Předposledním rozebíraným nástrojem je derivační analyzátor Derivancze, 
 
 ## Derivační síť DeriNet
 
-Řešení praktické části této bakalářské je postaveno na derivační sítí DeriNet, proto si v následující podkapitole tento nástroj hlouběji charakterizujeme a popíšeme základní principy, na základě kterých funguje.
+Řešení praktické části této bakalářské je postaveno na derivační síti DeriNet, proto si tento nástroj  v následující podkapitole hlouběji charakterizujeme a popíšeme základní přístupy, jak s ním lze pracovat.
 
 Derivační síť DeriNet si lze představit jako elektronickou databázi českých autosémantik (tedy primárně substantiv, adjektiv, verb a adverbií), která jsou vzájemně propojena takovými odkazy, jež odpovídají slovotvornému vztahu derivace mezi slovem základovým a odvozeným. Tento systém odkazů si lze tak modelovat prostřednictvím orientovaného grafu, jehož uzly jsou jednotlivá lemmata (základní slovní tvary) a hrany pak spolu s jejich orientací reprezentují určitý odvozovací proces. Jelikož má v této derivační síti každé odvozené slovo odkaz pouze na jedno slovo základové, lze si tak jednotlivé slovotvorná hnízda (čeledě) představit jako stromový graf, jehož kořenem je ideálně slovo značkové, tedy takový výraz, který není nijak motivován. \parencite{derinet-cz}
 
@@ -39,7 +39,7 @@ Jednotlivá lemmata mohou taktéž obsahovat dodatečnou derivační a sémantic
 
 \begin{figure}[ht]   
     \centering
-    \includegraphics[width=\textwidth]{derinet-1}  
+    \includegraphics[width=.9\textwidth]{derinet-1}  
     \caption{Výsledný derivační strom v prohlížeči DeriNet Viewer \parencite{derinet}}
     \label{derinet-1}
  \end{figure}
@@ -48,7 +48,18 @@ Aktuální verze derivační sítě DeriNet (1.7) obsahuje přibližně jeden mi
 
 \begin{figure}[ht]   
     \centering
-    \includegraphics[width=\textwidth]{derinet-2}  
+    \includegraphics[width=.9\textwidth]{derinet-2}  
     \caption{Výsledek vyhledávacího dotazu ve vyhledávači DeriNet Search \parencite{derinet}}
     \label{derinet-2}
+ \end{figure}
+
+Další možnost jak pracovat s databází DeriNet je prostřednictvím jednoduchého datového formátu TSV (anglicky *Tab-Separated Values*, jde o textovou reprezentaci tabulkových dat, které jsou od sebe odděleny tabulátorem), jenž je zpřístupněn k volnému stažení pod licencí Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License\footnote{https://creativecommons.org/licenses/by-nc-sa/3.0/}. U tohoto přístupu se již počítá se základními programátorskými dovednostmi, protože takto strukturovaná data primárně slouží jako vstup pro určitý software. \parencite{derinet-cz}
+
+Každá položka v tomto souboru obsahuje několik atributů, jde o vlastní identifikační číslo, lemma, derivační informaci přejatou z morfologického slovníku MorFlex CZ, značku slovního druhu a u slov derivovaných identifikační číslo slova základového -- tím je jednoznačně vyznačen derivační vztah (viz obr. \ref{derinet-3}). Právě tento formát DeriNetu je použitý jako základ pro tvorbu samotného derivačního slovníku v rámci praktické části této práce.
+
+\begin{figure}[ht]   
+    \centering
+    \includegraphics[width=.9\textwidth]{derinet-3}  
+    \caption{Formát TSV s vyznačenými identifikačními čísly, které společně vytvářejí derivační řetězec \parencite{derinet}}
+    \label{derinet-3}
  \end{figure}
