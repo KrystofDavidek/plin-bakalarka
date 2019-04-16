@@ -53,7 +53,7 @@ Aktuální verze derivační sítě DeriNet (1.7) obsahuje přibližně jeden mi
     \label{derinet-2}
  \end{figure}
 
-Další možnost jak pracovat s databází DeriNet je prostřednictvím jednoduchého datového formátu TSV (anglicky *Tab-Separated Values*, jde o textovou reprezentaci tabulkových dat, které jsou od sebe odděleny tabulátorem), jenž je zpřístupněn k volnému stažení pod licencí Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License\footnote{https://creativecommons.org/licenses/by-nc-sa/3.0/}. U tohoto přístupu se již počítá se základními programátorskými dovednostmi, protože takto strukturovaná data primárně slouží jako vstup pro určitý software. \parencite{derinet-cz}
+Další možnost jak pracovat s databází DeriNet je prostřednictvím jednoduchého datového formátu TSV (anglicky *Tab-Separated Values*, jde o textovou reprezentaci tabulkových dat, které jsou od sebe odděleny tabulátorem), jenž je zpřístupněn k volnému stažení pod licencí Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. U tohoto přístupu se již počítá se základními programátorskými dovednostmi, protože takto strukturovaná data primárně slouží jako vstup pro určitý software. \parencite{derinet-cz}
 
 Každý záznam (řádek) v tomto souboru obsahuje několik atributů, jde o vlastní identifikační číslo, lemma, derivační informaci přejatou z morfologického slovníku MorFlex CZ, značku slovního druhu a u slov derivovaných identifikační číslo slova základového -- tím je jednoznačně vyznačen derivační vztah. Pro lepší ilustraci zde mějme derivační řetězec *žít* --> *užít* --> ... --> *superuživatel*, v této formě DeriNetu je reprezentován pěti záznamy, které jsou vzájemně propojeny identifikačními čísly (poslední atribut odkazuje na první), pouze u značkového slovesa *žít* žádný další odkaz neexistuje. \parencite{derinet} 
 
@@ -63,4 +63,4 @@ Každý záznam (řádek) v tomto souboru obsahuje několik atributů, jde o vla
     775402	užít	užít_:T	V	1006682
     1006682	žít	žít_:T	V
 
-A právě tento formát DeriNetu je použitý jako základ pro tvorbu samotného derivačního slovníku v rámci praktické části této práce. Co se stane teď?
+A právě tento formát DeriNetu je použitý jako základ pro tvorbu samotného derivačního slovníku v rámci praktické části této práce.
