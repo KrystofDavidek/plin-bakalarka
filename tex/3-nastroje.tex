@@ -109,31 +109,40 @@ skutečností, které ovlivnily výslednou podobu Derinetu -- primárně šlo
 o~problematiku výběru původních lexémů, zde existovaly dvě varianty, buď
 využít již existujících jazykových dat z~korpusů nebo poloautomaticky
 generovat daná lemmata, zde bylo rozhodnuto držet se úzu a~extrahovat
-lexémy z~korpusu (konkrétně šlo korpus řady SYN a~bylo vybráno přibližně
-260 000 lemmat). Druhou otázkou bylo, jaký typ slovotvorného vztahu by
-měl být v~derivační síti reflektován, v~tomto případě byla vybrána
-derivace z~důvodu svého dominantního postavení v~české slovotvorbě,
-nicméně je do budoucna plánováno popsat i~slovotvorné vztahy týkající se
-skládání slov, to by ale kompletně pozměnilo architekturu sítě, kde má
-každé základové slovo právě jen jeden odkaz na určitý derivát.
-\parencite{sevcikova14}
+lexémy z~korpusu (konkrétně šlo o~korpus řady SYN a~bylo vybráno
+přibližně dvě stě šedesát tisíc lemmat). Druhou otázkou bylo, jaký typ
+slovotvorného vztahu by měl být v~lexikální síti reflektován, v~tomto
+případě byla vybrána derivace z~důvodu svého dominantního postavení
+v~české slovotvorbě, nicméně je do budoucna plánováno popsat i~slovotvorné
+vztahy týkající se skládání slov, to by ale kompletně pozměnilo
+architekturu sítě, kde má každé základové slovo právě jen jeden odkaz na
+určitý derivát.~\parencite{sevcikova14}
 
 Pro tvorbu samotné derivační sítě, resp. jednotlivých derivačních vztahů
-bylo zapotřebí identifikovat dvojice slov základových a~odvozených -- to
-bylo docíleno poloautomatickou metodou, kdy byly vyděleny takové dvojice
-lemmat, v~rámci kterých měla obě slova dostatečně dlouhý společný
-počáteční podřetězec a~zároveň se lišila specifickým koncovým
-podřetězcem. Ze čtyř set nejfrekventovanějších pak bylo ručně
-vyextrahováno osmnáct dvojic, které odpovídají popisovaným derivačním
-vztahům v~české slovní zásobě, u~těchto dvojic byl taktéž určen směr
-derivace (typicky bylo za základové slovo považováno to, které mělo
-kratší základové lemma).~\parencite{derinet-cz}
+bylo zapotřebí identifikovat dvojice slov základových a~odvozených --
+toho bylo docíleno poloautomatickou metodou, šlo tedy nejprve
+o~automatizovaný výběr takových dvojic lemmat, v~rámci kterých měla obě
+slova dostatečně dlouhý společný počáteční podřetězec a~zároveň se
+lišila specifickým koncovým podřetězcem. Ze čtyř set
+nejfrekventovanějších pak bylo ručně vyextrahováno osmnáct dvojic, které
+odpovídají popisovaným derivačním vztahům v~české slovní zásobě,
+u~těchto dvojic byl taktéž určen směr derivace (typicky bylo za základové
+slovo považováno to, které mělo kratší základové lemma).
+\parencite{derinet-cz}
 
 Dalším způsobem, pomocí kterého šlo určovat derivační vztahy, byla
-extrakce z~morfologického slovníku MorfLex CZ -- ten obsahuje 120
-milionů trojic tvořených lemmatem, morfologickou značkou a~slovním
-tvarem, příkladem může být trojice ‒
-\texttt{žížnivý\_,n;\ AAFS6-\/-\/-\/-3N-\/-\/-\/-;\ nejnežížnivější}
-\parencite{morflex}. Jak je z~příkladu patrné, slovník obsahuje
-informace určené primárně pro flektivní morfologii, nicméně \ldots{}.
-\parencite{sevcikova16}
+extrakce informací z~morfologického slovníku MorfLex CZ -- ten obsahuje
+sto dvacet milionů trojic tvořených lemmatem, morfologickou značkou
+a~slovním tvarem, příkladem může být trojice ‒ \emph{žížnivý\_,n};
+\emph{AAFS6----3N----}; \emph{nejnežížnivější}~\parencite{morflex}.
+
+Jednotlivá lemmata mohou taktéž obsahovat dodatečnou derivační
+a~sémantickou informaci, právě tak slovník řeší například problematiku
+lexikální homonymie, kdy jsou homonymní lemmata označena specifických
+číselným identifikátorem (např. \emph{podle-1} ve významu adverbia
+a~\emph{podle-2} jako prepopozice). Derivační informace je ve slovníku
+reprezentována prostřednictvím technického sufixu, který je uložen
+u~daného lemmatu (např. u~základního tvaru \emph{žíznitelný\_\^{}(}4)* je
+derivační informace uložena v~závorce a~vyplývá z~ní, že je slovo
+\emph{žíznitelný} odvozeno od slova o~čtyři znaky kratšího, tedy od
+slova \emph{žíznit}).~\parencite{sevcikova16}
