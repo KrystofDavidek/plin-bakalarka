@@ -63,4 +63,4 @@ Každý záznam (řádek) v tomto souboru obsahuje několik atributů, jde o vla
     775402	užít	užít_:T	V	1006682
     1006682	žít	žít_:T	V
 
-A právě tento formát DeriNetu je použitý jako základ pro tvorbu samotného derivačního slovníku v rámci praktické části této práce.
+A právě tento formát DeriNetu je použitý jako základ pro tvorbu samotného derivačního slovníku v rámci praktické části této práce. Co se stane teď?
