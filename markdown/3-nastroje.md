@@ -25,7 +25,7 @@ Předposledním rozebíraným nástrojem je derivační analyzátor Derivancze, 
 
 ## Derivační síť DeriNet
 
-Řešení praktické části této bakalářské je postaveno na derivační síti DeriNet, proto si tento nástroj  v následující podkapitole hlouběji charakterizujeme a popíšeme základní přístupy, jak s ním lze pracovat.
+Řešení praktické části této bakalářské je postaveno na derivační síti DeriNet, proto si tento nástroj  v následující podkapitole hlouběji charakterizujeme a popíšeme si základní přístupy, jak s ním lze pracovat.
 
 Derivační síť DeriNet si lze představit jako elektronickou databázi českých autosémantik (tedy primárně substantiv, adjektiv, verb a adverbií), která jsou vzájemně propojena takovými odkazy, jež odpovídají slovotvornému vztahu derivace mezi slovem základovým a odvozeným. Tento systém odkazů si lze tak modelovat prostřednictvím orientovaného grafu, jehož uzly jsou jednotlivá lemmata (základní slovní tvary) a hrany pak spolu s jejich orientací reprezentují určitý odvozovací proces. Jelikož má v této derivační síti každé odvozené slovo odkaz pouze na jedno slovo základové, lze si tak jednotlivé slovotvorná hnízda (čeledě) představit jako stromový graf, jehož kořenem je ideálně slovo značkové, tedy takový výraz, který není nijak motivován. \parencite{derinet-cz}
 
@@ -63,4 +63,4 @@ Každý záznam (řádek) v tomto souboru obsahuje několik atributů, jde o vla
     775402	užít	užít_:T	V	1006682
     1006682	žít	žít_:T	V
 
-A právě tento formát DeriNetu je použitý jako základ pro tvorbu samotného derivačního slovníku v rámci praktické části této práce.
+A právě tento formát DeriNetu slouží jako základ derivačního slovníku v rámci praktické části této práce.
