@@ -40,7 +40,7 @@ Jednotlivá lemmata mohou taktéž obsahovat dodatečnou derivační a sémantic
 \begin{figure}[ht]   
     \centering
     \includegraphics[width=\textwidth]{derinet-1}  
-    \caption{Výsledný derivační strom v prohlížeči DeriNet Viewer \parentcite{derinet}}
+    \caption{Výsledný derivační strom v prohlížeči DeriNet Viewer \parencite{derinet}}
     \label{derinet-1}
  \end{figure}
 
@@ -49,6 +49,6 @@ Aktuální verze derivační sítě DeriNet (1.7) obsahuje přibližně jeden mi
 \begin{figure}[ht]   
     \centering
     \includegraphics[width=\textwidth]{derinet-2}  
-    \caption{Výsledek vyhledávacího dotazu ve vyhledávači DeriNet Search \parentcite{derinet}}
+    \caption{Výsledek vyhledávacího dotazu ve vyhledávači DeriNet Search \parencite{derinet}}
     \label{derinet-2}
  \end{figure}
