@@ -39,16 +39,16 @@ Jednotlivá lemmata mohou taktéž obsahovat dodatečnou derivační a sémantic
 
 \begin{figure}[ht]   
     \centering
-    \includegraphics[width=.9\textwidth]{derinet-1}  
+    \includegraphics[width=\textwidth]{derinet-1}  
     \caption{Derinet-1}
     \label{derinet-1}
  \end{figure}
 
-Aktuální verze derivační sítě DeriNet (1.7) obsahuje přibližně jeden milion lemmat a je dostupná skrze dvě webová uživatelská rozhraní. Jedním z nich je prohlížeč DeriNet Viewer\footnote{Autor je Milan Straka -- [http://ufal.mff.cuni.cz/derinet](http://ufal.mff.cuni.cz/derinet).}, jehož základní funkcí je zobrazení derivačního stromu pro zadané lemma (\red{derinet-1}), případně lze vyhledané výsledky roztřídit podle zvolených charakteristik. Druhý nástroj je DeriNet Search\footnote{Autor je Jonáš Vidra -- [http://ufal.mff.cuni.cz/derinet/search](http://ufal.mff.cuni.cz/derinet/search).}, který nabízí vyhledávání ve vlastním dotazovacím jazyce a uživatel je tak schopen podle svých vlastních kritérii specifikovat omezení pro tvar vyhledaného derivačního stromu. Například dotaz `[pos="V"] ([pos="N" lemma="tel$"], [pos="N" lemma="ce$"])` vyhledá takové derivační stromy, ve kterých je od verba přímo odvozeno jednak substantivum končící sufixem *-tel*, tak substantivum na *-ce* (\ref{derinet-2}). \parencite{derinet-cz}
+Aktuální verze derivační sítě DeriNet (1.7) obsahuje přibližně jeden milion lemmat a je dostupná skrze dvě webová uživatelská rozhraní. Jedním z nich je prohlížeč DeriNet Viewer\footnote{Autor je Milan Straka -- http://ufal.mff.cuni.cz/derinet}, jehož základní funkcí je zobrazení derivačního stromu pro zadané lemma (\ref{derinet-1}), případně lze vyhledané výsledky roztřídit podle zvolených charakteristik. Druhý nástroj je DeriNet Search\footnote{Autor je Jonáš Vidra -- http://ufal.mff.cuni.cz/derinet/search.}, který nabízí vyhledávání ve vlastním dotazovacím jazyce a uživatel je tak schopen podle svých vlastních kritérii specifikovat omezení pro tvar vyhledaného derivačního stromu. Například dotaz `[pos="V"] ([pos="N" lemma="tel$"], [pos="N" lemma="ce$"])` vyhledá takové derivační stromy, ve kterých je od verba přímo odvozeno jednak substantivum končící sufixem *-tel*, tak substantivum na *-ce* (\ref{derinet-2}). \parencite{derinet-cz}
 
 \begin{figure}[ht]   
     \centering
-    \includegraphics[width=.9\textwidth]{derinet-2}  
+    \includegraphics[width=\textwidth]{derinet-2}  
     \caption{Derinet-2}
     \label{derinet-2}
  \end{figure}
