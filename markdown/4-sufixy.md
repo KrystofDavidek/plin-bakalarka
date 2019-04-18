@@ -31,15 +31,34 @@ Druhá fáze je tvorba samotné slovotvorné definice napříč různými sloves
 
  - [\^ch]\*ovatel --> Je prefigované?
 	-	ne --> „ten, kdo .\*uje“
-	-	ano --> Existuje ve slovotvorném řetězci sloveso ve tvaru .\*it nebo .\*nout nebo [aá]t?
-		-	ano --> „ten, kdo .\*uje“
-		-	ne --> „ten, kdo .\*oval nebo .\*uje“
- - [\^o]\*\[iíyýaáy\]vatel --> „ten, kdo .\*[íýá]vá“
- - [\^o]\*ěvatel --> „ten, kdo .*ívá“
- - .\*itel --> Je prefigované?
+	-	ano
+		-	Existuje ve slovotvorném řetězci sloveso ve tvaru .\*ovat --> „ten, kdo .\*oval nebo .*uje“
+		-	Existuje ve slovotvorném řetězci sloveso ve tvaru .\*it nebo .\*nout nebo .\*[aá]t? --> „ten, kdo .\*uje“
+-	.\*chovatel --> Je prefigované?
+	-	ne --> „ten, kdo .\*á“
+	-	ano --> „ten, kdo .\*ten, kdo .\*al nebo .\*á“
+- [\^o]\*\[iíyýaáy\]vatel --> „ten, kdo .\*[íýá]vá“
+- [\^o]\*ěvatel --> „ten, kdo .*ívá“
+- .\*itel --> Je prefigované?
 	-	ne
 		-	Je sloveso ve tvaru .\*u.it? --> „ten, kdo .*u.í“
 		-	Je sloveso ve tvaru  [\^u]\*.[eěi]t? --> „ten, kdo .*í“
-		-	Je sloveso ve tvaru  .\*u.ovat a .\*ou.it? --> „ten, kdo .*ou.il nebo .*ou.í“
+		-	Je sloveso ve tvaru  .\*u.ovat a existuje zároveň ve slovotvorném řetězci sloveso ve tvaru .\*ou.it? --> „ten, kdo .\*ou.il nebo .\*ou.í“
 	- ano
-		- Je sloveso ve tvaru .\*ou.it? --> „ten, kdo .*ou.il nebo .*ou.í“
+		- Existuje ve slovotvorném řetězci sloveso ve tvaru .\*ou.it? --> „ten, kdo .\*ou.il nebo .\*ou.í“
+		- Existuje ve slovotvorném řetězci sloveso ve tvaru .\*ovat a zároveň v řetězci neexistuje sloveso ve tvaru .\*it? --> „ten, kdo .\*oval“
+		- Je sloveso ve tvaru .\*[eě]t? --> „ten, kdo .\*[eě]l nebo .\*í“
+		- Je sloveso ve tvaru .\*[\^ou].\*it  --> „ten, kdo .\*il nebo .\*í“
+- [\^zb]\*atel --> Je prefigované?
+	- ne --> „ten, kdo .\*á“
+	- ano --> „ten, kdo .\*al nebo .\*á“
+- .\*zatel --> Je prefigované?
+	- ne --> „ten, kdo .\*že“
+	- ano --> ten, kdo .\*zal nebo .\*že“
+- .\*batel --> Je prefigované?
+	-  ne --> „ten, kdo .\*bá“
+	- ano --> „ten, kdo .\*bal nebo .\*bá“
+- p[ií]satel --> Je prefigované?
+	- ne --> „ten, kdo píše“
+
+A tohle je všechno.

@@ -116,16 +116,27 @@ regulárním výrazem viz pravidla níže:
   \item
     ne --\textgreater{} „ten, kdo .*uje``
   \item
-    ano --\textgreater{} Existuje ve slovotvorném řetězci sloveso ve
-    tvaru .*it nebo .*nout nebo {[}aá{]}t?
+    ano
 
     \begin{itemize}
     \tightlist
     \item
-      ano --\textgreater{} „ten, kdo .*uje``
+      Existuje ve slovotvorném řetězci sloveso ve tvaru .*ovat
+      --\textgreater{} „ten, kdo .*oval nebo .*uje``
     \item
-      ne --\textgreater{} „ten, kdo .*oval nebo .*uje``
+      Existuje ve slovotvorném řetězci sloveso ve tvaru .*it nebo .*nout
+      nebo .*{[}aá{]}t? --\textgreater{} „ten, kdo .*uje``
     \end{itemize}
+  \end{itemize}
+\item
+  .*chovatel --\textgreater{} Je prefigované?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ne --\textgreater{} „ten, kdo .*á``
+  \item
+    ano --\textgreater{} „ten, kdo .*ten, kdo .*al nebo .*á``
   \end{itemize}
 \item
   {[}\^{}o{]}*{[}iíyýaáy{]}vatel --\textgreater{} „ten, kdo
@@ -148,8 +159,9 @@ regulárním výrazem viz pravidla níže:
       Je sloveso ve tvaru {[}\^{}u{]}*.{[}eěi{]}t? --\textgreater{}
       „ten, kdo .*í``
     \item
-      Je sloveso ve tvaru .*u.ovat a~.*ou.it? --\textgreater{} „ten, kdo
-      .\emph{ou.il nebo .}ou.í``
+      Je sloveso ve tvaru .*u.ovat a~existuje zároveň ve slovotvorném
+      řetězci sloveso ve tvaru .*ou.it? --\textgreater{} „ten, kdo
+      .*ou.il nebo .*ou.í``
     \end{itemize}
   \item
     ano
@@ -157,8 +169,58 @@ regulárním výrazem viz pravidla níže:
     \begin{itemize}
     \tightlist
     \item
-      Je sloveso ve tvaru .*ou.it? --\textgreater{} „ten, kdo
-      .\emph{ou.il nebo .}ou.í``
+      Existuje ve slovotvorném řetězci sloveso ve tvaru .*ou.it?
+      --\textgreater{} „ten, kdo .*ou.il nebo .*ou.í``
+    \item
+      Existuje ve slovotvorném řetězci sloveso ve tvaru .*ovat a~zároveň
+      v~řetězci neexistuje sloveso ve tvaru .*it? --\textgreater{} „ten,
+      kdo .*oval``
+    \item
+      Je sloveso ve tvaru .*{[}eě{]}t? --\textgreater{} „ten, kdo
+      .*{[}eě{]}l nebo .*í``
+    \item
+      Je sloveso ve tvaru .*{[}\^{}ou{]}.*it --\textgreater{} „ten, kdo
+      .*il nebo .*í``
     \end{itemize}
   \end{itemize}
+\item
+  {[}\^{}zb{]}*atel --\textgreater{} Je prefigované?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ne --\textgreater{} „ten, kdo .*á``
+  \item
+    ano --\textgreater{} „ten, kdo .*al nebo .*á``
+  \end{itemize}
+\item
+  .*zatel --\textgreater{} Je prefigované?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ne --\textgreater{} „ten, kdo .*že``
+  \item
+    ano --\textgreater{} ten, kdo .*zal nebo .*že``
+  \end{itemize}
+\item
+  .*batel --\textgreater{} Je prefigované?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ne --\textgreater{} „ten, kdo .*bá``
+  \item
+    ano --\textgreater{} „ten, kdo .*bal nebo .*bá``
+  \end{itemize}
+\item
+  p{[}ií{]}satel --\textgreater{} Je prefigované?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ne --\textgreater{} „ten, kdo píše``
+  \end{itemize}
 \end{itemize}
+
+A~tohle je všechno.
