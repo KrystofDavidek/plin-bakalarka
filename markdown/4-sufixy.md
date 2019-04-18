@@ -29,9 +29,17 @@ a to analýzou slovotvorného řetězce:
 
 Druhá fáze je tvorba samotné slovotvorné definice napříč různými slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitým regulárním výrazem viz pravidla níže:
 
- - *[\^ch]ovatel* --> je prefigované?
+ - [\^ch]\*ovatel --> Je prefigované?
 	-	ne --> „ten, kdo .\*uje“
-	-	ano --> existuje ve slovotvorném řetězci sloveso ve tvaru *.\*it* nebo *.\*nout* nebo *[aá]t*?
+	-	ano --> Existuje ve slovotvorném řetězci sloveso ve tvaru .\*it nebo .\*nout nebo [aá]t?
 		-	ano --> „ten, kdo .\*uje“
 		-	ne --> „ten, kdo .\*oval nebo .\*uje“
- - *[\^o][iíyýaáy]vatel*
+ - [\^o]\*\[iíyýaáy\]vatel --> „ten, kdo .\*[íýá]vá“
+ - [\^o]\*ěvatel --> „ten, kdo .*ívá“
+ - .\*itel --> Je prefigované?
+	-	ne
+		-	Je sloveso ve tvaru .\*u.it? --> „ten, kdo .*u.í“
+		-	Je sloveso ve tvaru  [\^u]\*.[eěi]t? --> „ten, kdo .*í“
+		-	Je sloveso ve tvaru  .\*u.ovat a .\*ou.it? --> „ten, kdo .*ou.il nebo .*ou.í“
+	- ano
+		- Je sloveso ve tvaru .\*ou.it? --> „ten, kdo .*ou.il nebo .*ou.í“

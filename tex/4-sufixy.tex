@@ -109,15 +109,15 @@ regulárním výrazem viz pravidla níže:
 \begin{itemize}
 \tightlist
 \item
-  \emph{{[}\^{}ch{]}ovatel} --\textgreater{} je prefigované?
+  {[}\^{}ch{]}*ovatel --\textgreater{} Je prefigované?
 
   \begin{itemize}
   \tightlist
   \item
     ne --\textgreater{} „ten, kdo .*uje``
   \item
-    ano --\textgreater{} existuje ve slovotvorném řetězci sloveso ve
-    tvaru \emph{.*it} nebo \emph{.*nout} nebo \emph{{[}aá{]}t}?
+    ano --\textgreater{} Existuje ve slovotvorném řetězci sloveso ve
+    tvaru .*it nebo .*nout nebo {[}aá{]}t?
 
     \begin{itemize}
     \tightlist
@@ -128,5 +128,37 @@ regulárním výrazem viz pravidla níže:
     \end{itemize}
   \end{itemize}
 \item
-  \emph{{[}\^{}o{]}{[}iíyýaáy{]}vatel}
+  {[}\^{}o{]}*{[}iíyýaáy{]}vatel --\textgreater{} „ten, kdo
+  .*{[}íýá{]}vá``
+\item
+  {[}\^{}o{]}*ěvatel --\textgreater{} „ten, kdo .*ívá``
+\item
+  .*itel --\textgreater{} Je prefigované?
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ne
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Je sloveso ve tvaru .*u.it? --\textgreater{} „ten, kdo .*u.í``
+    \item
+      Je sloveso ve tvaru {[}\^{}u{]}*.{[}eěi{]}t? --\textgreater{}
+      „ten, kdo .*í``
+    \item
+      Je sloveso ve tvaru .*u.ovat a~.*ou.it? --\textgreater{} „ten, kdo
+      .\emph{ou.il nebo .}ou.í``
+    \end{itemize}
+  \item
+    ano
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Je sloveso ve tvaru .*ou.it? --\textgreater{} „ten, kdo
+      .\emph{ou.il nebo .}ou.í``
+    \end{itemize}
+  \end{itemize}
 \end{itemize}
