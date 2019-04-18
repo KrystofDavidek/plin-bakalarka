@@ -106,10 +106,21 @@ slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli
 definice na základě vlastních podvzorů, které jsou popsány určitým
 regulárním výrazem viz tabulka níže.
 
-\begin{tabu} to 0.8\textwidth { | X[l] | X[c] | X[r] | }
+The table \ref{table:1} is an example of referenced \LaTeX elements.
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{||c c c c||} 
  \hline
- item 11 & item 12 & item 13 \\
+ Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
+ \hline\hline
+ 1 & 6 & 87837 & 787 \\ 
+ 2 & 7 & 78 & 5415 \\
+ 3 & 545 & 778 & 7507 \\
+ 4 & 545 & 18744 & 7560 \\
+ 5 & 88 & 788 & 6344 \\ [1ex] 
  \hline
- item 21  & item 22  & item 23  \\
-\hline
-\end{tabu}
+\end{tabular}
+\caption{Table to test captions and labels}
+\label{table:1}
+\end{table}
