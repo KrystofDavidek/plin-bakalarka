@@ -28,3 +28,11 @@ a to analýzou slovotvorného řetězce:
  - sloveso je imperfektivum, pokud není perfektum a zároveň není sekundární imperfektivum, například *myslit* --> *myslitel* -- slovotvorná definice bude znít „ten, kdo myslí“.
 
 Druhá fáze je tvorba samotné slovotvorné definice napříč různými slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitým regulárním výrazem viz tabulka níže.
+
+\begin{tabu} to 0.8\textwidth { | X[l] | X[c] | X[r] | }
+ \hline
+ item 11 & item 12 & item 13 \\
+ \hline
+ item 21  & item 22  & item 23  \\
+\hline
+\end{tabu}
