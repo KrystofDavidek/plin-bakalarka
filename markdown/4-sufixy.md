@@ -27,23 +27,11 @@ a to analýzou slovotvorného řetězce:
  - sloveso je sekundární imperfektivum, pokud řetězec obsahuje rozdíl ve dvou předchozích slovotvorných krocích v rámci specifického sufixu u jedné slovesné formy, příkladem může být řetězec *pracovat* --> *zpracovat* (2. krok) --> *zpracovávat* (1. krok) --> *zpracovávatel* -- slovotvorná definice tak bude znít „ten, kdo zpracovává“;
  - sloveso je imperfektivum, pokud není perfektum a zároveň není sekundární imperfektivum, například *myslit* --> *myslitel* -- slovotvorná definice bude znít „ten, kdo myslí“.
 
-Druhá fáze je tvorba samotné slovotvorné definice napříč různými slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitým regulárním výrazem viz tabulka níže.
+Druhá fáze je tvorba samotné slovotvorné definice napříč různými slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitým regulárním výrazem viz pravidla níže:
 
-The table \ref{table:1} is an example of referenced \LaTeX elements.
- 
-\begin{table}[h!]
-\centering
-\begin{tabular}{||c c c c||} 
- \hline
- Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
- \hline\hline
- 1 & 6 & 87837 & 787 \\ 
- 2 & 7 & 78 & 5415 \\
- 3 & 545 & 778 & 7507 \\
- 4 & 545 & 18744 & 7560 \\
- 5 & 88 & 788 & 6344 \\ [1ex] 
- \hline
-\end{tabular}
-\caption{Table to test captions and labels}
-\label{table:1}
-\end{table}
+ - *\[\^ch\]ovatel* --> je prefigované?
+	-	ne --> „ten, kdo .*uje“
+	-	ano --> existuje ve slovotvorném řetězci sloveso ve tvaru *.*it* nebo *.*nout* nebo *[aá]t*?
+		-	ano --> „ten, kdo .*uje“
+		-	ne --> „ten, kdo .*oval or .*uje“
+ - *\[\^o\]\[iíyýaáy\]vatel*

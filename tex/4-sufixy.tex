@@ -104,23 +104,29 @@ u~jedné slovesné formy, příkladem může být řetězec \emph{pracovat}
 Druhá fáze je tvorba samotné slovotvorné definice napříč různými
 slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli
 definice na základě vlastních podvzorů, které jsou popsány určitým
-regulárním výrazem viz tabulka níže.
+regulárním výrazem viz pravidla níže:
 
-The table \ref{table:1} is an example of referenced \LaTeX elements.
+\begin{itemize}
+\tightlist
+\item
+  \emph{{[}\^{}ch{]}ovatel} --\textgreater{} je prefigované?
 
-\begin{table}[h!]
-\centering
-\begin{tabular}{||c c c c||} 
- \hline
- Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
- \hline\hline
- 1 & 6 & 87837 & 787 \\ 
- 2 & 7 & 78 & 5415 \\
- 3 & 545 & 778 & 7507 \\
- 4 & 545 & 18744 & 7560 \\
- 5 & 88 & 788 & 6344 \\ [1ex] 
- \hline
-\end{tabular}
-\caption{Table to test captions and labels}
-\label{table:1}
-\end{table}
+  \begin{itemize}
+  \tightlist
+  \item
+    ne --\textgreater{} „ten, kdo .*uje``
+  \item
+    ano --\textgreater{} existuje ve slovotvorném řetězci sloveso ve
+    tvaru \emph{.}it* nebo \emph{.}nout* nebo \emph{{[}aá{]}t}?
+
+    \begin{itemize}
+    \tightlist
+    \item
+      ano --\textgreater{} „ten, kdo .*uje``
+    \item
+      ne --\textgreater{} „ten, kdo .\emph{oval or .}uje``
+    \end{itemize}
+  \end{itemize}
+\item
+  \emph{{[}\^{}o{]}{[}iíyýaáy{]}vatel}
+\end{itemize}
