@@ -2,7 +2,7 @@
 
 # Zpracované slovotvorné sufixy
 
-Cílem bakalářské práce bylo vytvořit elektronický slovník s definicemi založenými na derivačních rysech slovotvorně motivovaných slov ve formě mobilní aplikace, proto si v této kapitole praktické části popíšeme, jaké slovotvorné sufixy byly zpracovány a jakým způsobem probíhá proces tvoření slovotvorných definic. V druhé kapitole si pak rozebereme technickou část spolu s použitými technologiemi a popisem implementace samotné mobilní aplikace.
+Cílem bakalářské práce bylo vytvořit elektronický slovník s definicemi založenými na derivačních rysech slovotvorně motivovaných slov ve formě mobilní aplikace, proto si v této kapitole praktické části popíšeme, jaké slovotvorné sufixy byly zpracovány a jakým způsobem probíhá proces tvoření slovotvorných definic. V druhé kapitole si pak rozebereme technickou část spolu s návrhem a popisem implementace samotné mobilní aplikace.
 
 Při výběru slovotvorných typů ke zpracování byl brán zřetel na jejich frekvenci a produktivitu ve spojitosti s derivací u substantiv -- takovým nejvýraznějším typem jsou substantiva označující názvy živých bytostí podle jejich činností zakončená na sufix *-tel*, a ta spadají do slovotvorné třídy činitelských jmen. \parencite[17]{dokulil67} V této fázi je v předkládané aplikaci zpracován právě tento slovotvorný typ i s jeho rodovou alternativou *-telka*, jež má obdobné charakteristiky.   
 

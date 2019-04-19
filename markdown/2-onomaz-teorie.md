@@ -66,8 +66,8 @@ Pokud tento tento formální příznak odvozenosti zcela chybí, lze směr funda
 V okamžiku, kdy nelze využít analogie, pracujeme s oboustrannou fundací/motivací -- jde o takové dvojice slov, kde:
 		
 - má každý výraz svůj vlastní slovotvorný formant (*jablko* <--> *jabloň*);
-- tento formant u obou slov chybí (*doma* <--> domů);
-- je formální a sémantické kritérium v rozporu  (*něha* <--> něžný). \parencite[96]{dokulil00}
+- tento formant u obou slov chybí (*doma* <--> *domů*);
+- je formální a sémantické kritérium v rozporu  (*něha* <--> *něžný*). \parencite[96]{dokulil00}
 
 ### Slovotvorný a lexikální význam
 
@@ -81,7 +81,7 @@ Hlavní rozdíl mezi těmito dvěma pojmy je tedy ten, že slova značková maj�
 
 Na problematiku slovotvorných vztahů plynule navazuje další podkapitola, kterou je morfologická struktura slov. Teorie nepojímá morfologickou stavbu slova jako posloupnost jednotlivých morfémů, které mají určitou funkci v celkovém významu slova, ale jako stavbu tvarotvornou a slovotvornou -- tím je myšleno, že se na morfologickou strukturu slova dívá ze dvou různých perspektiv. \parencite[118]{dokulil62} 
 
-První z nich, stavba tvarotvorná, je založena na rozdělení slovního tvaru na dvě složky, tedy na tvarotvorný základ (lexikální složka, kořen) a tvarotvorný formant (gramatická složka). Na příklad u slova *bažina* můžeme vydělit tvarotvorný základ *bažin-* a formant *-a*, nicméně tvarotvorný formant nemusí být pouze jednočlenný, protože v sobě obsahuje (pokud se v daném slově vyskytuje) kmenotvornou příponu\footnote{Terminologicky se pak tvarotvorný základ spolu s kmenotvornou příponou označuje za kmen slova}. Mějme druhý příklad, slovo *kuřata*, kde za tvaroslovný základ považujeme morfém *kuř-*, za kmenotvornou příponu *-at-* a za celý slovotvorný formant vícečlennou složku *-ata* -- tím se tento formant odlišuje od tradičního pojetí koncovky. \parencite{enc-tvar-zaklad17}
+První z nich, stavba tvarotvorná, je založena na rozdělení slovního tvaru na dvě složky, tedy na tvarotvorný základ (lexikální složka, kořen) a tvarotvorný formant (gramatická složka). Na příklad u slova *bažina* můžeme vydělit tvarotvorný základ *bažin-* a formant *-a*, nicméně tvarotvorný formant nemusí být pouze jednočlenný, protože v sobě obsahuje (pokud se v daném slově vyskytuje) kmenotvornou příponu\footnote{Terminologicky se pak tvarotvorný základ spolu s kmenotvornou příponou označuje za kmen slova.}. Mějme druhý příklad, slovo *kuřata*, kde za tvaroslovný základ považujeme morfém *kuř-*, za kmenotvornou příponu *-at-* a za celý slovotvorný formant vícečlennou složku *-ata* -- tím se tento formant odlišuje od tradičního pojetí koncovky. \parencite{enc-tvar-zaklad17}
 
 Slovotvorná stavba slova se pak analogicky dělí na dvě složky, ale u ní bereme zřetel právě na slovotvorné charakteristiky. Za slovotvorný základ (bázi) slova typicky považujeme buď celé slovo základové (případy prefixace nebo reflexivizace -- *ne-**pěkný***, ***bavit** se*) nebo jen část fundujícího slova (nejčastěji při sufixaci -- ***prav**-i-ce*), důležité zde je, že tato část reprezentuje význam základového slova. \parencite{enc-slov-zaklad17}
 
