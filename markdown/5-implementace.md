@@ -27,12 +27,17 @@ Na začátku samotného vývoje si je zapotřebí určit několik věci, v naše
 - zvolení vhodných technologií včetně programovacího jazyka, kterými budeme nástroj implementovat; 
 - výběr dat a jejich struktury, nad kterými budeme v rámci aplikace operovat;
 - návrh jednotlivých obrazovek aplikace a navigaci mezi nimi (včetně konkrétních přechodů);
-- určení si architektury aplikace, jde tedy o popis jednotlivých funkcionalit.
+ 
+### Použité technologie
 
-### Principy hybridních aplikací
+#### Hybridní mobilní aplikace
 
-### Framework Angular a Ionic
+#### Webové technologie
 
-## Architektura aplikace
+#### Frameworky Ionic a Angular
 
-###
+### Volba dat
+
+### Návrh obrazovek
+
+## Implementace aplikace
