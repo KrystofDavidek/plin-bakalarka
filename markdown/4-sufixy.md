@@ -23,8 +23,8 @@ Heslo derivačního slovníku se skládá ze tří částí, a to z definice v o
 Slovotvorná definice je tvořena dvěma kroky, první fází je určení slovesného vidu fundujícího/motivující slovesa. Ten lze do určité míry vyextrahovat z derivační sítě DeriNet -- 
 a to analýzou slovotvorného řetězce:
 
- - sloveso je perfektum, pokud řetězec obsahuje tutéž slovesnou formu v neprefigované podobě ve dvou předchozích slovotvorných krocích, mějme například řetězec *pracovat* (2. krok) --> *zpracovat* (1. krok) --> *zpracovatel* -- slovotvorná definice tak bude znít „ten, kdo zpracoval nebo zpracuje“;
- - sloveso je sekundární imperfektivum, pokud řetězec obsahuje rozdíl ve dvou předchozích slovotvorných krocích v rámci specifického sufixu u jedné slovesné formy, příkladem může být řetězec *pracovat* --> *zpracovat* (2. krok) --> *zpracovávat* (1. krok) --> *zpracovávatel* -- slovotvorná definice tak bude znít „ten, kdo zpracovává“;
+ - sloveso je perfektum, pokud řetězec obsahuje tutéž slovesnou formu v neprefigované podobě ve dvou předchozích slovotvorných krocích, mějme například řetězec *pracovat* (2. krok) --> ***z**pracovat* (1. krok) --> *zpracovatel* -- slovotvorná definice tak bude znít „ten, kdo zpracoval nebo zpracuje“;
+ - sloveso je sekundární imperfektivum, pokud řetězec obsahuje rozdíl ve dvou předchozích slovotvorných krocích v rámci specifického sufixu u jedné slovesné formy, příkladem může být řetězec *pracovat* --> *zpracovat* (2. krok) --> *zpraco**vá**vat* (1. krok) --> *zpracovávatel* -- slovotvorná definice tak bude znít „ten, kdo zpracovává“;
  - sloveso je imperfektivum, pokud není perfektum a zároveň není sekundární imperfektivum, například *myslit* --> *myslitel* -- slovotvorná definice bude znít „ten, kdo myslí“.
 
 Druhá fáze je tvorba samotné slovotvorné definice napříč různými slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitým regulárním výrazem viz pravidla níže:
