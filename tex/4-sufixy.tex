@@ -104,8 +104,9 @@ u~jedné slovesné formy, příkladem může být řetězec \emph{pracovat}
 
 Druhá fáze je tvorba samotné slovotvorné definice napříč různými
 slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli
-definice na základě vlastních podvzorů, které jsou popsány určitým
-regulárním výrazem viz pravidla níže:
+definice na základě vlastních podvzorů, které jsou popsány určitými
+regulárními výrazy viz pravidla níže (dubletní varianty jsou označeny
+v~kulatých závorkách):
 
 \begin{itemize}
 \tightlist
@@ -212,9 +213,9 @@ regulárním výrazem viz pravidla níže:
   \begin{itemize}
   \tightlist
   \item
-    ne --\textgreater{} „ten, kdo .*bá``
+    ne --\textgreater{} „ten, kdo .*bá`` (.*be)
   \item
-    ano --\textgreater{} „ten, kdo .*bal nebo .*bá``
+    ano --\textgreater{} „ten, kdo .*bal nebo .*bá`` (.*be)
   \end{itemize}
 \item
   p{[}ií{]}satel --\textgreater{} Je prefigované?
@@ -226,4 +227,8 @@ regulárním výrazem viz pravidla níže:
   \end{itemize}
 \end{itemize}
 
-A~tohle je všechno.
+Veškerá výše zmíněná pravidla jsou taktéž aplikovatelná na slovotvorný
+typ \emph{-telka}, u~níž zní slovotvorná definice v~obecné rovině „ta,
+která .*`` -- pokud budeme mít například za vstup slovo
+\emph{zpracovatelka} tak její definice bude „ta, která zpracovala nebo
+zpracuje``.

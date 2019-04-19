@@ -27,7 +27,7 @@ a to analýzou slovotvorného řetězce:
  - sloveso je sekundární imperfektivum, pokud řetězec obsahuje rozdíl ve dvou předchozích slovotvorných krocích v rámci specifického sufixu u jedné slovesné formy, příkladem může být řetězec *pracovat* --> *zpracovat* (2. krok) --> *zpraco**vá**vat* (1. krok) --> *zpracovávatel* -- slovotvorná definice tak bude znít „ten, kdo zpracovává“;
  - sloveso je imperfektivum, pokud není perfektum a zároveň není sekundární imperfektivum, například *myslit* --> *myslitel* -- slovotvorná definice bude znít „ten, kdo myslí“.
 
-Druhá fáze je tvorba samotné slovotvorné definice napříč různými slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitým regulárním výrazem viz pravidla níže:
+Druhá fáze je tvorba samotné slovotvorné definice napříč různými slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitými regulárními výrazy viz pravidla níže (dubletní varianty jsou označeny v kulatých závorkách):
 
  - [\^ch]\*ovatel\footnote{V tomto případě existují výjimky typu kl?ovatel, kdy zní definice u neprefigovaného slovesa „ten, kdo kl?ove (kl?ová)“ a u prefigovaného „ten, kdo .\*kl?oval nebo .\*kl?ove (.\*kl?ová). Mezi tato slova patří .\*snovatel, .\*plovatel, .\*kovatel a .\*klovatel.} --> Je prefigované?
 	-	ne --> „ten, kdo .\*uje“
@@ -56,9 +56,10 @@ Druhá fáze je tvorba samotné slovotvorné definice napříč různými sloves
 	- ne --> „ten, kdo .\*že“
 	- ano --> ten, kdo .\*zal nebo .\*že“
 - .\*batel --> Je prefigované?
-	-  ne --> „ten, kdo .\*bá“
-	- ano --> „ten, kdo .\*bal nebo .\*bá“
+	-  ne --> „ten, kdo .\*bá“ (.\*be)
+	- ano --> „ten, kdo .\*bal nebo .\*bá“ (.\*be)
 - p[ií]satel --> Je prefigované?
 	- ne --> „ten, kdo píše“
 
-A tohle je všechno.
+Veškerá výše zmíněná pravidla jsou taktéž aplikovatelná na slovotvorný typ *-telka*, u níž zní slovotvorná definice v obecné rovině „ta, která .\*“ -- pokud budeme mít například za vstup slovo *zpracovatelka* tak její definice bude „ta, která zpracovala nebo zpracuje“.
+
