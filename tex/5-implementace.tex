@@ -1,9 +1,85 @@
-\hypertarget{implementace-elektronickuxe9ho-derivaux10dnuxedho-slovnuxedku}{%
-\chapter{Implementace elektronického derivačního
-slovníku}\label{implementace-elektronickuxe9ho-derivaux10dnuxedho-slovnuxedku}}
+\hypertarget{elektronickuxfd-derivaux10dnuxed-slovnuxedk}{%
+\chapter{Elektronický derivační
+slovník}\label{elektronickuxfd-derivaux10dnuxed-slovnuxedk}}
 
-\hypertarget{pouux17eituxe9-technologie}{%
-\section{Použité technologie}\label{pouux17eituxe9-technologie}}
+V~následující kapitole si představíme a~následně popíšeme výsledek
+praktické části, a~to nejprve v~krátkosti po motivační stránce a~posléze
+po stránce technické.
+
+Derivační slovník je primárně koncipován jako edukační pomůcka pro
+cizince, kteří se učí češtinu jako druhý jazyk. Na rozdíl od rodilých
+mluvčí nedokáží cizinci podvědomě predikovat význam neznámých slov na
+základě slovotvorných morfému v~určitých kontextech -- chybí jim tedy
+znalost významů určitých slovotvorných afixů, prostřednictvím kterých by
+si pak dokázali analogicky vyvodit význam slova neznámého.
+
+Díky informacím z~tohoto slovníku by tak studující mohli být schopni
+odhadnout významy například takových internacionalismů, které byly
+přejaty do slovotvorného systému českého jazyka pomocí sufixů. Taktéž se
+očekává intuitivnější chápání derivačních pravidel u~cizinců, jejichž
+rodný jazyk patří do skupiny slovanských jazyků (z~důvodu flektivního
+charakteru těchto jazyků).
+
+\hypertarget{poux17eadavky-na-aplikaci}{%
+\section{Požadavky na aplikaci}\label{poux17eadavky-na-aplikaci}}
+
+Primárním zadáním praktické části bylo vytvořit derivační slovník ve
+formě mobilní aplikace, která bude využívat slovotvorných informací
+z~derivační sítě DeriNet. Dalším požadavkem, který vychází přímo z~povahy
+samotného slovníku jakožto podpůrného nástroje pro výuku cizinců, bylo
+vyhledat a~implementovat dvojjazyčný česko-anglický slovník, a~to proto
+,aby byla celá aplikace včetně slovotvorných definic kompletně
+lokalizovaná v~anglickém jazyce.
+
+Požadavky na funkcionalitu slovníku jako takového můžeme ve stručnosti
+shrnout v~několika bodech:
+
+\begin{itemize}
+\tightlist
+\item
+  funkce \emph{insert word} --\textgreater{} vrátí se zadaného vstupu:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    částečnou slovotvornou analýzu;
+  \item
+    anglickou i~českou definici založenou na strukturním významu slova
+    (v~případě že se takový ekvivalent bude nacházet ve vybraném
+    česko-anglickém slovníku);
+  \item
+    doplňující derivační a~morfologické informace;
+  \end{itemize}
+\item
+  heslář již zpracovaných slov ve formě rejstříku.
+\end{itemize}
+
+Všechny funkcionality mobilní aplikace měly být kompletně funkční
+v~offline režimu -- tím párem nebylo zapotřebí řešit autentifikaci
+uživatele\footnote{Nicméně je tato možnost stále v~řešení, a~to pro případ, kdybychom v~aplikaci chtěli nabídnout možnost ukládání již naučených hesel do osobního adresáře atd.}
+či pracovat se vzdálenými uložištěmi.
+
+\hypertarget{nuxe1vrh-aplikace}{%
+\section{Návrh aplikace}\label{nuxe1vrh-aplikace}}
+
+Na začátku samotného vývoje si je zapotřebí určit několik věci, v~našem
+případě jde primárně o:
+
+\begin{itemize}
+\tightlist
+\item
+  zvolení vhodných technologií včetně programovacího jazyka, kterými
+  budeme nástroj implementovat;
+\item
+  výběr dat a~jejich struktury, nad kterými budeme v~rámci aplikace
+  operovat;
+\item
+  návrh jednotlivých obrazovek aplikace a~navigaci mezi nimi (včetně
+  konkrétních přechodů);
+\item
+  určení si architektury aplikace, jde tedy o~popis jednotlivých
+  funkcionalit.
+\end{itemize}
 
 \hypertarget{principy-hybridnuxedch-aplikacuxed}{%
 \subsection{Principy hybridních
@@ -13,9 +89,8 @@ aplikací}\label{principy-hybridnuxedch-aplikacuxed}}
 \subsection{Framework Angular
 a~Ionic}\label{framework-angular-a-ionic}}
 
-\hypertarget{tvorba-slovnuxedkovuxfdch-definic}{%
-\section{Tvorba slovníkových
-definic}\label{tvorba-slovnuxedkovuxfdch-definic}}
+\hypertarget{architektura-aplikace}{%
+\section{Architektura aplikace}\label{architektura-aplikace}}
 
-\hypertarget{cizojazyux10dnuxfd-slovnuxedk}{%
-\section{Cizojazyčný slovník}\label{cizojazyux10dnuxfd-slovnuxedk}}
+\hypertarget{section}{%
+\subsection{}\label{section}}
