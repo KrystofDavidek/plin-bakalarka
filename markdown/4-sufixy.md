@@ -29,7 +29,7 @@ a to analýzou slovotvorného řetězce:
 
 Druhá fáze je tvorba samotné slovotvorné definice napříč různými slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitým regulárním výrazem viz pravidla níže:
 
- - [\^ch]\*ovatel --> Je prefigované?
+ - [\^ch]\*ovatel\footnote{V tomto případě existují výjimky typu kl?ovatel, kdy zní definice u neprefigovaného slovesa „ten, kdo kl?ove (kl?ová)“ a u prefigovaného „ten, kdo .\*kl?oval nebo .\*kl?ove (.\*kl?ová). Mezi tato slova patří .\*snovatel, .\*plovatel, .\*kovatel a .\*klovatel.} --> Je prefigované?
 	-	ne --> „ten, kdo .\*uje“
 	-	ano
 		-	Existuje ve slovotvorném řetězci sloveso ve tvaru .\*ovat --> „ten, kdo .\*oval nebo .*uje“
@@ -37,7 +37,7 @@ Druhá fáze je tvorba samotné slovotvorné definice napříč různými sloves
 -	.\*chovatel --> Je prefigované?
 	-	ne --> „ten, kdo .\*á“
 	-	ano --> „ten, kdo .\*ten, kdo .\*al nebo .\*á“
-- [\^o]\*\[iíyýaáy\]vatel --> „ten, kdo .\*[íýá]vá“
+- [\^o]\*\[iíyýaá\]vatel --> „ten, kdo .\*[íýá]vá“
 - [\^o]\*ěvatel --> „ten, kdo .*ívá“
 - .\*itel --> Je prefigované?
 	-	ne
@@ -49,7 +49,7 @@ Druhá fáze je tvorba samotné slovotvorné definice napříč různými sloves
 		- Existuje ve slovotvorném řetězci sloveso ve tvaru .\*ovat a zároveň v řetězci neexistuje sloveso ve tvaru .\*it? --> „ten, kdo .\*oval“
 		- Je sloveso ve tvaru .\*[eě]t? --> „ten, kdo .\*[eě]l nebo .\*í“
 		- Je sloveso ve tvaru .\*[\^ou].\*it  --> „ten, kdo .\*il nebo .\*í“
-- [\^zb]\*atel --> Je prefigované?
+- [\^zb]\*atel\footnote{Zde do výjimek u neprefigovaných podob spadají slova .\*zobatel, .\*hýbatel, .\*kazatel a .\*tazatel.} --> Je prefigované?
 	- ne --> „ten, kdo .\*á“
 	- ano --> „ten, kdo .\*al nebo .\*á“
 - .\*zatel --> Je prefigované?
