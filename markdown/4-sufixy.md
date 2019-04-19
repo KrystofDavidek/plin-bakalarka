@@ -16,12 +16,13 @@ Jak bylo již naznačeno, obecný význam činitelských jmen je podle Dokulila 
 
 Nejčastěji jsou substantiva tohoto slovotvorného typu odvozena od sloves nedokonavých (imperfektiv), ze zkoumaných 1129 lemmat je jich takto derivováno přibližně 74,3 %, navíc se určitá část substantiv vzniklých ze sloves dokonavých (perfektiv) chová tak, jako by byla odvozena z imperfektiv, jde typicky o názvy profesí (*zastoupit* --> *zastupitel*) a názvy osob, pro které je daná činnost typická, ale nejsou označovány za samostatné profese. (*chovat* --> *chovatel*). citace{Adri-XXX} Nicméně je zapotřebí poznamenat, že některá substantiva se mohou objevit v obou vidových podobách (např. *pojistitel* a *pojišťovatel* nebo *zhotovitel* a *zhotovovatel*). \parencite{simandl2016}
 
-### Slovotvorná definice
+### Slovníkové heslo
 
-Heslo derivačního slovníku se skládá ze tří částí, a to z definice v obecném slova smyslu, derivační informace a morfologické informace. Definice je tvořena částečnou slovotvornou analýzou (segmentace slova na slovotvornou bázi a formant/y) a samotnou slovotvornou definicí založenou na strukturním významu zadaného slova (ta je i v anglickém jazyce).
+Heslo derivačního slovníku se skládá ze tří částí, a to z definice v obecném slova smyslu, derivační informace a morfologické informace. Definice je tvořena částečnou slovotvornou analýzou (segmentace slova na slovotvornou bázi a formant/y, například *učitel* --> *učit-tel*) a samotnou slovotvornou definicí založenou na strukturním významu zadaného slova (ta je i v anglickém jazyce).
 
-Slovotvorná definice je tvořena dvěma kroky, první fází je určení slovesného vidu fundujícího/motivující slovesa. Ten lze do určité míry vyextrahovat z derivační sítě DeriNet -- 
-a to analýzou slovotvorného řetězce:
+#### Slovotvorná definice
+
+Slovotvorná definice je tvořena dvěma kroky, první fází je určení slovesného vidu fundujícího/motivující slovesa. Ten lze do určité míry vyextrahovat z derivační sítě DeriNet -- a to analýzou slovotvorného řetězce:
 
  - sloveso je perfektum, pokud řetězec obsahuje tutéž slovesnou formu v neprefigované podobě ve dvou předchozích slovotvorných krocích, mějme například řetězec *pracovat* (2. krok) --> ***z**pracovat* (1. krok) --> *zpracovatel* -- slovotvorná definice tak bude znít „ten, kdo zpracoval nebo zpracuje“;
  - sloveso je sekundární imperfektivum, pokud řetězec obsahuje rozdíl ve dvou předchozích slovotvorných krocích v rámci specifického sufixu u jedné slovesné formy, příkladem může být řetězec *pracovat* --> *zpracovat* (2. krok) --> *zpraco**vá**vat* (1. krok) --> *zpracovávatel* -- slovotvorná definice tak bude znít „ten, kdo zpracovává“;
@@ -61,5 +62,12 @@ Druhá fáze je tvorba samotné slovotvorné definice napříč různými sloves
 - p[ií]satel --> Je prefigované?
 	- ne --> „ten, kdo píše“
 
-Veškerá výše zmíněná pravidla jsou taktéž aplikovatelná na slovotvorný typ *-telka*, u níž zní slovotvorná definice v obecné rovině „ta, která .\*“ -- pokud budeme mít například za vstup slovo *zpracovatelka* tak její definice bude „ta, která zpracovala nebo zpracuje“.
+Veškerá výše zmíněná pravidla jsou taktéž aplikovatelná na slovotvorný typ *-telka*, u níž zní slovotvorná definice v obecné rovině takto „ta, která .\*“ -- pokud budeme mít například za vstup slovo *vybudovatelka*, tak jeho definice bude znít „ta, která vybudovala nebo vybuduje (vybudovat)“. Za definicí samotnou je dále v závorce poznamenáno základové sloveso v infinitivním tvaru, z něhož bylo činitelské jméno derivováno.
 
+V anglickém jazyce je slovotvorná definice zobecněná na „someone who .\*“ s tím že je na konci v závorce specifikováno, o jaký se jedná jedná rod, příkladem může být znovu výraz *vybudovatelka* s anglickou definicí „someone who builds (feminine)“. Problematika překladu slovesa ve třetí osobě je rozebrána v technické části v podkapitole XXX.
+
+#### Derivační a morfologická informace
+
+Kromě hlavní definice slovníkové heslo obsahuje ještě dodatečnou derivační a morfologickou informaci. První z nich obsahuje základové slovo, z něhož bylo vstupní odvozeno, a typ derivačního procesu -- v případě tohoto slovotvorného typu se jedná o sufixaci. 
+
+Morfologická informace se pak skládá ze slovního druhu vstupního výrazu, z jeho rodu a ze zařazení slova do určitého morfologického paradigmatu paradigmatu.
