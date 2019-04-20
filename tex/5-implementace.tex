@@ -54,8 +54,9 @@ shrnout v~několika bodech:
   heslář již zpracovaných slov ve formě rejstříku.
 \end{itemize}
 
-Všechny funkcionality mobilní aplikace měly být kompletně funkční
-v~offline režimu -- tím párem nebylo zapotřebí řešit autentifikaci
+Součástí zadání také bylo to, aby všechny funkcionality mobilní aplikace
+byly kompletně funkční bez připojení k~internetu -- tím párem nebylo
+zapotřebí řešit autentifikaci
 uživatele\footnote{Nicméně je tato možnost stále v~řešení, a~to pro případ, kdybychom v~aplikaci chtěli nabídnout možnost ukládání již naučených hesel do osobního adresáře atd.}
 či pracovat se vzdálenými uložištěmi.
 
@@ -75,15 +76,54 @@ případě jde primárně o:
   operovat;
 \item
   návrh jednotlivých obrazovek aplikace a~navigaci mezi nimi (včetně
-  konkrétních přechodů);
+  konkrétních přechodů).
 \end{itemize}
 
 \hypertarget{pouux17eituxe9-technologie}{%
 \subsection{Použité technologie}\label{pouux17eituxe9-technologie}}
 
-\hypertarget{hybridnuxed-mobilnuxed-aplikace}{%
-\subsubsection{Hybridní mobilní
-aplikace}\label{hybridnuxed-mobilnuxed-aplikace}}
+Tradiční způsob vývoje mobilních aplikací se obecně dělí na tři hlavní
+typy -- jde o~takzvané webové, nativní a~hybridní aplikace. Každý
+z~těchto přístupů má svá vlastní pozitiva a~negativa, a~tedy si je
+zapotřebí na začátku každého vývoje určit, pro jaké účely má daná
+aplikace sloužit a~jaké funkcionality splňovat.
+
+Webové aplikace fungují typicky na všech platformách a~jsou založeny na
+klasických webových technologiích, tzn. na HTML, CSS a~na programovacím
+jazyce JavaScript (viz další kapitola), jedná se tedy o~přizpůsobené
+webové stránky, z~čehož vyplývá potřeba internetového připojení. Výhodou
+tohoto přístupu je kromě již zmíněné multiplatformní povahy ukládání dat
+na webových serverech, tyto aplikace tak nevyžadují velké množství
+paměti na lokálním uložišti. Za hlavní negativum je považována nižší
+kompatibilita s~hardwarem a~operačním systémem u~daných mobilních
+zařízení.
+
+Na druhou stranu nativní aplikace jsou vytvořeny pouze pro jednu
+specifickou platformu, to znamená, že například aplikaci vytvořenou pro
+systém Android nelze spustit na systému iOS a~naopak. Z~tohoto přístupu
+vyplývají výhody ve formě maximálního využití daného operačního systému
+(větší výkon, kompatibilita, uživatelská zkušenosti, \ldots{}), ale
+i~nevýhody týkající se nutnosti využívání specifických technologií
+určitého operačního systému (například pro operační systém iOS se
+využívá programovací jazyk Objective-C (nově Swift), pro Android je
+určen jazyk Java).
+
+Posledním typem jsou pak hybridní aplikace, které kombinují oba předešlé
+přístupy -- vývoj probíhá ve specializovaném nástroji za použití
+webových technologií, v~rámci kterého se testuje logika jednotlivých
+funkcionalit. Po jeho dokončení dochází ke kompilaci do vybraného
+operačního systému, v~rámci kterého se již pracuje s~klasickými
+nativními funkcemi (například s~mikrofonem, fotoaparátem, lokálním
+uložištěm v~telefonu atd.). Výhoda hybridních aplikací je
+v~jednoduchosti vývoje, který je v~porovnání s~nativním rychlý a~snadný,
+a~to i~z~toho důvodu, že se u~něj pracuje pouze s~jedním zdrojem kódu,
+který je použitelný na větším počtu platforem. Negativním aspektem je
+pak pomalejší výpočetní výkon, který je spojen s~využitím speciálních
+knihoven pro převod do výsledné mobilní aplikace.
+
+Jelikož naše mobilní aplikace používá minimum nativních funkcí a~jde nám
+spíše o~rozšíření nástroje napříč různými platformami, zvolíme hybridní
+formu vývoje.
 
 \hypertarget{webovuxe9-technologie}{%
 \subsubsection{Webové technologie}\label{webovuxe9-technologie}}
