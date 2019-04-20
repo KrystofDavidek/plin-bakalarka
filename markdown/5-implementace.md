@@ -8,7 +8,7 @@ Díky informacím z tohoto slovníku by tak studující mohli být schopni odhad
 
 ## Požadavky na aplikaci
 
-Primárním zadáním praktické části bylo vytvořit derivační slovník ve formě mobilní aplikace, která bude využívat slovotvorných informací z derivační sítě DeriNet. Dalším požadavkem, který vychází přímo z povahy samotného slovníku jakožto podpůrného nástroje pro výuku cizinců, bylo vyhledat a implementovat dvojjazyčný česko-anglický slovník, a to proto ,aby byla celá aplikace včetně slovotvorných definic kompletně lokalizovaná v anglickém jazyce.
+Primárním zadáním praktické části bylo vytvořit derivační slovník ve formě mobilní aplikace, který bude využívat slovotvorných informací z derivační sítě DeriNet. Dalším požadavkem, který vychází přímo z povahy samotného slovníku jakožto podpůrného nástroje pro výuku cizinců, bylo vyhledat a implementovat dvojjazyčný česko-anglický slovník, a to proto, aby byla celá aplikace včetně slovotvorných definic kompletně lokalizovaná v anglickém jazyce.
 
 Požadavky na funkcionalitu slovníku jako takového můžeme ve stručnosti shrnout v několika bodech:
 
