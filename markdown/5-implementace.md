@@ -84,6 +84,32 @@ Mobilní aplikace se skládá z pěti hlavních stránek (komponent), jde o:
     \label{algoritmus}
  \end{figure}
 
-Implementačně je nejkomplexnější  komponenta s funkcionalitou *insert word*, proto se na ní v následující části důkladněji zaměříme a pro demonstraci algoritmu použijeme přiložené schéma (viz obrázek \ref{algoritmus}. V prvé řadě musí aplikace nějakým způsobem získat vstup pro analýzu, existují dva způsoby jak k tomu docílit -- buď využít rejstřík zpracovaných slov nebo ručně vepsat zadané slovo. Stránka tedy vždy po nahrání kontroluje, zda nemá očekávat vstup z komponenty.
+Implementačně je nejkomplexnější  komponenta s funkcionalitou *insert word*, proto se na ní v následující části důkladněji zaměříme a pro demonstraci použitého algoritmu použijeme přiložené schéma (viz obrázek \ref{algoritmus}). Pro větší přehlednost jsou na diagramu modře zvýrazněny komponenty, žlutou barvou služby, zeleně interní uložiště s daty a červeně pak hlavní funkce.
 
+V prvé řadě musí aplikace nějakým způsobem získat vstup pro následnou analýzu, existují dva způsoby, jak k tomu docílit -- v případě 1.a je za vstup považováno takové slovo, které bylo vybráno v rámci komponenty *index*, tedy je vstupní slovo vybráno na stránce s rejstříkem zpracovaných sufixů. Druhou možností (1.b) je zadat slovo ručně prostřednictvím funkce *fromUser* z textového pole, v takovém případě se po zadání prvního písmena (a následně dalších znaků) vyselektují všechna slova z rejstříku, která začínají zadaným podřetězcem.
 
+V okamžiku, kdy je vybráno vstupní slovo, je tento řetězec zaslán do služby *analyze* (2), která řeší všechny záležitosti týkající se derivační sítě DeriNet a překladu. V této službě se při jejím volání inicializuje objekt, který bude cílovým výstupem této služby -- tento objekt nazýváme *infoBase* a skládá se z několika atributů:
+
+- vstup v českém jazyce (při inicializaci je za jeho hodnotu přiřazeno vstupní slovo);
+- vstup v anglickém jazyce (při inicializaci je spuštěn automatický překlad);
+- slovotvorný typ (tento a zbytek atributů zůstávají při inicializaci prázdné);
+- prefigovanost;
+- prefix;
+- derivační proces;
+- rod;
+- derivační cesta.
+
+Při inicializaci se souběžně načítají data z interního uložiště, která jsou následně zkonvertována do použitelného datového formátu, konkrétně jde o databázi DeriNet (1), česko-anglický slovník Glosbe\footnote{https://glosbe.com/ -- jedná se o open-source projekt pod licencí CC-BY-SA z něhož byla vyextrahována data pro naše použití.}(2) a seznam výjimek (3, viz kapitola \ref{zpracovanuxe9-slovotvornuxe9-sufixy}).
+
+Dalším krokem je postupné procházení derivační sítě DeriNet, z níž potřebujeme vyextrahovat výše zmíněné lingvistické informace, procházíme tedy derivační řetězec směrem od slova vstupního k jeho slovu základovému do té chvíle, než se zamění slovní druh, pak přistupujeme k volání funkce *checkDertivationType* (6). Ta nám porovná řetězce obou slov a určí, o jaký se jedná derivační proces a slovotvorný typ. Dále určuje algoritmus z celého derivačního řetězce prefigovanost (popřípadě zjišťuje o jaký prefix se přesně jedná), zaznamená si rod vstupního slova (ve výjimkách máme tedy v případě slovotvorného sufixu *-tel* taková slova, která jsou neživotnými maskuliny) a ukládá si základové slovo spolu s jeho anglickým ekvivalentem. Posléze služba *analyze* vrací již vyplněný objekt *infoBase* zpátky do komponenty *inser-word*, vrácený objekt může vypadat například takhle:
+
+    1.  czechInput:  "zpracovatel"
+    2.  czechParent:  "zpracovat"
+    3.  derProcess:  "suffixation"
+    4.  derivType:  "tel"
+    5.  derivationPath:  (2) [{…},  {…}] // seznam obsahující slova zpracovatel a zpracovat
+    6.  englishInput:  "" // česká odvozená slova často nemívají ve slovníku svůj anglický ekvivalent
+    7.  englishParent:  "processs"
+    8.  gender:  "M"
+    9.  isPrefig:  true
+    10.  prefix:  "z"
