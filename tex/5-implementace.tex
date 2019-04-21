@@ -117,8 +117,8 @@ nativními funkcemi (například s~mikrofonem, fotoaparátem, lokálním
 uložištěm v~telefonu atd.). Výhoda hybridních aplikací je
 v~jednoduchosti vývoje, který je v~porovnání s~nativním rychlý a~snadný,
 a~to i~z~toho důvodu, že se u~něj pracuje pouze s~jedním zdrojem kódu,
-který je použitelný na větším počtu platforem. Negativním aspektem je
-pak pomalejší výpočetní výkon, který je spojen s~využitím speciálních
+který je použitelný na větší počet platforem. Negativním aspektem je pak
+pomalejší výpočetní výkon, který je spojen s~využitím speciálních
 knihoven pro převod do výsledné podoby mobilní aplikace.
 
 Jelikož se v~našem případě pracuje s~minimem nativních funkcí, aplikace
@@ -129,9 +129,62 @@ vývoje.
 \hypertarget{webovuxe9-technologie}{%
 \subsubsection{Webové technologie}\label{webovuxe9-technologie}}
 
+Jak bylo výše poznamenáno, vývoj hybridních aplikací probíhá
+prostřednictvím klasických webových technologií, do nichž spadá HTML,
+CSS a~JavaScript, proto si je v~následujících odstavcích v~krátkosti
+popíšeme.
+
+HTML (Hypertext Markup Language) a~CSS (Cascading Style Sheets) jsou dvě
+základní technologie, na nich jsou v~nejobecnější rovině postaveny
+webové stránky. HTML je značkovací jazyk, pomocí kterého popisujeme
+strukturu webových stránek, to znamená, že za použití speciálně
+definovaných značek přiřazujeme jednotlivé významy částem obsahu. Pomocí
+CSS pak nastavujeme vizuální podobu dané webové stránky (barvy, fonty,
+odsazení atd.), důležitou vlastností CSS je nezávislost na HTML, tedy
+můžeme dle potřeby tyto dva jazyky separovat a~následně s~mírnými
+obměnami využít v~rámci jiného projektu/prostředí.~\parencite{htmlcss}
+
+Před samotným vykreslením určité webové stránky musí dojít k~převedení
+HTML dokumentu do objektu zvaného DOM (Document Object Model) -- jde
+o~HTML uložené ve stromové struktuře, kde je o~každém jednotlivém uzlu
+(tedy značce) uložená informace o~jeho lokaci, s~tímto objektem dále
+pracuje CSS (aplikují se jednotlivá pravidla týkající se vykreslení)
+a~JavaScript, prostřednictvím kterého se pak může dynamicky měnit
+struktura a~zobrazení tohoto stromového objektu.
+\parencite{howbrowserswork}
+
+JavaScript (obecněji ECMAscript) je
+skriptovací\footnote{Jako skriptovací jazyk je označován z~toho důvodu, že není při svém spuštění nijak kompilován (například na rozdíl od programovacích jazyků jako jsou Java nebo Objective-C) a~namísto toho je rovnou proveden daným webovým prohlížečem (ten je tak jeho interpretem).}
+programovací jazyk, který je součástí všech moderních webových
+prohlížečů. JavaScript se používá na takových místech, kde je zapotřebí
+v~rámci webové stránky jakkoliv interagovat s~jejím uživatelem, to
+znamená, že ho typicky využijeme v~oblasti webových aplikací, u~nichž je
+očekávaný zásah uživatele a~je zapotřebí dynamicky měnit zobrazovaný
+obsah.~\parencite{javascript}
+
 \hypertarget{frameworky-ionic-a-angular}{%
 \subsubsection{Frameworky Ionic
 a~Angular}\label{frameworky-ionic-a-angular}}
+
+Při tvorbě komplexnějších webových aplikací
+
+\hypertarget{angular}{%
+\subparagraph{Angular}\label{angular}}
+
+Angular (commonly referred to as ``Angular 2+'' or ``Angular v2 and
+above''){[}4{]}{[}5{]} is a~TypeScript-based open-source web application
+framework led by the Angular Team at Google and by a~community of
+individuals and corporations. Angular is a~complete rewrite from the
+same team that built AngularJS.
+
+\hypertarget{ionic}{%
+\subparagraph{Ionic}\label{ionic}}
+
+Angular (commonly referred to as ``Angular 2+'' or ``Angular v2 and
+above''){[}4{]}{[}5{]} is a~TypeScript-based open-source web application
+framework led by the Angular Team at Google and by a~community of
+individuals and corporations. Angular is a~complete rewrite from the
+same team that built AngularJS.
 
 \hypertarget{volba-dat}{%
 \subsection{Volba dat}\label{volba-dat}}
