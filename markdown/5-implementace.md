@@ -116,7 +116,7 @@ Dalším krokem je postupné procházení derivační sítě DeriNet, z níž po
 
 Nyní se dostáváme do kroku č. 8, kdy je objekt *infoBase* předán druhé službě s názvem *createDefiniton*, jejímž účelem je vytvořit samotné slovníkové heslo do formy objektu *definiton*. Jednotlivé části jsou zpracovány separátně, a to jednak z důvodu přehlednosti kódu, ale taktéž z ryze praktické příčiny, tedy aby s výsledným objektem byla co nejjednodušší  manipulace na úrovní HTML šablony.
 
-Na začátku inicializujeme obecnou slovotvornou definici podle rodu ze vstupního objektu *infoBase* a poté přistupujeme k funkci *getThirdPerson* (9), v rámci které vytváříme slovesnou formu ve třetí osobě podle lingvistických pravidel popsaných v kapitole /ref{slovotvornuxe1-definice}.
+Na začátku inicializujeme obecnou slovotvornou definici podle rodu ze vstupního objektu *infoBase* a poté přistupujeme k funkci *getThirdPerson* (9), v rámci které vytváříme slovesnou formu ve třetí osobě podle lingvistických pravidel popsaných v kapitole \ref{slovotvornuxe1-definice}.
 
 Následně dotvoříme derivační a morfologickou informaci z poznatků získaných ze služby *analyze* a vracíme objekt *definiton* zpět do komponenty *insert-word* (10). Pokud je vrácen objekt správného typu, je HTML šabloně umožněno skrze direktivy frameworku Angular přistoupit k jednotlivým častém definice a vykreslit je do označených míst v šabloně (11).
 
