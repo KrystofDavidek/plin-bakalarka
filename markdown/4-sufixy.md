@@ -10,7 +10,7 @@ Při výběru slovotvorných typů ke zpracování byl brán zřetel na jejich f
 
 ### Charakteristika
 
-Pro naše účely bylo důležité vybrat takový slovotvorný typ, u něhož se převážně shoduje slovotvorný a lexikální význam. Tato podmínka je zde splněna, protože z výzkumné práce Adriany Válkové (To jsem šplhoun, co? XXX) vyplývá, že z 1 129 zkoumaných lemmat zakončených příponou *-tel* pouze u 3,03 % z nich lexikální význam nahrazuje význam strukturní (to se týká převážně neživotných substantiv typu *jmenovatel*, *dělitel* atd.) a celkově je u 4,42 % lexikální význam obecnější (např.*vnímatel*\footnote{Význam slova vnímatel je dle SSJČ \parencite{ssjc} „kdo uvědoměle vnímá umělecké dílo“, zde došlo prokazatelně k lexikalizaci slovotvorného významu.}). Tento lingvistický výzkum byl založen na datech z korpusu SYNv6 a jednotlivé typy významů byly porovnávány prostřednictvím výkladových slovníků. citace{Adri-XXX}
+Pro naše účely bylo důležité vybrat takový slovotvorný typ, u něhož se převážně shoduje slovotvorný a lexikální význam. Tato podmínka je zde splněna, protože z výzkumné práce Adriany Válkové (To jsem šplhoun, co? XXX) vyplývá, že z 1 129 zkoumaných lemmat zakončených příponou *-tel* pouze u 3,03 % z nich lexikální význam nahrazuje význam strukturní (to se týká převážně neživotných substantiv typu *jmenovatel*, *dělitel* atd.) a celkově je u 4,42 % lexikální význam obecnější (např.*vnímatel*\footnote{Význam slova vnímatel je dle SSJČ „kdo uvědoměle vnímá umělecké dílo“ \parencite{ssjc}, zde došlo prokazatelně do určité míry k lexikalizaci slovotvorného významu.}). Tento lingvistický výzkum byl založen na datech z korpusu SYNv6 a jednotlivé typy významů byly porovnávány prostřednictvím výkladových slovníků. citace{Adri-XXX}
 
 Jak bylo již naznačeno, obecný význam činitelských jmen je podle Dokulila definován jako „názvy osob a živých bytostí vůbec podle povahy a druhu jejich činností“ \parencite[17]{dokulil67}. Sufix *-tel* tak vyjadřuje, že takto odvozený pojem je subjektem děje základového slovesa, s tím že nejčastěji jde o aktivní\footnote{To neplatí u substantiv trpitel, truchlitel a bydlitel, která jsou odvozena ze stavových sloves. \parencite[17]{dokulil67}} účast subjektu na ději (např. subjekt označen slovem *učitel* vykonává takovou činnost, kterou vyjadřuje sloveso *učit*, z něhož je výraz odvozený). U tohoto slovotvorného typu se typicky jedná o mužská životná substantiva, nicméně se najdou i výjimky v podobě neživotných substantiv (viz předchozí odstavec). \parencite{simandl2016}
 
@@ -18,11 +18,11 @@ Nejčastěji jsou substantiva tohoto slovotvorného typu odvozena od sloves nedo
 
 ### Slovníkové heslo
 
-Heslo derivačního slovníku se skládá ze tří částí, a to z definice v obecném slova smyslu, derivační informace a morfologické informace. Definice je tvořena částečnou slovotvornou analýzou (segmentace slova na slovotvornou bázi a formant/y, například *učitel* --> *učit-tel*) a samotnou slovotvornou definicí založenou na strukturním významu zadaného slova (ta je i v anglickém jazyce).
+Heslo derivačního slovníku se skládá ze tří částí, a to z definice v obecném slova smyslu, derivační informace a morfologické informace. Definice je tvořena částečnou slovotvornou analýzou (segmentace slova na slovotvornou bázi a formant/y, například *učitel* --> *učit-tel*) a samotnou slovotvornou definicí založenou na strukturním významu zadaného slova.
 
 #### Slovotvorná definice
 
-Slovotvorná definice je tvořena dvěma kroky, první fází je určení slovesného vidu fundujícího/motivující slovesa. Ten lze do určité míry vyextrahovat z derivační sítě DeriNet -- a to analýzou slovotvorného řetězce:
+Slovotvorná definice je tvořena dvěma kroky, první fáze je určení slovesného vidu fundujícího/motivující slovesa. Ten lze do určité míry vyextrahovat z derivační sítě DeriNet -- a to analýzou slovotvorného řetězce:
 
  - sloveso je perfektum, pokud řetězec obsahuje tutéž slovesnou formu v neprefigované podobě ve dvou předchozích slovotvorných krocích, mějme například řetězec *pracovat* (2. krok) --> ***z**pracovat* (1. krok) --> *zpracovatel* -- slovotvorná definice tak bude znít „ten, kdo zpracoval nebo zpracuje“;
  - sloveso je sekundární imperfektivum, pokud řetězec obsahuje rozdíl ve dvou předchozích slovotvorných krocích v rámci specifického sufixu u jedné slovesné formy, příkladem může být řetězec *pracovat* --> *zpracovat* (2. krok) --> *zpraco**vá**vat* (1. krok) --> *zpracovávatel* -- slovotvorná definice tak bude znít „ten, kdo zpracovává“;
@@ -62,9 +62,9 @@ Druhá fáze je tvorba samotné slovotvorné definice napříč různými sloves
 - p[ií]satel --> Je prefigované?
 	- ne --> „ten, kdo píše“
 
-Veškerá výše zmíněná pravidla jsou taktéž aplikovatelná na slovotvorný typ *-telka*, u níž zní slovotvorná definice v obecné rovině takto „ta, která .\*“ -- pokud budeme mít například za vstup slovo *vybudovatelka*, tak jeho definice bude znít „ta, která vybudovala nebo vybuduje (vybudovat)“. Za definicí samotnou je dále v závorce poznamenáno základové sloveso v infinitivním tvaru, z něhož bylo činitelské jméno derivováno.
+Veškerá výše zmíněná pravidla jsou taktéž aplikovatelná na slovotvorný typ *-telka*, u níž zní slovotvorná definice v obecné rovině takto: „ta, která .\*“ -- pokud budeme mít například za vstup slovo *vybudovatelka*, tak jeho definice bude znít „ta, která vybudovala nebo vybuduje (vybudovat)“. Za definicí samotnou je dále v závorce poznamenáno základové sloveso v infinitivním tvaru, z něhož bylo činitelské jméno derivováno.
 
-V anglickém jazyce je slovotvorná definice zobecněná na „someone who .\*“ s tím že je na konci v závorce specifikováno, o jaký se jedná jedná rod, příkladem může být znovu výraz *vybudovatelka* s anglickou definicí „someone who builds (feminine)“. Problematika překladu slovesa ve třetí osobě je rozebrána v technické části v podkapitole XXX.
+V anglickém jazyce je slovotvorná definice zobecněná na „someone who .\*“ s tím že je na konci v závorce specifikováno, o jaký se jedná jedná rod, příkladem může být znovu výraz *vybudovatelka* s anglickou definicí „someone who builds (feminine)“.
 
 #### Derivační a morfologická informace
 

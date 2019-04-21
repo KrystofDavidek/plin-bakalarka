@@ -120,4 +120,4 @@ Na začátku inicializujeme obecnou slovotvornou definici podle rodu ze vstupní
 
 Následně dotvoříme derivační a morfologickou informaci z poznatků získaných ze služby *analyze* a vracíme objekt *definiton* zpět do komponenty *insert-word* (10). Pokud je vrácen objekt správného typu, je HTML šabloně umožněno skrze direktivy frameworku Angular přistoupit k jednotlivým častém definice a vykreslit je do označených míst v šabloně (11).
 
-Výhodou tohoto objektového přístupu je fakt, že se na jednotlivých jasně otypovaných místech v kódu provádí pouze jeden specifický úkol, a tím je do určité míry zajištěna robustnost celkové aplikace, kdy je při výpadku jedné ze služeb/funkce jednoduché lokalizovat místo chyby.
+Výhoda tohoto objektového přístupu je taková, že se na jednotlivých jasně otypovaných místech v kódu provádí pouze jeden specifický úkol, a tím je do určité míry zajištěna robustnost celkové aplikace, kdy je při výpadku jedné služby/funkce jednoduché lokalizovat místo chyby.

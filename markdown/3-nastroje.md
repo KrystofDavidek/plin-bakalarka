@@ -7,7 +7,7 @@ Na základě onomaziologické teorie Miloše Dokulila (a jeho následovníků) v
 
 ### Morfio
 
-Webová aplikace Morfio je jedním z projektů Českého národního korpusu, která „slouží k odhadování rozsahu a produktivity slovotvorných modelů v češtině na základě korpusových dat“. Jde tedy o systém, který se snaží ve zvoleném korpusu najít takové n-tice slov, které se shodují určitým slovotvorným základem a liší se specifickým slovotvorným formantem (těch může být i více, navíc je zde reflektována problematika hláskových alternací.) Nástroj je tedy vhodný spíše jako výzkumná pomůcka než-li jako prostředek ke tvorbě relevantních lingvistických výstupů, protože při manipulaci s korpusovými daty, jež nejsou nijak sémanticky označkována, může docházet k chybám například z důvodu homonymie. \parencite{cvrcek13}
+Webová aplikace Morfio je jedním z projektů Českého národního korpusu, která „slouží k odhadování rozsahu a produktivity slovotvorných modelů v češtině na základě korpusových dat“. Jde tedy o systém, který se snaží ve zvoleném korpusu najít takové n-tice slov, které se shodují určitým slovotvorným základem a liší se specifickým slovotvorným formantem (těch může být i více, navíc je zde reflektována problematika hláskových alternací.) Nástroj je tedy vhodný spíše jako výzkumná pomůcka nežli jako prostředek ke tvorbě relevantních lingvistických výstupů, protože při manipulaci s korpusovými daty, jež nejsou nijak sémanticky označkována, může docházet k chybám například z důvodu homonymie. \parencite{cvrcek13}
 
 ### Morfologické analyzátory Ajka
 
