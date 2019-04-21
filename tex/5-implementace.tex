@@ -308,20 +308,21 @@ Dále určuje algoritmus z~celého derivačního řetězce prefigovanost
 (popřípadě zjišťuje o~jaký prefix se přesně jedná), zaznamená si rod
 vstupního slova (ve výjimkách máme tedy v~případě slovotvorného sufixu
 \emph{-tel} taková slova, která jsou neživotnými maskuliny) a~ukládá si
-základové slovo spolu s~jeho anglickým ekvivalentem. Posléze služba
+základové slovo spolu s~jeho anglickým ekvivalentem (u~českých
+odvozených slov ve slovníku často překlad chybí). Posléze služba
 \emph{analyze} vrací již vyplněný objekt \emph{infoBase} zpátky do
 komponenty \emph{inser-word}, vrácený objekt může vypadat například
-takhle:
+takto:
 
 \begin{verbatim}
 1.  czechInput:  "zpracovatel"
 2.  czechParent:  "zpracovat"
 3.  derProcess:  "suffixation"
 4.  derivType:  "tel"
-5.  derivationPath:  (2) [{…},  {…}] // seznam obsahující slova zpracovatel a zpracovat
-6.  englishInput:  "" // česká odvozená slova často nemívají ve slovníku svůj anglický ekvivalent
+5.  derivationPath:  (2) [{…},  {…}] // derivační řetězec
+6.  englishInput:  ""
 7.  englishParent:  "processs"
 8.  gender:  "M"
 9.  isPrefig:  true
-10.  prefix:  "z"
+10. prefix:  "z"
 \end{verbatim}

@@ -101,15 +101,15 @@ V okamžiku, kdy je vybráno vstupní slovo, je tento řetězec zaslán do služ
 
 Při inicializaci se souběžně načítají data z interního uložiště, která jsou následně zkonvertována do použitelného datového formátu, konkrétně jde o databázi DeriNet (1), česko-anglický slovník Glosbe\footnote{https://glosbe.com/ -- jedná se o open-source projekt pod licencí CC-BY-SA z něhož byla vyextrahována data pro naše použití.}(2) a seznam výjimek (3, viz kapitola \ref{zpracovanuxe9-slovotvornuxe9-sufixy}).
 
-Dalším krokem je postupné procházení derivační sítě DeriNet, z níž potřebujeme vyextrahovat výše zmíněné lingvistické informace, procházíme tedy derivační řetězec směrem od slova vstupního k jeho slovu základovému do té chvíle, než se zamění slovní druh, pak přistupujeme k volání funkce *checkDertivationType* (6). Ta nám porovná řetězce obou slov a určí, o jaký se jedná derivační proces a slovotvorný typ. Dále určuje algoritmus z celého derivačního řetězce prefigovanost (popřípadě zjišťuje o jaký prefix se přesně jedná), zaznamená si rod vstupního slova (ve výjimkách máme tedy v případě slovotvorného sufixu *-tel* taková slova, která jsou neživotnými maskuliny) a ukládá si základové slovo spolu s jeho anglickým ekvivalentem. Posléze služba *analyze* vrací již vyplněný objekt *infoBase* zpátky do komponenty *inser-word*, vrácený objekt může vypadat například takhle:
+Dalším krokem je postupné procházení derivační sítě DeriNet, z níž potřebujeme vyextrahovat výše zmíněné lingvistické informace, procházíme tedy derivační řetězec směrem od slova vstupního k jeho slovu základovému do té chvíle, než se zamění slovní druh, pak přistupujeme k volání funkce *checkDertivationType* (6). Ta nám porovná řetězce obou slov a určí, o jaký se jedná derivační proces a slovotvorný typ. Dále určuje algoritmus z celého derivačního řetězce prefigovanost (popřípadě zjišťuje o jaký prefix se přesně jedná), zaznamená si rod vstupního slova (ve výjimkách máme tedy v případě slovotvorného sufixu *-tel* taková slova, která jsou neživotnými maskuliny) a ukládá si základové slovo spolu s jeho anglickým ekvivalentem (u českých odvozených slov ve slovníku často překlad chybí). Posléze služba *analyze* vrací již vyplněný objekt *infoBase* zpátky do komponenty *inser-word*, vrácený objekt může vypadat například takto:
 
     1.  czechInput:  "zpracovatel"
     2.  czechParent:  "zpracovat"
     3.  derProcess:  "suffixation"
     4.  derivType:  "tel"
-    5.  derivationPath:  (2) [{…},  {…}] // seznam obsahující slova zpracovatel a zpracovat
-    6.  englishInput:  "" // česká odvozená slova často nemívají ve slovníku svůj anglický ekvivalent
+    5.  derivationPath:  (2) [{…},  {…}] // derivační řetězec
+    6.  englishInput:  ""
     7.  englishParent:  "processs"
     8.  gender:  "M"
     9.  isPrefig:  true
-    10.  prefix:  "z"
+    10. prefix:  "z"
