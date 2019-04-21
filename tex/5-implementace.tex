@@ -215,3 +215,39 @@ komponent.~\parencite{angulararchitecture}
 
 \hypertarget{implementace-aplikace}{%
 \section{Implementace aplikace}\label{implementace-aplikace}}
+
+V~poslední kapitole si popíšeme architekturu předkládané aplikace spolu
+s~jejími hlavními funkcionalitami a~využívanými jazykovými zdroji.
+
+\hypertarget{architektura-aplikace}{%
+\subsection{Architektura aplikace}\label{architektura-aplikace}}
+
+Mobilní aplikace se skládá z~pěti hlavních stránek (komponent), jde o:
+
+\begin{itemize}
+\tightlist
+\item
+  vysouvací menu;
+\item
+  úvodní obrazovku;
+\item
+  stránku s~funkcí \emph{insert word};
+\item
+  rejstřík se zpracovanými slovy;
+\item
+  stránku s~informacemi o~aplikaci.
+\end{itemize}
+
+\begin{figure}[ht]   
+    \centering
+    \includegraphics[width=.9\textwidth]{algoritmus}  
+    \caption{Tohle je můj algortmus}
+    \label{algoritmus}
+ \end{figure}
+
+Implementačně je nejkomplexnější samotná komponenta s~funkcí
+\emph{insert word}, proto se na ní v~následujících odstavcích důkladněji
+zaměříme. V~prvé řadě musí aplikace nějakým způsobem získat vstup pro
+analýzu, existují dva způsoby jak k~tomu docílit -- buď využít rejstřík
+zpracovaných slov nebo ručně vepsat zadané slovo. Stránka tedy vždy po
+nahrání kontroluje, zda nemá očekávat vstup z~komponenty.

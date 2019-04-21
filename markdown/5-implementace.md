@@ -64,3 +64,26 @@ Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrs
 ### Návrh obrazovek
 
 ## Implementace aplikace
+
+V poslední kapitole si popíšeme architekturu předkládané aplikace spolu s jejími hlavními funkcionalitami a využívanými jazykovými zdroji.
+
+### Architektura aplikace
+
+Mobilní aplikace se skládá z pěti hlavních stránek (komponent), jde o:
+
+- vysouvací menu;
+- úvodní obrazovku;
+- stránku s funkcí *insert word*;
+- rejstřík se zpracovanými slovy;
+- stránku s informacemi o aplikaci.
+
+\begin{figure}[ht]   
+    \centering
+    \includegraphics[width=.9\textwidth]{algoritmus}  
+    \caption{Tohle je můj algortmus}
+    \label{algoritmus}
+ \end{figure}
+
+Implementačně je nejkomplexnější samotná komponenta s funkcí *insert word*, proto se na ní v následujících odstavcích důkladněji zaměříme. V prvé řadě musí aplikace nějakým způsobem získat vstup pro analýzu, existují dva způsoby jak k tomu docílit -- buď využít rejstřík zpracovaných slov nebo ručně vepsat zadané slovo. Stránka tedy vždy po nahrání kontroluje, zda nemá očekávat vstup z komponenty.
+
+
