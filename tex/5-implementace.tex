@@ -311,7 +311,7 @@ vstupního slova (ve výjimkách máme tedy v~případě slovotvorného sufixu
 základové slovo spolu s~jeho anglickým ekvivalentem (u~českých
 odvozených slov ve slovníku často překlad chybí). Posléze služba
 \emph{analyze} vrací již vyplněný objekt \emph{infoBase} zpátky do
-komponenty \emph{inser-word}, vrácený objekt může vypadat například
+komponenty \emph{insert-word}, vrácený objekt může vypadat například
 takto:
 
 \begin{verbatim}
@@ -321,8 +321,33 @@ takto:
 4.  derivType:  "tel"
 5.  derivationPath:  (2) [{…},  {…}] // derivační řetězec
 6.  englishInput:  ""
-7.  englishParent:  "processs"
+7.  englishParent:  "processes"
 8.  gender:  "M"
 9.  isPrefig:  true
 10. prefix:  "z"
 \end{verbatim}
+
+Nyní se dostáváme do kroku č. 8, kdy je objekt \emph{infoBase} předán
+druhé službě s~názvem \emph{createDefiniton}, jejímž účelem je vytvořit
+samotné slovníkové heslo do formy objektu \emph{definiton}. Jednotlivé
+části jsou zpracovány separátně, a~to jednak z~důvodu přehlednosti kódu,
+ale taktéž z~ryze praktické příčiny, tedy aby s~výsledným objektem byla
+co nejjednodušší manipulace na úrovní HTML šablony.
+
+Na začátku inicializujeme obecnou slovotvornou definici podle rodu ze
+vstupního objektu \emph{infoBase} a~poté přistupujeme k~funkci
+\emph{getThirdPerson} (9), v~rámci které vytváříme slovesnou formu ve
+třetí osobě podle lingvistických pravidel popsaných v~kapitole
+/ref\{slovotvornuxe1-definice\}.
+
+Následně dotvoříme derivační a~morfologickou informaci z~poznatků
+získaných ze služby \emph{analyze} a~vracíme objekt \emph{definiton}
+zpět do komponenty \emph{insert-word} (10). Pokud je vrácen objekt
+správného typu, je HTML šabloně umožněno skrze direktivy frameworku
+Angular přistoupit k~jednotlivým častém definice a~vykreslit je do
+označených míst v~šabloně (11).
+
+Výhodou tohoto objektového přístupu je fakt, že se na jednotlivých jasně
+otypovaných místech v~kódu provádí pouze jeden specifický úkol, a~tím je
+do určité míry zajištěna robustnost celkové aplikace, kdy je při výpadku
+jedné ze služeb/funkce jednoduché lokalizovat místo chyby.

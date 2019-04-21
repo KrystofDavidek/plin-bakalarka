@@ -101,7 +101,7 @@ V okamžiku, kdy je vybráno vstupní slovo, je tento řetězec zaslán do služ
 
 Při inicializaci se souběžně načítají data z interního uložiště, která jsou následně zkonvertována do použitelného datového formátu, konkrétně jde o databázi DeriNet (1), česko-anglický slovník Glosbe\footnote{https://glosbe.com/ -- jedná se o open-source projekt pod licencí CC-BY-SA z něhož byla vyextrahována data pro naše použití.}(2) a seznam výjimek (3, viz kapitola \ref{zpracovanuxe9-slovotvornuxe9-sufixy}).
 
-Dalším krokem je postupné procházení derivační sítě DeriNet, z níž potřebujeme vyextrahovat výše zmíněné lingvistické informace, procházíme tedy derivační řetězec směrem od slova vstupního k jeho slovu základovému do té chvíle, než se zamění slovní druh, pak přistupujeme k volání funkce *checkDertivationType* (6). Ta nám porovná řetězce obou slov a určí, o jaký se jedná derivační proces a slovotvorný typ. Dále určuje algoritmus z celého derivačního řetězce prefigovanost (popřípadě zjišťuje o jaký prefix se přesně jedná), zaznamená si rod vstupního slova (ve výjimkách máme tedy v případě slovotvorného sufixu *-tel* taková slova, která jsou neživotnými maskuliny) a ukládá si základové slovo spolu s jeho anglickým ekvivalentem (u českých odvozených slov ve slovníku často překlad chybí). Posléze služba *analyze* vrací již vyplněný objekt *infoBase* zpátky do komponenty *inser-word*, vrácený objekt může vypadat například takto:
+Dalším krokem je postupné procházení derivační sítě DeriNet, z níž potřebujeme vyextrahovat výše zmíněné lingvistické informace, procházíme tedy derivační řetězec směrem od slova vstupního k jeho slovu základovému do té chvíle, než se zamění slovní druh, pak přistupujeme k volání funkce *checkDertivationType* (6). Ta nám porovná řetězce obou slov a určí, o jaký se jedná derivační proces a slovotvorný typ. Dále určuje algoritmus z celého derivačního řetězce prefigovanost (popřípadě zjišťuje o jaký prefix se přesně jedná), zaznamená si rod vstupního slova (ve výjimkách máme tedy v případě slovotvorného sufixu *-tel* taková slova, která jsou neživotnými maskuliny) a ukládá si základové slovo spolu s jeho anglickým ekvivalentem (u českých odvozených slov ve slovníku často překlad chybí). Posléze služba *analyze* vrací již vyplněný objekt *infoBase* zpátky do komponenty *insert-word*, vrácený objekt může vypadat například takto:
 
     1.  czechInput:  "zpracovatel"
     2.  czechParent:  "zpracovat"
@@ -109,7 +109,15 @@ Dalším krokem je postupné procházení derivační sítě DeriNet, z níž po
     4.  derivType:  "tel"
     5.  derivationPath:  (2) [{…},  {…}] // derivační řetězec
     6.  englishInput:  ""
-    7.  englishParent:  "processs"
+    7.  englishParent:  "processes"
     8.  gender:  "M"
     9.  isPrefig:  true
     10. prefix:  "z"
+
+Nyní se dostáváme do kroku č. 8, kdy je objekt *infoBase* předán druhé službě s názvem *createDefiniton*, jejímž účelem je vytvořit samotné slovníkové heslo do formy objektu *definiton*. Jednotlivé části jsou zpracovány separátně, a to jednak z důvodu přehlednosti kódu, ale taktéž z ryze praktické příčiny, tedy aby s výsledným objektem byla co nejjednodušší  manipulace na úrovní HTML šablony.
+
+Na začátku inicializujeme obecnou slovotvornou definici podle rodu ze vstupního objektu *infoBase* a poté přistupujeme k funkci *getThirdPerson* (9), v rámci které vytváříme slovesnou formu ve třetí osobě podle lingvistických pravidel popsaných v kapitole /ref{slovotvornuxe1-definice}.
+
+Následně dotvoříme derivační a morfologickou informaci z poznatků získaných ze služby *analyze* a vracíme objekt *definiton* zpět do komponenty *insert-word* (10). Pokud je vrácen objekt správného typu, je HTML šabloně umožněno skrze direktivy frameworku Angular přistoupit k jednotlivým častém definice a vykreslit je do označených míst v šabloně (11).
+
+Výhodou tohoto objektového přístupu je fakt, že se na jednotlivých jasně otypovaných místech v kódu provádí pouze jeden specifický úkol, a tím je do určité míry zajištěna robustnost celkové aplikace, kdy je při výpadku jedné ze služeb/funkce jednoduché lokalizovat místo chyby.
