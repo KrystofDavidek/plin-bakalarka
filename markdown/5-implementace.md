@@ -25,7 +25,6 @@ Součástí zadání také bylo to, aby všechny funkcionality mobilní aplikace
 Na začátku samotného vývoje si je zapotřebí určit několik věci, v našem případě jde primárně o:
 
 - zvolení vhodných technologií včetně programovacího jazyka, kterými budeme nástroj implementovat; 
-- výběr dat a jejich struktury, nad kterými budeme v rámci aplikace operovat;
 - návrh jednotlivých obrazovek aplikace a navigaci mezi nimi (včetně konkrétních přechodů).
  
 ### Použité technologie
@@ -50,19 +49,17 @@ Před samotným vykreslením určité webové stránky musí dojít k převeden�
 
 JavaScript (obecněji ECMAscript) je skriptovací\footnote{Jako skriptovací jazyk je označován z toho důvodu, že není při svém spuštění nijak kompilován (například na rozdíl od programovacích jazyků jako jsou Java nebo Objective-C) a namísto toho je rovnou proveden daným webovým prohlížečem (ten je tak jeho interpretem).} programovací jazyk, který je součástí všech moderních webových prohlížečů. JavaScript se používá na takových místech, kde je zapotřebí v rámci webové stránky jakkoliv interagovat s jejím uživatelem, to znamená, že ho typicky využijeme v oblasti webových aplikací, u nichž je očekávaný zásah uživatele a je zapotřebí dynamicky měnit zobrazovaný obsah. \parencite{javascript}
 
-#### Frameworky Ionic a Angular
+#### Framework Ionic a Angular
 
-Při tvorbě komplexnějších webových aplikací
+Při vývoji komplexnějších webových a mobilních aplikací se často pracuje s takzvanými webovými frameworky, které určitým způsobem zjednodušují vývoj. Ve stručnosti je jejich účelem umožnit vývojářům práci v takovém prostředí, kde se můžou primárně zaměřit na požadavky daného projektu a nemusí řešit problematiku opakujících se funkcí nebo závislosti jednotlivých knihoven.
 
-##### Angular
+My jsme v rámci naší mobilní aplikace využili Ionic Framework, což je soubor nástrojů s otevřeným zdrojovým kódem pod licencí MIT\footnote{https://opensource.org/licenses/MIT}, který se zaměřuje na uživatelský interface u mobilních a webových aplikací. Obsahuje velké množství vizuálních komponent, jež jsou typické pro mobilní zařízení, a taktéž je zde umožněno pomocí knihovny Ionic Native přistupovat k nativním funkcím mobilního zařízení -- zde se využívá knihovna Cordova, která slouží pro převod webové aplikace do aplikace mobilní. \parencite{cordova}
 
-Angular (commonly referred to as "Angular 2+" or "Angular v2 and above")[4][5] is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.
+Dalším cílem Ionicu je poskytnout takové prostředí pro vývoj hybridních aplikací, které je kompatibilní s dalšími frameworky, jako jsou například React nebo Vue, nicméně jeho jádro a struktura samotného kódu je založena na webovém frameworku Angular. \parencite{ionic}
 
-##### Ionic
+Angular jako takový pracuje s programovacím jazykem TypeScript, který je vyvíjen firmou Microsoft jako open-source. TypeScript je rozšíření již zmíněného JavaScriptu, to v praxi znamená, že kód napsaný v TypeScriptu je zapotřebí nejdříve zkompilovat (převést) do určité podoby JavaScriptového standardu a ten je až poté možné interpretovat ve webových prohlížečích. Tento programovací jazyk se používá primárně z důvodu své silné typové kontroly, pokud je tedy této možnosti využito, lze tak díky ní předcházet mnohým potenciálním chybám. \parencite{typescript}
 
-Angular (commonly referred to as "Angular 2+" or "Angular v2 and above")[4][5] is a TypeScript-based open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.
-
-### Volba dat
+Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrstev, zde si ve stručnosti popíšeme právě ty, které jsou pro pochopení naši aplikace klíčové. Základním prvkem architektury jsou *komponenty*, v rámci kterých dochází k propojení aplikační logiky s konkrétní HTML šablonou (ta určuje celkový vzhled) a CSS. Jedna komponenta je většinou rovna jedné vizuální stránce v aplikaci, nicméně Angular dokáže svými vlastními značkami (*direktivami*) ovlivnit výslednou podobou šablony ještě před jejím zobrazením -- díky tomuto principu jednoduše dochází k dynamické proměně obsahu stránek podle zadané aplikační logiky, protože ta právě ovlivňuje chování samotných direktiv. Další důležitou části jsou *služby* -- ty už nejsou propojeny s žádnou vizuální stránkou (s HTML šablonou), ale slouží pro dekompozici jednotlivých funkcionalit napříč aplikací. Data, která jsou těmito službami zpracována, jsou pak dále přeposílána do určitých komponent. \parencite{angulararchitecture}
 
 ### Návrh obrazovek
 
