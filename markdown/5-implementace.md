@@ -73,17 +73,17 @@ Mobilní aplikace se skládá z pěti hlavních stránek (komponent), jde o:
 
 - vysouvací menu;
 - úvodní obrazovku;
-- stránku s funkcí *insert word*;
+- stránku s funkcionalitou *insert word*;
 - rejstřík se zpracovanými slovy;
 - stránku s informacemi o aplikaci.
 
 \begin{figure}[ht]   
     \centering
     \includegraphics[width=.9\textwidth]{algoritmus}  
-    \caption{Tohle je můj algortmus}
+    \caption{Algoritmus funkcionality *insert word*}
     \label{algoritmus}
  \end{figure}
 
-Implementačně je nejkomplexnější samotná komponenta s funkcí *insert word*, proto se na ní v následujících odstavcích důkladněji zaměříme. V prvé řadě musí aplikace nějakým způsobem získat vstup pro analýzu, existují dva způsoby jak k tomu docílit -- buď využít rejstřík zpracovaných slov nebo ručně vepsat zadané slovo. Stránka tedy vždy po nahrání kontroluje, zda nemá očekávat vstup z komponenty.
+Implementačně je nejkomplexnější  komponenta s funkcionalitou *insert word*, proto se na ní v následující části důkladněji zaměříme a pro demonstraci algoritmu použijeme přiložené schéma (viz obrázek \ref{algoritmus}. V prvé řadě musí aplikace nějakým způsobem získat vstup pro analýzu, existují dva způsoby jak k tomu docílit -- buď využít rejstřík zpracovaných slov nebo ručně vepsat zadané slovo. Stránka tedy vždy po nahrání kontroluje, zda nemá očekávat vstup z komponenty.
 
 
