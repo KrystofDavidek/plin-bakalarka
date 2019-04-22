@@ -2,9 +2,9 @@
 \chapter{Elektronický derivační
 slovník}\label{elektronickuxfd-derivaux10dnuxed-slovnuxedk}}
 
-V~následující kapitole si představíme a~následně popíšeme výsledek
-praktické části, a~to nejprve v~krátkosti po motivační stránce a~posléze
-po stránce technické.
+V~následující kapitole si představíme a~následně hlouběji popíšeme
+výsledek praktické části, a~to nejprve v~z~hlediska požadavků na nástroj
+jako takový přes jeho návrh až po samotnou implementaci.
 
 Derivační slovník je primárně koncipován jako edukační pomůcka pro
 cizince, kteří se učí češtinu jako druhý jazyk. Na rozdíl od rodilých
@@ -18,7 +18,7 @@ odhadnout významy například takových internacionalismů, které byly
 přejaty do slovotvorného systému českého jazyka pomocí sufixů. Taktéž se
 očekává intuitivnější chápání derivačních pravidel u~cizinců, jejichž
 rodný jazyk patří do skupiny slovanských jazyků (z~důvodu flektivního
-charakteru těchto jazyků).
+charakteru těchto jazyků).~\parencite{adri}
 
 \hypertarget{poux17eadavky-na-aplikaci}{%
 \section{Požadavky na aplikaci}\label{poux17eadavky-na-aplikaci}}
@@ -32,7 +32,7 @@ aby byla celá aplikace včetně slovotvorných definic kompletně
 lokalizovaná v~anglickém jazyce.
 
 Požadavky na funkcionalitu slovníku jako takového můžeme ve stručnosti
-shrnout v~několika bodech:
+shrnout v~následujících bodech:
 
 \begin{itemize}
 \tightlist
@@ -45,8 +45,8 @@ shrnout v~několika bodech:
     částečnou slovotvornou analýzu;
   \item
     anglickou i~českou definici založenou na strukturním významu slova
-    (v~případě že se takový ekvivalent bude nacházet ve vybraném
-    česko-anglickém slovníku);
+    (anglickou pouze v~případě, že se takový ekvivalent bude nacházet ve
+    vybraném česko-anglickém slovníku);
   \item
     doplňující derivační a~morfologické informace;
   \end{itemize}
@@ -58,7 +58,7 @@ Součástí zadání také bylo to, aby všechny funkcionality mobilní aplikace
 byly kompletně funkční bez připojení k~internetu -- tím párem nebylo
 zapotřebí řešit autentifikaci
 uživatele\footnote{Nicméně je tato možnost stále v~řešení, a~to pro případ, kdybychom v~aplikaci chtěli nabídnout možnost ukládání již naučených hesel do osobního adresáře atd.}
-či pracovat se vzdálenými uložištěmi.
+či pracovat se vzdáleným uložištěm.
 
 \hypertarget{nuxe1vrh-aplikace}{%
 \section{Návrh aplikace}\label{nuxe1vrh-aplikace}}
@@ -87,13 +87,13 @@ aplikace sloužit a~jaké funkcionality splňovat.
 
 Webové aplikace fungují typicky na všech platformách a~jsou založeny na
 klasických webových technologiích, tzn. na HTML, CSS a~na programovacím
-jazyce JavaScript (viz následující podkapitola), jedná se tedy
-o~přizpůsobené webové stránky, z~čehož vyplývá potřeba internetového
-připojení. Výhodou tohoto přístupu je kromě již zmíněné multiplatformní
-povahy ukládání dat na webových serverech, tyto aplikace tak nevyžadují
-velké množství paměti na lokálním uložišti. Za hlavní negativum je
-považována nižší kompatibilita s~hardwarem a~operačním systémem u~daných
-mobilních zařízení.
+jazyce JavaScript (viz podkapitola \ref{webovuxe9-technologie}), jedná
+se tedy o~přizpůsobené webové stránky, z~čehož vyplývá potřeba
+internetového připojení. Výhodou tohoto přístupu je kromě již zmíněné
+multiplatformní povahy ukládání dat na webových serverech, tyto aplikace
+tak nevyžadují velké množství paměti na lokálním uložišti. Za hlavní
+negativum je považována nižší kompatibilita s~hardwarem a~operačním
+systémem u~daných mobilních zařízení.
 
 Na druhou stranu nativní aplikace jsou vyvíjeny pouze pro jednu
 specifickou platformu, to znamená, že například aplikaci vytvořenou pro
@@ -154,9 +154,9 @@ JavaScript (obecněji ECMAscript) je
 skriptovací\footnote{Jako skriptovací jazyk je označován z~toho důvodu, že není při svém spuštění nijak kompilován (například na rozdíl od programovacích jazyků jako jsou Java nebo Objective-C) a~namísto toho je rovnou proveden daným webovým prohlížečem (ten je tak jeho interpretem).}
 programovací jazyk, který je součástí všech moderních webových
 prohlížečů. JavaScript se používá na takových místech, kde je zapotřebí
-v~rámci webové stránky jakkoliv interagovat s~jejím uživatelem, to
-znamená, že ho typicky využijeme v~oblasti webových aplikací, u~nichž je
-očekávaný zásah uživatele a~je zapotřebí dynamicky měnit zobrazovaný
+v~rámci webové stránky určitým způsobem interagovat s~jejím uživatelem,
+to znamená, že ho typicky využijeme v~oblasti webových aplikací, u~nichž
+je očekávaný zásah uživatele a~je zapotřebí dynamicky měnit zobrazovaný
 obsah.~\parencite{javascript}
 
 \hypertarget{framework-ionic-a-angular}{%
@@ -217,10 +217,8 @@ komponent.~\parencite{angulararchitecture}
 \section{Implementace aplikace}\label{implementace-aplikace}}
 
 V~poslední kapitole si popíšeme architekturu předkládané aplikace spolu
-s~jejími hlavními funkcionalitami a~využívanými jazykovými zdroji.
-
-\hypertarget{architektura-aplikace}{%
-\subsection{Architektura aplikace}\label{architektura-aplikace}}
+s~její hlavní funkcionalitou \emph{insert-word.} \#\#\# Architektura
+aplikace
 
 Mobilní aplikace se skládá z~pěti hlavních stránek (komponent), jde o:
 
@@ -238,26 +236,27 @@ Mobilní aplikace se skládá z~pěti hlavních stránek (komponent), jde o:
   stránku s~informacemi o~aplikaci.
 \end{itemize}
 
-\begin{figure}[ht]   
-    \centering
-    \includegraphics[width=.9\textwidth]{algoritmus}  
-    \caption{Algoritmus funkcionality *insert word*}
-    \label{algoritmus}
- \end{figure}
-
 Implementačně je nejkomplexnější komponenta s~funkcionalitou
 \emph{insert word}, proto se na ní v~následující části důkladněji
 zaměříme a~pro demonstraci použitého algoritmu použijeme přiložené
 schéma (viz obrázek \ref{algoritmus}). Pro větší přehlednost jsou na
 diagramu modře zvýrazněny komponenty, žlutou barvou služby, zeleně
-interní uložiště s~daty a~červeně pak hlavní funkce.
+interní uložiště s~daty a~červeně pak hlavní funkce (ty se dále větví do
+menších podfunkcí, jejichž popis není pro účely tohoto popisu klíčový).
+
+\begin{figure}[ht]   
+    \centering
+    \includegraphics[width=.9\textwidth]{algoritmus}  
+    \caption{Algoritmus funkcionality insert word}
+    \label{algoritmus}
+ \end{figure}
 
 V~prvé řadě musí aplikace nějakým způsobem získat vstup pro následnou
-analýzu, existují dva způsoby, jak k~tomu docílit -- v~případě 1.a je za
-vstup považováno takové slovo, které bylo vybráno v~rámci komponenty
-\emph{index}, tedy je vstupní slovo vybráno na stránce s~rejstříkem
-zpracovaných sufixů. Druhou možností (1.b) je zadat slovo ručně
-prostřednictvím funkce \emph{fromUser} z~textového pole, v~takovém
+analýzu, existují dva způsoby, jak k~tomu docílit -- v~případě kroku 1.a
+je za vstup považováno takové slovo, které bylo vybráno v~rámci
+komponenty \emph{index}, tedy je vstupní slovo vybráno na stránce
+s~rejstříkem zpracovaných sufixů. Druhou možností (1.b) je zadat slovo
+ručně prostřednictvím funkce \emph{fromUser} z~textového pole, v~takovém
 případě se po zadání prvního písmena (a~následně dalších znaků)
 vyselektují všechna slova z~rejstříku, která začínají zadaným
 podřetězcem.

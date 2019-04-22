@@ -2,7 +2,7 @@
 
 # Zpracované slovotvorné sufixy
 
-Cílem bakalářské práce bylo vytvořit elektronický slovník s definicemi založenými na derivačních rysech slovotvorně motivovaných slov ve formě mobilní aplikace, proto si v této kapitole praktické části popíšeme, jaké slovotvorné sufixy byly zpracovány a jakým způsobem probíhá proces tvoření slovotvorných definic. V druhé kapitole si pak rozebereme technickou část spolu s návrhem a popisem implementace samotné mobilní aplikace.
+Cílem bakalářské práce bylo vytvořit elektronický slovník s definicemi založenými na derivačních rysech slovotvorně motivovaných slov ve formě mobilní aplikace, proto si v této kapitole praktické části popíšeme, jaké slovotvorné sufixy byly zpracovány a jakým způsobem probíhá proces tvoření slovotvorných definic. V druhé kapitole si pak rozebereme technickou část spolu s návrhem a implementací samotné mobilní aplikace.
 
 Při výběru slovotvorných typů ke zpracování byl brán zřetel na jejich frekvenci a produktivitu ve spojitosti s derivací u substantiv -- takovým nejvýraznějším typem jsou substantiva označující názvy živých bytostí podle jejich činností zakončená na sufix *-tel*, a ta spadají do slovotvorné třídy činitelských jmen. \parencite[17]{dokulil67} V této fázi je v předkládané aplikaci zpracován právě tento slovotvorný typ i s jeho rodovou alternativou *-telka*, jež má obdobné charakteristiky.   
 
@@ -10,11 +10,11 @@ Při výběru slovotvorných typů ke zpracování byl brán zřetel na jejich f
 
 ### Charakteristika
 
-Pro naše účely bylo důležité vybrat takový slovotvorný typ, u něhož se převážně shoduje slovotvorný a lexikální význam. Tato podmínka je zde splněna, protože z výzkumné práce Adriany Válkové (To jsem šplhoun, co? XXX) vyplývá, že z 1 129 zkoumaných lemmat zakončených příponou *-tel* pouze u 3,03 % z nich lexikální význam nahrazuje význam strukturní (to se týká převážně neživotných substantiv typu *jmenovatel*, *dělitel* atd.) a celkově je u 4,42 % lexikální význam obecnější (např.*vnímatel*\footnote{Význam slova vnímatel je dle SSJČ „kdo uvědoměle vnímá umělecké dílo“ \parencite{ssjc}, zde došlo prokazatelně do určité míry k lexikalizaci slovotvorného významu.}). Tento lingvistický výzkum byl založen na datech z korpusu SYNv6 a jednotlivé typy významů byly porovnávány prostřednictvím výkladových slovníků. citace{Adri-XXX}
+Pro naše účely bylo důležité vybrat takový slovotvorný typ, u něhož se převážně shoduje slovotvorný a lexikální význam. Tato podmínka je zde splněna, protože z práce Adriany Válkové \parencite{adri} vyplývá, že z 1 129 zkoumaných lemmat zakončených sufixem *-tel* pouze u 3,03 % z nich lexikální význam nahrazuje význam strukturní (to se týká převážně neživotných substantiv typu *jmenovatel*, *dělitel* atd.) a celkově je u 4,42 % lexikální význam obecnější (např. *vnímatel*\footnote{Význam slova vnímatel je dle SSJČ „kdo uvědoměle vnímá umělecké dílo“ \parencite{ssjc}, zde došlo prokazatelně do určité míry k lexikalizaci slovotvorného významu.}). Tento lingvistický výzkum byl založen na datech z korpusu SYNv6 a jednotlivé typy významů byly porovnávány prostřednictvím výkladových slovníků.  \parencite{adri}
 
-Jak bylo již naznačeno, obecný význam činitelských jmen je podle Dokulila definován jako „názvy osob a živých bytostí vůbec podle povahy a druhu jejich činností“ \parencite[17]{dokulil67}. Sufix *-tel* tak vyjadřuje, že takto odvozený pojem je subjektem děje základového slovesa, s tím že nejčastěji jde o aktivní\footnote{To neplatí u substantiv trpitel, truchlitel a bydlitel, která jsou odvozena ze stavových sloves. \parencite[17]{dokulil67}} účast subjektu na ději (např. subjekt označen slovem *učitel* vykonává takovou činnost, kterou vyjadřuje sloveso *učit*, z něhož je výraz odvozený). U tohoto slovotvorného typu se typicky jedná o mužská životná substantiva, nicméně se najdou i výjimky v podobě neživotných substantiv (viz předchozí odstavec). \parencite{simandl2016}
+Jak bylo již naznačeno, obecný význam činitelských jmen je podle Dokulila definován jako „názvy osob a živých bytostí vůbec podle povahy a druhu jejich činností“ \parencite[17]{dokulil67}. Sufix *-tel* tak vyjadřuje, že takto odvozený pojem je subjektem děje základového slovesa, s tím že nejčastěji jde o aktivní\footnote{To neplatí u substantiv trpitel, truchlitel a bydlitel, která jsou odvozena ze stavových sloves. \parencite[17]{dokulil67}} účast subjektu na ději (např. subjekt označen slovem *učitel* vykonává takovou činnost, kterou vyjadřuje sloveso *učit*, z něhož je výraz odvozený). U tohoto slovotvorného typu se typicky jedná o mužská životná substantiva, nicméně se najdou i výjimky v podobě neživotných substantiv (viz výše). \parencite{simandl2016}
 
-Nejčastěji jsou substantiva tohoto slovotvorného typu odvozena od sloves nedokonavých (imperfektiv), ze zkoumaných 1129 lemmat je jich takto derivováno přibližně 74,3 %, navíc se určitá část substantiv vzniklých ze sloves dokonavých (perfektiv) chová tak, jako by byla odvozena z imperfektiv, jde typicky o názvy profesí (*zastoupit* --> *zastupitel*) a názvy osob, pro které je daná činnost typická, ale nejsou označovány za samostatné profese. (*chovat* --> *chovatel*). citace{Adri-XXX} Nicméně je zapotřebí poznamenat, že některá substantiva se mohou objevit v obou vidových podobách (např. *pojistitel* a *pojišťovatel* nebo *zhotovitel* a *zhotovovatel*). \parencite{simandl2016}
+Nejčastěji jsou substantiva tohoto slovotvorného typu odvozena od sloves nedokonavých (imperfektiv), ze zkoumaných 1129 lemmat je jich takto derivováno přibližně 74,3 %, navíc se určitá část substantiv vzniklých ze sloves dokonavých (perfektiv) chová tak, jako by byla odvozena z imperfektiv, jde typicky o názvy profesí (*zastoupit* --> *zastupitel*) a názvy osob, pro které je daná činnost typická, ale nejsou označovány za samostatné profese. (*chovat* --> *chovatel*).  \parencite{adri} Nicméně je zapotřebí poznamenat, že některá substantiva se mohou objevit v obou vidových podobách (např. *pojistitel* a *pojišťovatel* nebo *zhotovitel* a *zhotovovatel*). \parencite{simandl2016}
 
 ### Slovníkové heslo
 
@@ -26,7 +26,7 @@ Slovotvorná definice je tvořena dvěma kroky, první fáze je určení slovesn
 
  - sloveso je perfektum, pokud řetězec obsahuje tutéž slovesnou formu v neprefigované podobě ve dvou předchozích slovotvorných krocích, mějme například řetězec *pracovat* (2. krok) --> ***z**pracovat* (1. krok) --> *zpracovatel* -- slovotvorná definice tak bude znít „ten, kdo zpracoval nebo zpracuje“;
  - sloveso je sekundární imperfektivum, pokud řetězec obsahuje rozdíl ve dvou předchozích slovotvorných krocích v rámci specifického sufixu u jedné slovesné formy, příkladem může být řetězec *pracovat* --> *zpracovat* (2. krok) --> *zpraco**vá**vat* (1. krok) --> *zpracovávatel* -- slovotvorná definice tak bude znít „ten, kdo zpracovává“;
- - sloveso je imperfektivum, pokud není perfektum a zároveň není sekundární imperfektivum, například *myslit* --> *myslitel* -- slovotvorná definice bude znít „ten, kdo myslí“.
+ - sloveso je imperfektivum, pokud není perfektum a zároveň není sekundární imperfektivum, například *myslit* --> *myslitel* -- slovotvorná definice bude znít „ten, kdo myslí“.  \parencite{adri}
 
 Druhá fáze je tvorba samotné slovotvorné definice napříč různými slovesnými třídami, pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitými regulárními výrazy viz pravidla níže (dubletní varianty jsou označeny v kulatých závorkách):
 
@@ -43,7 +43,7 @@ Druhá fáze je tvorba samotné slovotvorné definice napříč různými sloves
 - .\*itel --> Je prefigované?
 	-	ne
 		-	Je sloveso ve tvaru .\*u.it? --> „ten, kdo .*u.í“
-		-	Je sloveso ve tvaru  [\^u]\*.[eěi]t? --> „ten, kdo .*í“
+		-	Je sloveso ve tvaru  [\^u]\*[eěi]t? --> „ten, kdo .*í“
 		-	Je sloveso ve tvaru  .\*u.ovat a existuje zároveň ve slovotvorném řetězci sloveso ve tvaru .\*ou.it? --> „ten, kdo .\*ou.il nebo .\*ou.í“
 	- ano
 		- Existuje ve slovotvorném řetězci sloveso ve tvaru .\*ou.it? --> „ten, kdo .\*ou.il nebo .\*ou.í“
@@ -64,10 +64,10 @@ Druhá fáze je tvorba samotné slovotvorné definice napříč různými sloves
 
 Veškerá výše zmíněná pravidla jsou taktéž aplikovatelná na slovotvorný typ *-telka*, u níž zní slovotvorná definice v obecné rovině takto: „ta, která .\*“ -- pokud budeme mít například za vstup slovo *vybudovatelka*, tak jeho definice bude znít „ta, která vybudovala nebo vybuduje (vybudovat)“. Za definicí samotnou je dále v závorce poznamenáno základové sloveso v infinitivním tvaru, z něhož bylo činitelské jméno derivováno.
 
-V anglickém jazyce je slovotvorná definice zobecněná na „someone who .\*“ s tím že je na konci v závorce specifikováno, o jaký se jedná jedná rod, příkladem může být znovu výraz *vybudovatelka* s anglickou definicí „someone who builds (feminine)“.
+Slovník vytváří slovotvorné definice i v anglickém jazyce, v rámci kterého je definice zobecněná na „someone who .\*“ s tím že je na konci v závorce specifikováno, o jaký se jedná jedná rod, příkladem může být znovu výraz *vybudovatelka* s anglickou definicí „someone who builds (feminine)“.
 
 #### Derivační a morfologická informace
 
-Kromě hlavní definice slovníkové heslo obsahuje ještě dodatečnou derivační a morfologickou informaci. První z nich obsahuje základové slovo, z něhož bylo vstupní odvozeno, a typ derivačního procesu -- v případě tohoto slovotvorného typu se jedná o sufixaci. 
+Kromě hlavní definice slovníkové heslo obsahuje ještě dodatečnou derivační a morfologickou informaci. První z nich obsahuje základové slovo, z něhož byl vstupní výraz odvozen, a typ derivačního procesu -- v případě tohoto slovotvorného typu se jedná o sufixaci. 
 
-Morfologická informace se pak skládá ze slovního druhu vstupního výrazu, z jeho rodu a ze zařazení slova do určitého morfologického paradigmatu.
+Morfologická informace se pak skládá ze slovního druhu vstupního výrazu, z jeho rodu a z určitého morfologického paradigmatu, do něhož bylo slovo zařazeno.
