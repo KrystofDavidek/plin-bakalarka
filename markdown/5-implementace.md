@@ -66,6 +66,7 @@ Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrs
 ## Implementace aplikace
 
 V poslední kapitole si popíšeme architekturu předkládané aplikace spolu s její hlavní funkcionalitou *insert-word.*
+
 ### Architektura aplikace
 
 Mobilní aplikace se skládá z pěti hlavních stránek (komponent), jde o:
