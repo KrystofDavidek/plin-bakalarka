@@ -42,7 +42,7 @@ Slovotvorná definice je utvářena prostřednictvím dvou po sobě jdoucích kr
 \hypertarget{druha-faze}{%
 \paragraph*{Druhá fáze -- přiřazení definice}\label{druha-faze}} 
 
-Druhá fáze je tvorba samotné slovotvorné definice napříč různými slovesnými třídami. Pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitými regulárními výrazy viz pravidla níže (dubletní varianty jsou označeny v kulatých závorkách):
+Pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitými regulárními výrazy viz pravidla níže (dubletní varianty jsou označeny v kulatých závorkách):
 
  - [\^ch]\*ovatel\footnote{V tomto případě existují výjimky typu kl?ovatel, kdy zní definice u neprefigovaného slovesa „ten, kdo kl?ove (kl?ová)“ a u prefigovaného „ten, kdo .*kl?oval nebo .*kl?ove (.*kl?ová). Mezi tato slova patří .*snovatel, .*plovatel, .*kovatel a .*klovatel.} --> Je prefigované?
 	-	ne --> „ten, kdo .\*uje“
