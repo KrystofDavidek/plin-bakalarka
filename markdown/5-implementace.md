@@ -67,7 +67,7 @@ Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrs
 
 \begin{figure}[ht]   
     \centering
-    \includegraphics[width=.9\textwidth]{insert-1}  
+    \includegraphics[height=10cm, keepaspectratio]{insert-1}  
     \caption{Algoritmus funkcionality insert word}
  \end{figure}
 
