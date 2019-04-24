@@ -68,15 +68,64 @@ Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrs
 \begin{figure}[!tbp]
   \centering
   \begin{minipage}[b]{0.4\textwidth}
-    \includegraphics[width=\textwidth]{1.1}
+    \includegraphics[width=\textwidth]{1-1}
     \caption{Flower one.}
   \end{minipage}
   \hfil
   \begin{minipage}[b]{0.4\textwidth}
-    \includegraphics[width=\textwidth]{1.2}
+    \includegraphics[width=\textwidth]{1-2}
     \caption{Flower two.}
   \end{minipage}
 \end{figure}
+
+
+\begin{figure}[!tbp]
+  \centering
+  \begin{minipage}[b]{0.3\textwidth}
+    \includegraphics[width=\textwidth]{2-1}
+    \caption{Flower one.}
+  \end{minipage}
+  \hfil
+  \begin{minipage}[b]{0.3\textwidth}
+    \includegraphics[width=\textwidth]{2-2}
+    \caption{Flower two.}
+  \end{minipage}
+    \hfil
+  \begin{minipage}[b]{0.3\textwidth}
+    \includegraphics[width=\textwidth]{2-3}
+    \caption{Flower two.}
+  \end{minipage}
+\end{figure}
+
+
+\begin{figure}[!tbp]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{3-1}
+    \caption{Flower one.}
+  \end{minipage}
+  \hfil
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{3-2}
+    \caption{Flower two.}
+  \end{minipage}
+\end{figure}
+
+
+\begin{figure}[!tbp]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{4-1}
+    \caption{Flower one.}
+  \end{minipage}
+  \hfil
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{4-2}
+    \caption{Flower two.}
+  \end{minipage}
+\end{figure}
+
+
 
 
 ## Implementace aplikace
