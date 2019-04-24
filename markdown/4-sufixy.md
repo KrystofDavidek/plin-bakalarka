@@ -31,7 +31,7 @@ Definice je tvořena částečnou slovotvornou analýzou (segmentace slova na sl
 Slovotvorná definice je utvářena prostřednictvím dvou po sobě jdoucích kroků -- v prvním kroku dochází k odhalení verbálního aspektu fundujícího/motivující slovesa a ve druhém se pak vstupnímu řetězci přiřazuje jedna z předem vytvořených definic. 
 
 \hypertarget{prvni-faze}{%
-\subsubsection*{První fáze -- odhalení slovesného vidu}\label{prvni-faze}} 
+\paragraph*{První fáze -- odhalení slovesného vidu}\label{prvni-faze}} 
 
  Verbální aspekt lze do určité míry vyextrahovat z derivační sítě DeriNet -- a to analýzou slovotvorného řetězce:
 
@@ -40,7 +40,7 @@ Slovotvorná definice je utvářena prostřednictvím dvou po sobě jdoucích kr
  - sloveso je imperfektivum: pokud není perfektum a zároveň není sekundární imperfektivum, například *myslit* --> *myslitel* -- slovotvorná definice je „ten, kdo myslí“.  \parencite{adri}
 
 \hypertarget{druha-faze}{%
-\subsubsection*{Druhá fáze -- přiřazení definice}\label{druha-faze}} 
+\paragraph*{Druhá fáze -- přiřazení definice}\label{druha-faze}} 
 
 Druhá fáze je tvorba samotné slovotvorné definice napříč různými slovesnými třídami. Pro potřeby automatického zpracování jsme vytvářeli definice na základě vlastních podvzorů, které jsou popsány určitými regulárními výrazy viz pravidla níže (dubletní varianty jsou označeny v kulatých závorkách):
 
