@@ -65,21 +65,14 @@ Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrs
 
 ### Návrh obrazovek
 
-Teď jdi na \ref{3-1} a \ref{4-2}
+Teď jdi na \ref{1-1} a \ref{1-2}
 
 \begin{figure}[ht]
-  \centering
-  \begin{minipage}[b]{0.4\textwidth}
-    \includegraphics[width=\textwidth]{1-1}
-    \caption{Úvodní obrazovka}
-    \label{1-1}
-  \end{minipage}
-  \hfil
-  \begin{minipage}[b]{0.4\textwidth}
-    \includegraphics[width=\textwidth]{1-2}
-    \caption{Navigační menu}
-    \label{1-2}
-  \end{minipage}
+ \centering
+ \subfloat{\includegraphics[width=0.4\textwidth]{{1-1}\label{1-1}}
+  \hfill
+  \subfloat{\includegraphics[width=0.4\textwidth]{{1-2}\label{1-2}}
+  \caption{Úvodní stránka a navigační menu}
 \end{figure}
 
 
