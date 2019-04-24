@@ -65,11 +65,19 @@ Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrs
 
 ### Návrh obrazovek
 
-\begin{figure}[ht]   
-    \centering
-    \includegraphics[height=10cm, keepaspectratio]{insert-1}  
-    \caption{Algoritmus funkcionality insert word}
- \end{figure}
+\begin{figure}[!tbp]
+  \centering
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{1.1}
+    \caption{Flower one.}
+  \end{minipage}
+  \hfil
+  \begin{minipage}[b]{0.4\textwidth}
+    \includegraphics[width=\textwidth]{1.2}
+    \caption{Flower two.}
+  \end{minipage}
+\end{figure}
+
 
 ## Implementace aplikace
 
