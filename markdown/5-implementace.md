@@ -67,7 +67,7 @@ Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrs
 
 Teď jdi na \ref{3-1} a \ref{4-2}
 
-\begin{figure}[ht
+\begin{figure}[ht]
   \centering
   \begin{minipage}[b]{0.4\textwidth}
     \includegraphics[width=\textwidth]{1-1}
