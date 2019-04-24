@@ -65,63 +65,74 @@ Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrs
 
 ### Návrh obrazovek
 
-\begin{figure}[!tbp]
+Teď jdi na \ref{3-1} a \ref{4-2}
+
+\begin{figure}[ht
   \centering
   \begin{minipage}[b]{0.4\textwidth}
     \includegraphics[width=\textwidth]{1-1}
-    \caption{Flower one.}
+    \caption{Úvodní obrazovka}
+    \label{1-1}
   \end{minipage}
   \hfil
   \begin{minipage}[b]{0.4\textwidth}
     \includegraphics[width=\textwidth]{1-2}
-    \caption{Flower two.}
+    \caption{Navigační menu}
+    \label{1-2}
   \end{minipage}
 \end{figure}
 
 
-\begin{figure}[!tbp]
+\begin{figure}[ht]
   \centering
-  \begin{minipage}[b]{0.3\textwidth}
+  \begin{minipage}[b]{0.26\textwidth}
     \includegraphics[width=\textwidth]{2-1}
-    \caption{Flower one.}
+    \caption{Prázdný vstup}
+    \label{2-1}
   \end{minipage}
   \hfil
-  \begin{minipage}[b]{0.3\textwidth}
+  \begin{minipage}[b]{0.26\textwidth}
     \includegraphics[width=\textwidth]{2-2}
-    \caption{Flower two.}
+    \caption{Filtr podle znaku}
+    \label{2-2}
   \end{minipage}
     \hfil
-  \begin{minipage}[b]{0.3\textwidth}
+  \begin{minipage}[b]{0.26\textwidth}
     \includegraphics[width=\textwidth]{2-3}
-    \caption{Flower two.}
+    \caption{Filtr podle podřetězce}
+    \label{2-3}
   \end{minipage}
 \end{figure}
 
 
-\begin{figure}[!tbp]
+\begin{figure}[ht]
   \centering
   \begin{minipage}[b]{0.4\textwidth}
     \includegraphics[width=\textwidth]{3-1}
-    \caption{Flower one.}
+    \caption{Výstup pro výraz *učitel*}
+    \label{3-1}
   \end{minipage}
   \hfil
   \begin{minipage}[b]{0.4\textwidth}
     \includegraphics[width=\textwidth]{3-2}
-    \caption{Flower two.}
+    \caption{Výstup pro výraz *zpracovatelka*}
+    \label{3-2}
   \end{minipage}
 \end{figure}
 
 
-\begin{figure}[!tbp]
+\begin{figure}[ht]
   \centering
   \begin{minipage}[b]{0.4\textwidth}
     \includegraphics[width=\textwidth]{4-1}
-    \caption{Flower one.}
+    \caption{Abecední seznam zpracovaných slov}
+    \label{4-1}
   \end{minipage}
   \hfil
   \begin{minipage}[b]{0.4\textwidth}
     \includegraphics[width=\textwidth]{4-2}
-    \caption{Flower two.}
+    \caption{Podseznam zpracovaných slov}
+    \label{4-2}
   \end{minipage}
 \end{figure}
 
