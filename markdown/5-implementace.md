@@ -1,10 +1,12 @@
 # Elektronický derivační slovník
 
-V následující kapitole si představíme a následně hlouběji popíšeme výsledek praktické části, a to nejprve v z hlediska požadavků na nástroj jako takový přes jeho návrh až po samotnou implementaci.
+V této kapitole popisujeme výsledek praktické části, a to jednak z hlediska formálních požadavků na nástroj jako takový, tak z hlediska procesu návrhu a implementace.
 
-Derivační slovník je primárně koncipován jako edukační pomůcka pro cizince, kteří se učí češtinu jako druhý jazyk. Na rozdíl od rodilých mluvčí nedokáží cizinci podvědomě predikovat význam neznámých slov na základě slovotvorných morfému v určitých kontextech -- chybí jim tedy znalost významů určitých slovotvorných afixů, prostřednictvím kterých by si pak dokázali analogicky vyvodit význam slova neznámého.
+Derivační slovník je primárně koncipován jako edukační pomůcka pro cizince, kteří se učí češtinu jako druhý jazyk. Na rozdíl od rodilých mluvčí nedokáží cizinci podvědomě predikovat význam neznámých slov na základě slovotvorných morfému v určitých kontextech. Chybí jim tedy podvědomá znalost významů určitých slovotvorných afixů, prostřednictvím kterých by si pak dokázali analogicky vyvodit význam slova neznámého.
 
-Díky informacím z tohoto slovníku by tak studující mohli být schopni odhadnout významy například takových internacionalismů, které byly přejaty do slovotvorného systému českého jazyka pomocí sufixů. Taktéž se očekává intuitivnější chápání derivačních pravidel u cizinců, jejichž rodný jazyk patří do skupiny slovanských jazyků (z důvodu flektivního charakteru těchto jazyků). \parencite{adri}
+Věříme, že by se tento slovník mohl stát dobrou učební pomůckou, pomocí které by mohli cizinci porozumět např. takovým internacionalismům, které byly přejaty do slovotvorného systému českého jazyka pomocí sufixů.
+
+Díky pravidelnému využívání slovníku taktéž očekáváme zejména u cizinců se slovanským rodným jazykem (z důvodu flektivního charakteru těchto jazyků) rychlejší akvizici derivačních vztahů a principů v češtině.
 
 ## Požadavky na aplikaci
 
@@ -77,7 +79,7 @@ Mobilní aplikace se skládá z pěti hlavních stránek (komponent), jde o:
 - rejstřík se zpracovanými slovy;
 - stránku s informacemi o aplikaci.
 
-Implementačně je nejkomplexnější  komponenta s funkcionalitou *insert word*, proto se na ní v následující části důkladněji zaměříme a pro demonstraci použitého algoritmu použijeme přiložené schéma (viz obrázek \ref{algoritmus}). Pro větší přehlednost jsou na diagramu modře zvýrazněny komponenty, žlutou barvou služby, zeleně interní uložiště s daty a červeně pak hlavní funkce (ty se dále větví do menších podfunkcí, jejichž popis není pro účely tohoto popisu klíčový).
+Implementačně nejkomplexnější  je komponenta s funkcionalitou *insert word*, proto se na ní v následující části důkladněji zaměříme a pro demonstraci použitého algoritmu použijeme přiložené schéma (viz obrázek \ref{algoritmus}). Pro větší přehlednost jsou na diagramu modře zvýrazněny komponenty, žlutou barvou služby, zeleně interní uložiště s daty a červeně pak hlavní funkce (ty se dále větví do menších podfunkcí, jejichž popis není pro účely tohoto popisu klíčový).
 
 \begin{figure}[ht]   
     \centering

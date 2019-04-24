@@ -31,7 +31,7 @@ Podle pozice jednotlivých formantů můžeme vydělit několik základních slo
  - reflexivizace -- odvozování zvratných sloves pomocí volných zvratných formantů *se*, *si* (*bavit se*);
  - postfixace -- odvozování od úplného slovního tvaru pomocí zvláštní přípony (*koho-si*);
  - deprefixace -- odsunutí prefixu (*poslat* --> *slát*);
- - desufiaxce -- odsunutí sufixu (*plamen* --> *plam*). \parencite[93--94]{dokulil00}
+ - desufiaxce -- odsunutí sufixu (*plamen* --> *plam*)\footnote{V rámci aglutinačních jazyků (korejština, finština atd.) by se dalo taktéž mluvit o infixaci, kde se za infix považuje takový afix, jenž se vyskytuje uvnitř kořenu slova, nicméně v českém jazyce se tento jev nevyskytuje. \parencite{enc-morfem17}}. \parencite[93--94]{dokulil00}
 
 Na závěr této podkapitoly je nutné poznamenat, že se výše vypsané slovotvorné způsoby mohou různě kombinovat \parencite[93]{dokulil00}, například podstatné jméno *výsadek* je odvozeno od slova *sad* nebo *sázet*,  a to jak pomocí prefixu *vý-*, tak prostřednictvím sufixu *-ek*.
 
@@ -73,9 +73,9 @@ V okamžiku, kdy nelze využít analogie, pracujeme s oboustrannou fundací/moti
 
 V rámci problematiky slovotvorných vztahů si je taktéž zapotřebí vydělit dva základní typy významu, se kterými teorie pracuje.  Prvním z nich je význam slovotvorný (strukturní), který je založen na významech jednotlivých slovotvorných složek, to znamená, že jej lze do určité míry predikovat podle morfému/ů, o který/é je slovo odvozené obohaceno anebo zkráceno (viz \ref{derivace}) oproti slovu základovém. \parencite{enc-slovot-vyznam17}
 
-Lexikální význam je na rozdíl od významu slovotvorného záležitostí konvence a úzu, tedy se může od strukturního významu vzdálit (lexikalizovat), a tím získat význam nový, jenž nelze vyčíst ze slovotvorné struktury daného slova a nelze ho tak nijak predikovat. \parencite{enc-slovot-vyznam17} Jak bylo již výše naznačeno, oba typy významu se mohou více či méně rozejít, tuto divergenci pěkně demonstruje výraz *krejčí*, u něhož je strukturní význam „ten, kdo krájí“ a lexikální „ten, kdo šije šaty“. Nicméně tak existují i případy, kdy se oba typy významu rovnají (například u slova *učitel*) anebo kdy je strukturní význam oproti lexikálnímu užší. (Např. výraz *vnímatel*, jehož definice je v SSJČ „ten, kdo uvědoměle vnímá umělecké dílo“ \parencite{ssjc}, zde je tedy lexikální význam obecnější než strukturní, který zní následovně: „ten, kdo vnímá“.)
+Lexikální význam je na rozdíl od významu slovotvorného záležitostí konvence a úzu, tedy se může od strukturního významu vzdálit (lexikalizovat), a tím získat význam nový, jenž nelze vyčíst ze slovotvorné struktury daného slova a nelze ho tak nijak predikovat. \parencite{enc-slovot-vyznam17} Jak bylo již výše naznačeno, oba typy významu se mohou více či méně rozejít, tuto divergenci pěkně demonstruje výraz *krejčí*, u něhož je strukturní význam „ten, kdo krájí“ a lexikální „ten, kdo šije šaty“. Nicméně tak existují i případy, kdy se oba typy významu rovnají (například u slova *učitel*) anebo kdy je strukturní význam oproti lexikálnímu obecnější. (Např. výraz *vnímatel*, jehož definice je v SSJČ „ten, kdo uvědoměle vnímá umělecké dílo“ \parencite{ssjc}, zde je tedy lexikální význam užší než strukturní, který zní následovně: „ten, kdo vnímá“.) Poslední případ, jenž není v českém jazyce hojně zastoupen, je situace, kdy je lexikální význam obecnější (například XXX).
 
-Hlavní rozdíl mezi těmito dvěma pojmy je tedy ten, že slova značková mají pouze lexikální význam, jelikož jsou typicky na počátku případného derivačního řetězce, a nemohou proto nabývat významu slovotvorného. Například značkové slovo *les* má pouze význam lexikální, jenž lze najít ve výkladových slovnících, na druhou stranu výraz *lesnatý* je již slovem odvozeným, a proto u něj můžeme vydělit oba druhy významu -- lexikální zase z výkladového slovníku, ale nově i slovotvorný, který je dán určitým afixem, v tomto případě sufixem *-natý*, který je ve slovníku afixu definován takto: „mající v hojné míře to, co označuje základové substantivum“ \parencite{simandl2016}.
+Hlavní rozdíl mezi těmito dvěma významu je tedy ten, že slova značková mají pouze lexikální význam, jelikož jsou typicky na počátku případného derivačního řetězce, a nemohou proto nabývat významu slovotvorného. Například značkové slovo *les* má pouze význam lexikální, jenž lze najít ve výkladových slovnících, na druhou stranu výraz *lesnatý* je již slovem odvozeným, a proto u něj můžeme vydělit oba druhy významu. Lexikální význam zase z výkladového slovníku, ale nově i slovotvorný, který je dán určitým afixem, v tomto případě sufixem *-natý*, který je ve slovníku afixu definován takto: „mající v hojné míře to, co označuje základové substantivum“ \parencite{simandl2016}.
 
 ## Morfologická stavba slov
 
@@ -91,7 +91,7 @@ Na příkladě slova *učitelka* si demonstrujeme oba přístupy k morfologické
 
 ## Onomaziologické kategorie a jejich klasifikace
 
-Jak bylo v předešlých podkapitolách poznamenáno, OTS je založena na teorii pojmenování, tedy pracuje s předpokladem, že se jednotlivé pojmy před samotnou realizací musí nejprve v rámci daných jazykových zákonitostí určitého jazyka utřídit, zobecnit nebo naopak konkretizovat. Tyto onomaziologické kategorie se pak vzájemně odlišují podle jednotlivých pojmenovávacích vlastností a přístupů. \parencite[29]{dokulil62} 
+Jak bylo v předešlých podkapitolách poznamenáno, OTS je založena na teorii pojmenování, tedy pracuje s předpokladem, že se jednotlivé pojmy před samotnou realizací musí nejprve v rámci daných jazykových zákonitostí určitého jazyka utřídit, zobecnit, nebo naopak konkretizovat. Tyto onomaziologické kategorie se pak vzájemně odlišují podle jednotlivých pojmenovávacích vlastností a přístupů. \parencite[29]{dokulil62} 
 
 ### Pojmové kategorie
 
