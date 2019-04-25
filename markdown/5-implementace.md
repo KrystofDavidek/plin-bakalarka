@@ -71,7 +71,7 @@ První obrazovka, se kterou uživatel přichází do styku po spuštění aplika
 
 Druhá možnost, jak využít navigačního systému aplikace, je pomocí navigačního vysouvacího menu (viz obrázek \ref{1}), jež nabízí čtyři možná přesměrování. Barevnou indikací je vždy označena aktuální pozice uživatele v systému -- tohle menu je vždy přístupné v levém horním rohu obrazovky. 
 
-\begin{figure}[ht]
+\begin{figure}[h]
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{1-1}
   \end{subfigure}
@@ -87,7 +87,7 @@ Nejdůležitějším prvkem celého uživatelského rozhraní je přístup k hla
 
 S ohledem na výše zmíněné, je výchozím stavem prázdné textové pole, které očekává vstup od uživatele. Po zadání jednotlivých znaků obrazovka dynamicky zobrazuje pouze ta slova z rejstříku zpracovaných slov, která začínají podřetězcem zadaného slovního tvaru (viz obrázek \ref{2}). A právě přes tato vyselektovaná slova se lze dostat k výslednému slovníkovému heslu.    
 
-\begin{figure}[ht]
+\begin{figure}[h]
   \begin{subfigure}[b]{0.3\textwidth}
     \includegraphics[width=\textwidth]{2-1}
   \end{subfigure}
@@ -107,7 +107,7 @@ Samotné slovníkové heslo je zobrazeno formou tří na sobě nezávislých kar
 
 Rejstřík zpracovaných slov je řazen abecedně a obsahuje úplný seznam slov (viz obrázek \ref{3}), která spadají do zpracovaných slovotvorných typů. Jak bylo výše naznačeno prostřednictvím rejstříku může uživatel taktéž přistoupit k vygenerování určitého slovníkového hesla.
 
-\begin{figure}[ht]
+\begin{figure}[h]
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{3-1}
   \end{subfigure}
@@ -119,7 +119,7 @@ Rejstřík zpracovaných slov je řazen abecedně a obsahuje úplný seznam slov
   \label{3}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[h]
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{4-1}
   \end{subfigure}
