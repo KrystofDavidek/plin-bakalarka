@@ -17,7 +17,7 @@ bakalářské práce.
 \subsection{Morfio}\label{morfio}}
 
 Webová aplikace Morfio je jedním z~projektů Českého národního korpusu
-(veřejně přístupný bez nutnosti přihlášení), která „slouží k~odhadování
+(veřejně přístupný bez nutnosti registrace), která „slouží k~odhadování
 rozsahu a~produktivity slovotvorných modelů v~češtině na základě
 korpusových dat``.~\parencite{cvrcek13} Jde tedy o~systém, který se
 snaží ve zvoleném korpusu (SYN2000, SYN2010 nebo SYN2015) najít takové
@@ -33,17 +33,18 @@ k~chybám například z~důvodu homonymie.~\parencite{cvrcek13}
 \subsection{Morfologické analyzátory
 Ajka}\label{morfologickuxe9-analyzuxe1tory-ajka}}
 
-Dalším nástrojem je morfologický analyzátor Ajka (veřejně přístupný bez
-nutnosti registrace), jehož hlavní složkou je analýza flektivní
-morfologie. To znamená, že obsahuje rozsáhlý systém vzorů spolu se
-sadami určitých koncovek a~morfologických značek. Ve webovém rozhraní je
-možnost vstupní text buď segmentovat na jednotlivé morfologické
-segmenty, analyzovat z~hlediska morfologických charakteristik (vstupnímu
-slovu je přiřazena určitá morfologická značka) nebo vyhledat existující
-akcentovaný výraz (například pro vstup \emph{blázen} je výstupem výraz
-\emph{blažen}). Nástroj nicméně akcentuje i~složku derivační, a~to ve
-formě hierarchického systému morfologických paradigmat, který slouží pro
-zachycení různých úrovní derivační morfologie.~\parencite{ajka}
+Dalším nástrojem je morfologický analyzátor Ajka (taktéž veřejně
+přístupný bez nutnosti registrace), jehož hlavní složkou je analýza
+flektivní morfologie. To znamená, že obsahuje rozsáhlý systém vzorů
+spolu se sadami určitých koncovek a~morfologických značek. Ve webovém
+rozhraní je možnost vstupní text buď segmentovat na jednotlivé
+morfologické segmenty, analyzovat z~hlediska morfologických
+charakteristik (vstupnímu slovu je přiřazena určitá morfologická značka)
+nebo vyhledat existující akcentovaný výraz (například pro vstup
+\emph{blázen} je výstupem výraz \emph{blažen}). Nástroj nicméně
+akcentuje i~složku derivační, a~to ve formě hierarchického systému
+morfologických paradigmat, který slouží pro zachycení různých úrovní
+derivační morfologie.~\parencite{ajka}
 
 V~průběhu času vznikl z~potřeby efektivnějšího zpracování textu
 z~morfologického analyzátoru Ajka nástroj Majka, který používá stejná
@@ -72,19 +73,18 @@ korpusy (konkrétně CzTenTen, SYN2000).~\parencite{deriv}
 \subsection{Derivancze}\label{derivancze}}
 
 Předposledním rozebíraným nástrojem je derivační analyzátor Derivancze
-(volně přístupný na bez předchozí registrace), který analyzuje
-slovotvorné vztahy mezi slovy. Svojí funkcionalitou je podobný derivační
-síti DeriNet, ale na rozdíl od ní zohledňuje sémantický aspekt nad
-formálním pouze. To znamená, že pokud se formální a~významový aspekt
-derivačního vztahu liší, tak je vyžadováno explicitní označkovaní, díky
-kterému pak dochází ke konzistenci napříč daty. Nástroj využívá
-sedmnácti značek označující typ sémantického vztahu -- může jít
-například o~značku \emph{k1ag}, která označuje vztah odvození verba
-směrem k~činitelskému jménu. Kvůli tomuto přístupu je Derivancze
-problematické použit v~rámci větších sofistikovanějších aplikací
-(například automatické generování textu), protože by bylo zapotřebí
-dodat více informací o~typech jednotlivých slovotvorných vztahů.
-\parencite{derivancze}
+(volně přístupný bez předchozí registrace), který analyzuje slovotvorné
+vztahy mezi slovy. Svojí funkcionalitou je podobný derivační síti
+DeriNet, ale na rozdíl od ní zohledňuje sémantický aspekt nad formálním
+pouze. To znamená, že pokud se formální a~významový aspekt derivačního
+vztahu liší, tak je vyžadováno explicitní označkovaní, díky kterému pak
+dochází ke konzistenci napříč daty. Nástroj využívá sedmnácti značek
+označující typ sémantického vztahu -- může jít například o~značku
+\emph{k1ag}, která označuje vztah odvození verba směrem k~činitelskému
+jménu. Kvůli tomuto přístupu je Derivancze problematické použit v~rámci
+větších sofistikovanějších aplikací (například automatické generování
+textu), protože by bylo zapotřebí dodat více informací o~typech
+jednotlivých slovotvorných vztahů.~\parencite{derivancze}
 
 \hypertarget{derivaux10dnuxed-suxedux165-derinet}{%
 \section{Derivační síť
@@ -96,7 +96,8 @@ charakterizujeme a~popíšeme si základní přístupy, jak s~ním lze
 pracovat.
 
 Derivační síť DeriNet si lze představit jako elektronickou databázi
-českých autosémantik (tedy primárně substantiv, adjektiv, verb a~adverbií), která jsou vzájemně propojena takovými odkazy, jež odpovídají
+českých autosémantik (tedy primárně substantiv, adjektiv, verb
+a~adverbií), která jsou vzájemně propojena takovými odkazy, jež odpovídají
 slovotvornému vztahu derivace mezi slovem základovým a~odvozeným. Tento
 systém odkazů si lze tak modelovat prostřednictvím orientovaného grafu,
 jehož uzly jsou jednotlivá lemmata (základní slovní tvary) a~hrany pak

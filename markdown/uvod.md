@@ -1,4 +1,3 @@
 # Úvod
 
-
-
+Odvozování slov je v českém jazyce považováno ...
