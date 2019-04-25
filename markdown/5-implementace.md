@@ -65,16 +65,20 @@ Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrs
 
 ### Návrh obrazovek
 
-Teď jdi na \ref{1-1} a \ref{1-2}
+
+Teď jdi na \ref{1}
 
 \begin{figure}[ht]
- \centering
- \subfloat{\includegraphics[width=0.4\textwidth]{{1-1}\label{1-1}}
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{1-1}
+  \end{subfigure}
   \hfill
-  \subfloat{\includegraphics[width=0.4\textwidth]{{1-2}\label{1-2}}
+  \begin{subfigure}[b]{0.45\textwidth}
+    \includegraphics[width=\textwidth]{1-2}
+  \end{subfigure}
   \caption{Úvodní stránka a navigační menu}
+  \label{1}
 \end{figure}
-
 
 \begin{figure}[ht]
   \centering
