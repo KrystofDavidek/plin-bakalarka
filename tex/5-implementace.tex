@@ -73,8 +73,8 @@ případě jde primárně o:
   zvolení vhodných technologií včetně programovacího jazyka, kterými
   budeme nástroj implementovat;
 \item
-  návrh jednotlivých obrazovek aplikace a~navigaci mezi nimi (včetně
-  konkrétních přechodů).
+  návrh uživatelského rozhraní aplikace spolu s~navigací mezi
+  jednotlivými vizuálními prvky (včetně konkrétních přechodů).
 \end{itemize}
 
 \hypertarget{pouux17eituxe9-technologie}{%
@@ -182,8 +182,8 @@ která slouží pro převod webové aplikace do aplikace mobilní.
 
 Dalším cílem Ionicu je poskytnout takové prostředí pro vývoj hybridních
 aplikací, které je kompatibilní s~dalšími frameworky, jako jsou
-například React nebo Vue, nicméně jeho jádro a~struktura samotného kódu
-je založena na webovém frameworku Angular.~\parencite{ionic}
+například React nebo Vue, nicméně je jeho jádro a~struktura samotného
+kódu založena na webovém frameworku Angular.~\parencite{ionic}
 
 Angular jako takový pracuje s~programovacím jazykem TypeScript, který je
 vyvíjen firmou Microsoft jako open-source. TypeScript je rozšíření již
@@ -211,10 +211,27 @@ dekompozici jednotlivých funkcionalit napříč aplikací. Data, která jsou
 těmito službami zpracována, jsou pak dále přeposílána do určitých
 komponent.~\parencite{angulararchitecture}
 
-\hypertarget{nuxe1vrh-obrazovek}{%
-\subsection{Návrh obrazovek}\label{nuxe1vrh-obrazovek}}
+\hypertarget{nuxe1vrh-uux17eivatelskuxe9ho-rozhranuxed}{%
+\subsection{Návrh uživatelského
+rozhraní}\label{nuxe1vrh-uux17eivatelskuxe9ho-rozhranuxed}}
 
-Teď jdi na \ref{1} \ref{2} \ref{3} \ref{4}
+V~této podkapitole popíšeme hlavní vizuální prvky uživatelského rozhraní
+a~zaměříme se zde na popis chováním celého rozhraní při interakci
+s~uživatelem. Návrh celého uživatelského rozhraní přímo vychází
+z~požadavků na aplikaci jako takovou (viz
+\ref{poux17eadavky-na-aplikaci}).
+
+První obrazovka, se kterou uživatel přichází do styku po spuštění
+aplikace, je úvodní stránka, která uvádí základní informace o~derivačním
+slovníku (viz obrázek \ref{1}). Pod těmito informacemi se vyskytují dvě
+velká navigační tlačítka (\emph{open index} a~\emph{search}), která
+uživatele vedou k~využití hlavních funkcionalit aplikace.
+
+Druhá možnost, jak využít navigačního systému aplikace, je pomocí
+navigačního vysouvacího menu (viz obrázek \ref{1}), jež nabízí čtyři
+možná přesměrování. Barevnou indikací je vždy označena aktuální pozice
+uživatele v~systému -- tohle menu je vždy přístupné v~levém horním rohu
+obrazovky.
 
 \begin{figure}[ht]
   \begin{subfigure}[b]{0.45\textwidth}
@@ -227,6 +244,19 @@ Teď jdi na \ref{1} \ref{2} \ref{3} \ref{4}
   \caption{Úvodní stránka a~navigační menu}
   \label{1}
 \end{figure}
+
+Nejdůležitějším prvkem celého uživatelského rozhraní je přístup k~hlavní
+funkcionalitě \emph{insert word}. Domníváme se, že právě zde musí dojít
+k~co nejpříjemnějšímu uživatelskému zážitku, protože na tomto místě
+dochází k~uspokojení, či neuspokojení potřeb uživatele vzhledem
+k~aplikaci.
+
+S~ohledem na výše zmíněné, je výchozím stavem prázdné textové pole,
+které očekává vstup od uživatele. Po zadání jednotlivých znaků obrazovka
+dynamicky zobrazuje pouze ta slova z~rejstříku zpracovaných slov, která
+začínají podřetězcem zadaného slovního tvaru (viz obrázek \ref{2}).
+A~právě přes tato vyselektovaná slova se lze dostat k~výslednému
+slovníkovému heslu.
 
 \begin{figure}[ht]
   \begin{subfigure}[b]{0.3\textwidth}
@@ -244,6 +274,19 @@ Teď jdi na \ref{1} \ref{2} \ref{3} \ref{4}
   \label{2}
 \end{figure}
 
+Samotné slovníkové heslo je zobrazeno formou tří na sobě nezávislých
+karet (viz obrázek \ref{3}), z~nichž každá obsahuje určité lingvistické
+informace o~derivovaném výrazu (viz \ref{slovnuxedkovuxe9-heslo}).
+V~případě, kdy je heslo vytvořeno na základě slova vybraného z~rejstříku
+zpracovaných slov, může uživatel využít zobrazené navigační šipky (po
+kliknutí na textové pole), jež ho vrátí zpět na určité místo
+v~rejstříku.
+
+Rejstřík zpracovaných slov je řazen abecedně a~obsahuje úplný seznam
+slov (viz obrázek \ref{3}), která spadají do zpracovaných slovotvorných
+typů. Jak bylo výše naznačeno prostřednictvím rejstříku může uživatel
+taktéž přistoupit k~vygenerování určitého slovníkového hesla.
+
 \begin{figure}[ht]
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{3-1}
@@ -252,7 +295,7 @@ Teď jdi na \ref{1} \ref{2} \ref{3} \ref{4}
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{3-2}
   \end{subfigure}
-  \caption{Výstup funkcionality insert word}
+  \caption{Slovníková hesla}
   \label{3}
 \end{figure}
 
@@ -284,13 +327,13 @@ Mobilní aplikace se skládá z~pěti hlavních stránek (komponent), jde o:
 \item
   vysouvací menu;
 \item
-  úvodní obrazovku;
+  úvodní obrazovku s~informacemi o~aplikaci;
 \item
   stránku s~funkcionalitou \emph{insert word};
 \item
   rejstřík se zpracovanými slovy;
 \item
-  stránku s~informacemi o~aplikaci.
+  stránku s~informacemi o~autorech.
 \end{itemize}
 
 Implementačně nejkomplexnější je komponenta s~funkcionalitou
@@ -312,8 +355,8 @@ V~prvé řadě musí aplikace nějakým způsobem získat vstup pro následnou
 analýzu, existují dva způsoby, jak k~tomu docílit -- v~případě kroku 1.a
 je za vstup považováno takové slovo, které bylo vybráno v~rámci
 komponenty \emph{index}, tedy je vstupní slovo vybráno na stránce
-s~rejstříkem zpracovaných sufixů. Druhou možností (1.b) je zadat slovo
-ručně prostřednictvím funkce \emph{fromUser} z~textového pole, v~takovém
+s~rejstříkem zpracovaných slov. Druhou možností (1.b) je zadat slovo ručně
+prostřednictvím funkce \emph{fromUser} z~textového pole, v~takovém
 případě se po zadání prvního písmena (a~následně dalších znaků)
 vyselektují všechna slova z~rejstříku, která začínají zadaným
 podřetězcem.

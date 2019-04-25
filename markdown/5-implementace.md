@@ -27,7 +27,7 @@ Součástí zadání také bylo to, aby všechny funkcionality mobilní aplikace
 Na začátku samotného vývoje si je zapotřebí určit několik věci, v našem případě jde primárně o:
 
 - zvolení vhodných technologií včetně programovacího jazyka, kterými budeme nástroj implementovat; 
-- návrh jednotlivých obrazovek aplikace a navigaci mezi nimi (včetně konkrétních přechodů).
+- návrh uživatelského rozhraní aplikace spolu s navigací mezi jednotlivými vizuálními prvky (včetně konkrétních přechodů).
  
 ### Použité technologie
 
@@ -57,16 +57,19 @@ Při vývoji komplexnějších webových a mobilních aplikací se často pracuj
 
 My jsme v rámci naší mobilní aplikace využili Ionic Framework, což je soubor nástrojů s otevřeným zdrojovým kódem pod licencí MIT\footnote{https://opensource.org/licenses/MIT}, který se zaměřuje na uživatelský interface u mobilních a webových aplikací. Obsahuje velké množství vizuálních komponent, jež jsou typické pro mobilní zařízení, a taktéž je zde umožněno pomocí knihovny Ionic Native přistupovat k nativním funkcím mobilního zařízení -- zde se využívá knihovna Cordova, která slouží pro převod webové aplikace do aplikace mobilní. \parencite{cordova}
 
-Dalším cílem Ionicu je poskytnout takové prostředí pro vývoj hybridních aplikací, které je kompatibilní s dalšími frameworky, jako jsou například React nebo Vue, nicméně jeho jádro a struktura samotného kódu je založena na webovém frameworku Angular. \parencite{ionic}
+Dalším cílem Ionicu je poskytnout takové prostředí pro vývoj hybridních aplikací, které je kompatibilní s dalšími frameworky, jako jsou například React nebo Vue, nicméně je jeho jádro a struktura samotného kódu založena na webovém frameworku Angular. \parencite{ionic}
 
 Angular jako takový pracuje s programovacím jazykem TypeScript, který je vyvíjen firmou Microsoft jako open-source. TypeScript je rozšíření již zmíněného JavaScriptu, to v praxi znamená, že kód napsaný v TypeScriptu je zapotřebí nejdříve zkompilovat (převést) do určité podoby JavaScriptového standardu a ten je až poté možné interpretovat ve webových prohlížečích. Tento programovací jazyk se používá primárně z důvodu své silné typové kontroly, pokud je tedy této možnosti využito, lze tak díky ní předcházet mnohým potenciálním chybám. \parencite{typescript}
 
 Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrstev, zde si ve stručnosti popíšeme právě ty, které jsou pro pochopení naši aplikace klíčové. Základním prvkem architektury jsou *komponenty*, v rámci kterých dochází k propojení aplikační logiky s konkrétní HTML šablonou (ta určuje celkový vzhled) a CSS. Jedna komponenta je většinou rovna jedné vizuální stránce v aplikaci, nicméně Angular dokáže svými vlastními značkami (*direktivami*) ovlivnit výslednou podobou šablony ještě před jejím zobrazením -- díky tomuto principu jednoduše dochází k dynamické proměně obsahu stránek podle zadané aplikační logiky, protože ta právě ovlivňuje chování samotných direktiv. Další důležitou části jsou *služby* -- ty už nejsou propojeny s žádnou vizuální stránkou (s HTML šablonou), ale slouží pro dekompozici jednotlivých funkcionalit napříč aplikací. Data, která jsou těmito službami zpracována, jsou pak dále přeposílána do určitých komponent. \parencite{angulararchitecture}
 
-### Návrh obrazovek
+### Návrh uživatelského rozhraní
 
+V této podkapitole popíšeme hlavní vizuální prvky uživatelského rozhraní a zaměříme se zde na popis chováním celého rozhraní při interakci s uživatelem. Návrh celého uživatelského rozhraní přímo vychází z požadavků na aplikaci jako takovou (viz \ref{poux17eadavky-na-aplikaci}).
 
-Teď jdi na \ref{1} \ref{2} \ref{3} \ref{4} 
+První obrazovka, se kterou uživatel přichází do styku po spuštění aplikace, je úvodní stránka, která uvádí základní informace o derivačním slovníku (viz obrázek \ref{1}). Pod těmito informacemi se vyskytují dvě velká navigační tlačítka (*open index* a *search*), která uživatele vedou k využití hlavních funkcionalit aplikace.
+
+Druhá možnost, jak využít navigačního systému aplikace, je pomocí navigačního vysouvacího menu (viz obrázek \ref{1}), jež nabízí čtyři možná přesměrování. Barevnou indikací je vždy označena aktuální pozice uživatele v systému -- tohle menu je vždy přístupné v levém horním rohu obrazovky. 
 
 \begin{figure}[ht]
   \begin{subfigure}[b]{0.45\textwidth}
@@ -79,6 +82,10 @@ Teď jdi na \ref{1} \ref{2} \ref{3} \ref{4}
   \caption{Úvodní stránka a navigační menu}
   \label{1}
 \end{figure}
+
+Nejdůležitějším prvkem celého uživatelského rozhraní je přístup k hlavní funkcionalitě *insert word*. Domníváme se, že právě zde musí dojít k co nejpříjemnějšímu uživatelskému zážitku, protože na tomto místě dochází k uspokojení, či neuspokojení potřeb uživatele vzhledem k aplikaci.
+
+S ohledem na výše zmíněné, je výchozím stavem prázdné textové pole, které očekává vstup od uživatele. Po zadání jednotlivých znaků obrazovka dynamicky zobrazuje pouze ta slova z rejstříku zpracovaných slov, která začínají podřetězcem zadaného slovního tvaru (viz obrázek \ref{2}). A právě přes tato vyselektovaná slova se lze dostat k výslednému slovníkovému heslu.    
 
 \begin{figure}[ht]
   \begin{subfigure}[b]{0.3\textwidth}
@@ -96,6 +103,10 @@ Teď jdi na \ref{1} \ref{2} \ref{3} \ref{4}
   \label{2}
 \end{figure}
 
+Samotné slovníkové heslo je zobrazeno formou tří na sobě nezávislých karet (viz obrázek \ref{3}), z nichž každá obsahuje určité lingvistické informace o derivovaném výrazu (viz \ref{slovnuxedkovuxe9-heslo}). V případě, kdy je heslo vytvořeno na základě slova vybraného z rejstříku zpracovaných slov, může uživatel využít zobrazené navigační šipky (po kliknutí na textové pole), jež ho vrátí zpět na určité místo v rejstříku.
+
+Rejstřík zpracovaných slov je řazen abecedně a obsahuje úplný seznam slov (viz obrázek \ref{3}), která spadají do zpracovaných slovotvorných typů. Jak bylo výše naznačeno prostřednictvím rejstříku může uživatel taktéž přistoupit k vygenerování určitého slovníkového hesla.
+
 \begin{figure}[ht]
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{3-1}
@@ -104,7 +115,7 @@ Teď jdi na \ref{1} \ref{2} \ref{3} \ref{4}
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{3-2}
   \end{subfigure}
-  \caption{Výstup funkcionality insert word}
+  \caption{Slovníková hesla}
   \label{3}
 \end{figure}
 
@@ -129,10 +140,10 @@ V poslední kapitole si popíšeme architekturu předkládané aplikace spolu s 
 Mobilní aplikace se skládá z pěti hlavních stránek (komponent), jde o:
 
 - vysouvací menu;
-- úvodní obrazovku;
+- úvodní obrazovku s informacemi o aplikaci;
 - stránku s funkcionalitou *insert word*;
 - rejstřík se zpracovanými slovy;
-- stránku s informacemi o aplikaci.
+- stránku s informacemi o autorech.
 
 Implementačně nejkomplexnější  je komponenta s funkcionalitou *insert word*, proto se na ní v následující části důkladněji zaměříme a pro demonstraci použitého algoritmu použijeme přiložené schéma (viz obrázek \ref{algoritmus}). Pro větší přehlednost jsou na diagramu modře zvýrazněny komponenty, žlutou barvou služby, zeleně interní uložiště s daty a červeně pak hlavní funkce (ty se dále větví do menších podfunkcí, jejichž popis není pro účely tohoto popisu klíčový).
 
@@ -143,7 +154,7 @@ Implementačně nejkomplexnější  je komponenta s funkcionalitou *insert word*
     \label{algoritmus}
  \end{figure}
 
-V prvé řadě musí aplikace nějakým způsobem získat vstup pro následnou analýzu, existují dva způsoby, jak k tomu docílit -- v případě kroku 1.a je za vstup považováno takové slovo, které bylo vybráno v rámci komponenty *index*, tedy je vstupní slovo vybráno na stránce s rejstříkem zpracovaných sufixů. Druhou možností (1.b) je zadat slovo ručně prostřednictvím funkce *fromUser* z textového pole, v takovém případě se po zadání prvního písmena (a následně dalších znaků) vyselektují všechna slova z rejstříku, která začínají zadaným podřetězcem.
+V prvé řadě musí aplikace nějakým způsobem získat vstup pro následnou analýzu, existují dva způsoby, jak k tomu docílit -- v případě kroku 1.a je za vstup považováno takové slovo, které bylo vybráno v rámci komponenty *index*, tedy je vstupní slovo vybráno na stránce s rejstříkem zpracovaných slov. Druhou možností (1.b) je zadat slovo ručně prostřednictvím funkce *fromUser* z textového pole, v takovém případě se po zadání prvního písmena (a následně dalších znaků) vyselektují všechna slova z rejstříku, která začínají zadaným podřetězcem.
 
 V okamžiku, kdy je vybráno vstupní slovo, je tento řetězec zaslán do služby *analyze* (2), která řeší všechny záležitosti týkající se derivační sítě DeriNet a překladu. V této službě se při jejím volání inicializuje objekt, který bude cílovým výstupem této služby -- tento objekt nazýváme *infoBase* a skládá se z několika atributů:
 
