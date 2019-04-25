@@ -65,29 +65,30 @@ Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrs
 
 ### Návrh uživatelského rozhraní
 
+
 V této podkapitole popíšeme hlavní vizuální prvky uživatelského rozhraní a zaměříme se zde na popis chováním celého rozhraní při interakci s uživatelem. Návrh celého uživatelského rozhraní přímo vychází z požadavků na aplikaci jako takovou (viz \ref{poux17eadavky-na-aplikaci}).
 
-První obrazovka, se kterou uživatel přichází do styku po spuštění aplikace, je úvodní stránka, která uvádí základní informace o derivačním slovníku (viz obrázek \ref{1}). Pod těmito informacemi se vyskytují dvě velká navigační tlačítka (*open index* a *search*), která uživatele vedou k využití hlavních funkcionalit aplikace.
+První obrazovka, se kterou uživatel přichází do styku po spuštění aplikace, je úvodní stránka, která uvádí základní informace o derivačním slovníku (viz obrázek \ref{1}). Pod těmito informacemi se vyskytují dvě velká navigační tlačítka (\emph{open index} a \emph{search}), která uživatele vedou k využití hlavních funkcionalit aplikace.
 
-Druhá možnost, jak využít navigačního systému aplikace, je pomocí navigačního vysouvacího menu (viz obrázek \ref{1}), jež nabízí čtyři možná přesměrování. Barevnou indikací je vždy označena aktuální pozice uživatele v systému -- tohle menu je vždy přístupné v levém horním rohu obrazovky. 
+Druhá možnost, jak využít navigačního systému aplikace, je pomocí navigačního vysouvacího menu (viz obrázek \ref{1}), jež nabízí čtyři možná přesměrování. Barevnou indikací je vždy označena aktuální pozice uživatele v systému -- tohle menu je vždy přístupné v levém horním rohu obrazovky.
 
-\begin{figure}[h]
+\begin{figure}[hb!]
   \begin{subfigure}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{1-1}
+    \includegraphics[width=0.9\textwidth]{1-1}
   \end{subfigure}
   \hfill
   \begin{subfigure}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{1-2}
+    \includegraphics[width=0.9\textwidth]{1-2}
   \end{subfigure}
   \caption{Úvodní stránka a navigační menu}
   \label{1}
 \end{figure}
 
-Nejdůležitějším prvkem celého uživatelského rozhraní je přístup k hlavní funkcionalitě *insert word*. Domníváme se, že právě zde musí dojít k co nejpříjemnějšímu uživatelskému zážitku, protože na tomto místě dochází k uspokojení, či neuspokojení potřeb uživatele vzhledem k aplikaci.
+Nejdůležitějším prvkem celého uživatelského rozhraní je přístup k hlavní funkcionalitě \emph{insert word}. Domníváme se, že právě zde musí dojít k co nejpříjemnějšímu uživatelskému zážitku, protože na tomto místě dochází k uspokojení, či neuspokojení potřeb uživatele vzhledem k aplikaci.
 
-S ohledem na výše zmíněné, je výchozím stavem prázdné textové pole, které očekává vstup od uživatele. Po zadání jednotlivých znaků obrazovka dynamicky zobrazuje pouze ta slova z rejstříku zpracovaných slov, která začínají podřetězcem zadaného slovního tvaru (viz obrázek \ref{2}). A právě přes tato vyselektovaná slova se lze dostat k výslednému slovníkovému heslu.    
+S ohledem na výše zmíněné, je výchozím stavem prázdné textové pole, které očekává vstup od uživatele. Po zadání jednotlivých znaků obrazovka dynamicky zobrazuje pouze ta slova z rejstříku zpracovaných slov, která začínají podřetězcem zadaného slovního tvaru (viz obrázek \ref{2}). A právě přes tato vyselektovaná slova se lze dostat k výslednému slovníkovému heslu.
 
-\begin{figure}[h]
+\begin{figure}[ht]
   \begin{subfigure}[b]{0.3\textwidth}
     \includegraphics[width=\textwidth]{2-1}
   \end{subfigure}
@@ -105,27 +106,29 @@ S ohledem na výše zmíněné, je výchozím stavem prázdné textové pole, kt
 
 Samotné slovníkové heslo je zobrazeno formou tří na sobě nezávislých karet (viz obrázek \ref{3}), z nichž každá obsahuje určité lingvistické informace o derivovaném výrazu (viz \ref{slovnuxedkovuxe9-heslo}). V případě, kdy je heslo vytvořeno na základě slova vybraného z rejstříku zpracovaných slov, může uživatel využít zobrazené navigační šipky (po kliknutí na textové pole), jež ho vrátí zpět na určité místo v rejstříku.
 
-Rejstřík zpracovaných slov je řazen abecedně a obsahuje úplný seznam slov (viz obrázek \ref{3}), která spadají do zpracovaných slovotvorných typů. Jak bylo výše naznačeno prostřednictvím rejstříku může uživatel taktéž přistoupit k vygenerování určitého slovníkového hesla.
-
-\begin{figure}[h]
+\begin{figure}[ht]
   \begin{subfigure}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{3-1}
+    \includegraphics[width=0.9\textwidth]{3-1}
   \end{subfigure}
   \hfill
   \begin{subfigure}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{3-2}
+    \includegraphics[width=0.9\textwidth]{3-2}
   \end{subfigure}
   \caption{Slovníková hesla}
   \label{3}
 \end{figure}
 
-\begin{figure}[h]
+Rejstřík zpracovaných slov je řazen abecedně a obsahuje úplný seznam slov (viz obrázek \ref{4}), která spadají do zpracovaných slovotvorných typů. Jak bylo výše naznačeno prostřednictvím rejstříku může uživatel taktéž přistoupit k vygenerování určitého slovníkového hesla.
+
+Poslední obrazovkou je už jen marginální stránka týkající se autorů, jíž není pro popis návrhu uživatelského rozhraní nijak důležitá.
+
+\begin{figure}[ht]
   \begin{subfigure}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{4-1}
+    \includegraphics[width=0.9\textwidth]{4-1}
   \end{subfigure}
   \hfill
   \begin{subfigure}[b]{0.45\textwidth}
-    \includegraphics[width=\textwidth]{4-2}
+    \includegraphics[width=0.9\textwidth]{4-2}
   \end{subfigure}
   \caption{Rejstřík zpracovaných slov}
   \label{4}
