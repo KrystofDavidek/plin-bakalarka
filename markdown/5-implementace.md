@@ -100,7 +100,7 @@ S ohledem na výše zmíněné, je výchozím stavem prázdné textové pole, kt
   \begin{subfigure}[b]{0.3\textwidth}
    \includegraphics[width=\textwidth]{2-3}
   \end{subfigure}
-  \caption{Zadávání vstupního slova}
+  \caption{Proces zadávání vstupního slova}
   \label{2}
 \end{figure}
 
@@ -120,7 +120,7 @@ Samotné slovníkové heslo je zobrazeno formou tří na sobě nezávislých kar
 
 Rejstřík zpracovaných slov je řazen abecedně a obsahuje úplný seznam slov (viz obrázek \ref{4}), která spadají do zpracovaných slovotvorných typů. Jak bylo výše naznačeno prostřednictvím rejstříku může uživatel taktéž přistoupit k vygenerování určitého slovníkového hesla.
 
-Poslední obrazovkou je už jen marginální stránka týkající se autorů, jíž není pro popis návrhu uživatelského rozhraní nijak důležitá.
+Zbývají obrazovka je už jen marginální informační stránka týkající se autorů, jež není pro popis návrhu uživatelského rozhraní nijak důležitá.
 
 \begin{figure}[ht]
   \begin{subfigure}[b]{0.45\textwidth}
@@ -138,7 +138,8 @@ Poslední obrazovkou je už jen marginální stránka týkající se autorů, j�
 
 V poslední kapitole si popíšeme architekturu předkládané aplikace spolu s její hlavní funkcionalitou *insert word.*
 
-### Architektura aplikace
+\hypertarget{architektura}{%
+\paragraph*{Architektura aplikace}\label{architektura}} 
 
 Mobilní aplikace se skládá z pěti hlavních stránek (komponent), jde o:
 
@@ -147,6 +148,9 @@ Mobilní aplikace se skládá z pěti hlavních stránek (komponent), jde o:
 - stránku s funkcionalitou *insert word*;
 - rejstřík se zpracovanými slovy;
 - stránku s informacemi o autorech.
+
+\hypertarget{insert word}{%
+\paragraph*{Alogritmus funkcionality insert word}\label{insert word}} 
 
 Implementačně nejkomplexnější  je komponenta s funkcionalitou *insert word*, proto se na ní v následující části důkladněji zaměříme a pro demonstraci použitého algoritmu použijeme přiložené schéma (viz obrázek \ref{algoritmus}). Pro větší přehlednost jsou na diagramu modře zvýrazněny komponenty, žlutou barvou služby, zeleně interní uložiště s daty a červeně pak hlavní funkce (ty se dále větví do menších podfunkcí, jejichž popis není pro účely tohoto popisu klíčový).
 

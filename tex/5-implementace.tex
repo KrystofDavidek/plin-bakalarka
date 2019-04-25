@@ -270,7 +270,7 @@ slovníkovému heslu.
   \begin{subfigure}[b]{0.3\textwidth}
    \includegraphics[width=\textwidth]{2-3}
   \end{subfigure}
-  \caption{Zadávání vstupního slova}
+  \caption{Proces zadávání vstupního slova}
   \label{2}
 \end{figure}
 
@@ -299,8 +299,8 @@ slov (viz obrázek \ref{4}), která spadají do zpracovaných slovotvorných
 typů. Jak bylo výše naznačeno prostřednictvím rejstříku může uživatel
 taktéž přistoupit k~vygenerování určitého slovníkového hesla.
 
-Poslední obrazovkou je už jen marginální stránka týkající se autorů, jíž
-není pro popis návrhu uživatelského rozhraní nijak důležitá.
+Zbývají obrazovka je už jen marginální informační stránka týkající se
+autorů, jež není pro popis návrhu uživatelského rozhraní nijak důležitá.
 
 \begin{figure}[ht]
   \begin{subfigure}[b]{0.45\textwidth}
@@ -320,8 +320,8 @@ není pro popis návrhu uživatelského rozhraní nijak důležitá.
 V~poslední kapitole si popíšeme architekturu předkládané aplikace spolu
 s~její hlavní funkcionalitou \emph{insert word.}
 
-\hypertarget{architektura-aplikace}{%
-\subsection{Architektura aplikace}\label{architektura-aplikace}}
+\hypertarget{architektura}{%
+\subsubsection*{Architektura aplikace}\label{architektura}}
 
 Mobilní aplikace se skládá z~pěti hlavních stránek (komponent), jde o:
 
@@ -338,6 +338,9 @@ Mobilní aplikace se skládá z~pěti hlavních stránek (komponent), jde o:
 \item
   stránku s~informacemi o~autorech.
 \end{itemize}
+
+\hypertarget{insert word}{%
+\subsubsection*{Alogritmus funkcionality insert word}\label{insert word}}
 
 Implementačně nejkomplexnější je komponenta s~funkcionalitou
 \emph{insert word}, proto se na ní v~následující části důkladněji
