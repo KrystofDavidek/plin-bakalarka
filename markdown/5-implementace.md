@@ -139,7 +139,7 @@ Zbývají obrazovka je už jen marginální informační stránka týkající se
 V poslední kapitole si popíšeme architekturu předkládané aplikace spolu s její hlavní funkcionalitou *insert word.*
 
 \hypertarget{architektura}{%
-\paragraph*{Architektura aplikace}\label{architektura}} 
+\subsubsection*{Architektura aplikace}\label{architektura}} 
 
 Mobilní aplikace se skládá z pěti hlavních stránek (komponent), jde o:
 
@@ -150,7 +150,7 @@ Mobilní aplikace se skládá z pěti hlavních stránek (komponent), jde o:
 - stránku s informacemi o autorech.
 
 \hypertarget{insert word}{%
-\paragraph*{Alogritmus funkcionality insert word}\label{insert word}} 
+\subsubsection*{Alogritmus funkcionality insert word}\label{insert word}} 
 
 Implementačně nejkomplexnější  je komponenta s funkcionalitou *insert word*, proto se na ní v následující části důkladněji zaměříme a pro demonstraci použitého algoritmu použijeme přiložené schéma (viz obrázek \ref{algoritmus}). Pro větší přehlednost jsou na diagramu modře zvýrazněny komponenty, žlutou barvou služby, zeleně interní uložiště s daty a červeně pak hlavní funkce (ty se dále větví do menších podfunkcí, jejichž popis není pro účely tohoto popisu klíčový).
 
