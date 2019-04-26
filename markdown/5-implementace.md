@@ -65,8 +65,7 @@ Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrs
 
 ### Návrh uživatelského rozhraní
 
-
-V této podkapitole popíšeme hlavní vizuální prvky uživatelského rozhraní a zaměříme se zde na popis chováním celého rozhraní při interakci s uživatelem. Návrh celého uživatelského rozhraní přímo vychází z požadavků na aplikaci jako takovou (viz \ref{poux17eadavky-na-aplikaci}).
+V této podkapitole popíšeme hlavní vizuální prvky uživatelského rozhraní a zaměříme se zde na popis chování rozhraní při interakci s uživatelem. Návrh celého uživatelského rozhraní přímo vychází z požadavků na aplikaci jako takovou (viz \ref{poux17eadavky-na-aplikaci}) a je demonstrován na mobilním telefonu s operačním systémem Android.
 
 První obrazovka, se kterou uživatel přichází do styku po spuštění aplikace, je úvodní stránka, která uvádí základní informace o derivačním slovníku (viz obrázek \ref{1}). Pod těmito informacemi se vyskytují dvě velká navigační tlačítka (\emph{open index} a \emph{search}), která uživatele vedou k využití hlavních funkcionalit aplikace.
 
@@ -118,7 +117,7 @@ Samotné slovníkové heslo je zobrazeno formou tří na sobě nezávislých kar
   \label{3}
 \end{figure}
 
-Rejstřík zpracovaných slov je řazen abecedně a obsahuje úplný seznam slov (viz obrázek \ref{4}), která spadají do zpracovaných slovotvorných typů. Jak bylo výše naznačeno prostřednictvím rejstříku může uživatel taktéž přistoupit k vygenerování určitého slovníkového hesla.
+Rejstřík zpracovaných slov je řazen abecedně a obsahuje úplný seznam slov (viz obrázek \ref{4}), která spadají do zpracovaných slovotvorných typů. Jak bylo výše naznačeno, prostřednictvím rejstříku může uživatel taktéž přistoupit k vygenerování určitého slovníkového hesla.
 
 Zbývají obrazovka je už jen marginální informační stránka týkající se autorů, jež není pro popis návrhu uživatelského rozhraní nijak důležitá.
 
