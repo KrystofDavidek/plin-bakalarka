@@ -26,7 +26,7 @@ Odvozování slov je založeno na tvoření slov od slov jiných (označujeme je
 
 Podle pozice jednotlivých formantů můžeme vydělit několik základních slovotvorných postupů:
 
- - prefixace -- před slovo základové je umístěn slovotvorný morfém (prefix), jenž u většiny slovních druhů nemění mluvnické charakteristiky (*vinný* \rightarrow *ne-vinný*), pouze u verb může a nemusí prefixace měnit slovesný vid (imperfektivum *dělat* --> perfektivum *dodělat*, ale imperfektivum *dělávat* --> imperfektivum *dodělávat*);
+ - prefixace -- před slovo základové je umístěn slovotvorný morfém (prefix), jenž u většiny slovních druhů nemění mluvnické charakteristiky (*vinný* --> *ne-vinný*), pouze u verb může a nemusí prefixace měnit slovesný vid (imperfektivum *dělat* --> perfektivum *dodělat*, ale imperfektivum *dělávat* --> imperfektivum *dodělávat*);
  - sufixace -- za slovo základové je umístěn slovotvorný morfém (sufix), ten se vždy připojuje za základ slova, nikoliv za celé základové slovo (*prav-ic-e*). Sufixace je nejdůležitější slovotvorný postup v češtině \parencite[23]{dokulil62} a je spjata se souborem koncovek určitého paradigmatu \parencite[93]{dokulil00};
  - reflexivizace -- odvozování zvratných sloves pomocí volných zvratných formantů *se*, *si* (*bavit se*);
  - postfixace -- odvozování od úplného slovního tvaru pomocí zvláštní přípony (*koho-si*);
