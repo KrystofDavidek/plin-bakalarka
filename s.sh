@@ -15,7 +15,7 @@ for FILE in markdown/*.md; do
   sed -ie 's/\s\\%/\~\\%/g' "${FILE%.md}.tex"
   sed -ie 's/afixů\s*„/afixů „/g' "${FILE%.md}.tex"
   sed -ie 's/--\\textgreater{}/\$\\rightarrow\$/g' "${FILE%.md}.tex"
-  sed -ie 's/\\textless{}\$\\rightarrow\$/\$\\leftrightarrow\$/g' "${FILE%.md}.tex"
+  sed -ie 's/\\textless{}\$\\rightarrow\$/\$\\longleftrightarrow\$/g' "${FILE%.md}.tex"
 
   sed -ie 's/\\chapter{Úvod}\\label{uxfavod}/'\
 '\\chapter\*{Úvod}\\label{uvod}\n\\addcontentsline{toc}{chapter}{Úvod}/g' "${FILE%.md}.tex"
