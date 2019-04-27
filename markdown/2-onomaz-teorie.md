@@ -31,7 +31,7 @@ Podle pozice jednotlivých formantů můžeme vydělit několik základních slo
  - reflexivizace -- odvozování zvratných sloves pomocí volných zvratných formantů *se*, *si* (*bavit se*);
  - postfixace -- odvozování od úplného slovního tvaru pomocí zvláštní přípony (*koho-si*);
  - deprefixace -- odsunutí prefixu (*poslat* --> *slát*);
- - desufiaxce -- odsunutí sufixu (*plamen* --> *plam*)\footnote{V rámci aglutinačních jazyků (korejština, finština atd.) by se dalo taktéž mluvit o infixaci, kde se za infix považuje takový afix, jenž se vyskytuje uvnitř kořenu slova, nicméně v českém jazyce se tento jev nevyskytuje. \parencite{enc-morfem17}}. \parencite[93--94]{dokulil00}
+ - desufixace -- odsunutí sufixu (*plamen* --> *plam*)\footnote{V rámci aglutinačních jazyků (korejština, finština atd.) by se dalo taktéž mluvit o infixaci, kde se za infix považuje takový afix, jenž se vyskytuje uvnitř kořenu slova, nicméně v českém jazyce se tento jev nevyskytuje. \parencite{enc-morfem17}}. \parencite[93--94]{dokulil00}
 
 Na závěr této podkapitoly je nutné poznamenat, že se výše vypsané slovotvorné způsoby mohou různě kombinovat \parencite[93]{dokulil00}, například podstatné jméno *výsadek* je odvozeno od slova *sad* nebo *sázet*,  a to jak pomocí prefixu *vý-*, tak prostřednictvím sufixu *-ek*.
 
@@ -45,7 +45,7 @@ Pro popis slovotvorných vztahů přišla OTS s dvěma základními termíny, jd
 
 Vztah fundace (zakládání se jednoho slova na druhém) je založen na tom principu, že slovo, které je významově i formálně složitější (slovo fundované), se zakládá na slově jiném, které je pro něj základové (slovo fundující), a tím pádem zpravidla významově i formálně jednodušší. \parencite[95]{dokulil00}
 
-Tento vztah je základním slovotvorným vztahem, a tedy pokud u nějaké dvojice slov chybí, nelze pak tvrdit, že tato slova spolu jakkoliv slovotvorně souvisí. Příkladem fundace může být slovo *učitel*, které je fundované (je od něj odvozeno) fundujícím slovem *učit*.
+Tento vztah je základním slovotvorným vztahem, a tedy pokud u nějaké dvojice slov chybí, nelze tvrdit, že tato slova spolu jakkoliv slovotvorně souvisí. Příkladem fundace může být slovo *učitel*, které je fundované (je od něj odvozeno) fundujícím slovem *učit*.
 
 Na dvojicích slov ve vztahu fundace se mohou dále tvořit složitější a rozvětvenější vztahy, jde o:
  
@@ -57,7 +57,7 @@ Na dvojicích slov ve vztahu fundace se mohou dále tvořit složitější a roz
 
 Vztah motivace mezi dvěma slovy je pak především o určité významové odvozenosti, tedy že základové slovo (motivující) sémanticky předurčuje slovo motivované, jehož význam lze takto ozřejmit. \parencite[96]{dokulil00} Příklad motivace může být výraz *mladice*, který je motivován substantivem *mladík* (ve významu *mladý muž*) a adjektivem *mladý*. \parencite[110]{dokulil62}
 
-Obecně označujeme slova motivovaná za popisná (*učitel*), protože je lze popsat významem slova motivujícího (*učit*). Výrazy, které tuto vlastnost nemají pak definujeme jako značková. \parencite[96]{dokulil00}
+Obecně označujeme slova motivovaná za popisná (*učitel*), protože je lze popsat významem slova motivujícího (*učit*). Výrazy, které tuto vlastnost nemají, pak definujeme jako značková. \parencite[96]{dokulil00}
 
 Vztahy fundace a motivace mají typicky jasný směr od slova základového k odvozenému, nicméně ne vždy může být směr fundace/motivace zřejmý, proto v určitých případech považujeme vztah za oboustranný. Obecně jde o taková slova, kterým chybí formální příznak odvozenosti, tedy jasně pozorovatelná morfologická změna, v češtině tak nejčastěji derivační sufix. \parencite[96]{dokulil00}
 
@@ -71,11 +71,11 @@ V okamžiku, kdy nelze využít analogie, pracujeme s oboustrannou fundací/moti
 
 ### Slovotvorný a lexikální význam
 
-V rámci problematiky slovotvorných vztahů si je taktéž zapotřebí vydělit dva základní typy významu, se kterými teorie pracuje.  Prvním z nich je význam slovotvorný (strukturní), který je založen na významech jednotlivých slovotvorných složek, to znamená, že jej lze do určité míry predikovat podle morfému/ů, o který/é je slovo odvozené obohaceno anebo zkráceno (viz \ref{derivace}) oproti slovu základovém. \parencite{enc-slovot-vyznam17}
+V rámci problematiky slovotvorných vztahů je taktéž zapotřebí vydělit dva základní typy významu, se kterými teorie pracuje.  Prvním z nich je význam slovotvorný (strukturní), který je založen na významech jednotlivých slovotvorných složek, to znamená, že jej lze do určité míry predikovat podle morfému/ů, o který/é je slovo odvozené obohaceno anebo zkráceno (viz \ref{derivace}) oproti slovu základovém. \parencite{enc-slovot-vyznam17}
 
-Lexikální význam je na rozdíl od významu slovotvorného záležitostí konvence a úzu, tedy se může od strukturního významu vzdálit (lexikalizovat), a tím získat význam nový, jenž nelze vyčíst ze slovotvorné struktury daného slova a nelze ho tak nijak predikovat. \parencite{enc-slovot-vyznam17} Jak bylo již výše naznačeno, oba typy významu se mohou více či méně rozejít, tuto divergenci pěkně demonstruje výraz *krejčí*, u něhož je strukturní význam „ten, kdo krájí“ a lexikální „ten, kdo šije šaty“. Nicméně tak existují i případy, kdy se oba typy významu rovnají (například u slova *učitel*) anebo kdy je strukturní význam oproti lexikálnímu obecnější. (Např. výraz *vnímatel*, jehož definice je v SSJČ „ten, kdo uvědoměle vnímá umělecké dílo“ \parencite{ssjc}, zde je tedy lexikální význam užší než strukturní, který zní následovně: „ten, kdo vnímá“.) Poslední případ, jenž není v českém jazyce hojně zastoupen, je situace, kdy je lexikální význam obecnější (například XXX).
+Druhý z nich, význam lexikální, je na rozdíl od slovotvorného významu záležitostí konvence a úzu, tedy se může od strukturního významu vzdálit (lexikalizovat), a tím získat význam nový, jenž nelze vyčíst ze slovotvorné struktury daného slova, a nelze ho tak nijak predikovat. \parencite{enc-slovot-vyznam17} Jak bylo již výše naznačeno, oba typy významu se mohou více či méně rozejít, tuto divergenci pěkně demonstruje výraz *krejčí*, u něhož je strukturní význam „ten, kdo krájí“ a lexikální „ten, kdo šije šaty“. Nicméně existují i případy, v nichž se oba typy významu rovnají (například u slova *učitel*) anebo kdy je strukturní význam oproti lexikálnímu obecnější. (Např. výraz *vnímatel*, jehož definice je v SSJČ „ten, kdo uvědoměle vnímá umělecké dílo“ \parencite{ssjc}, zde je tedy lexikální význam užší než strukturní, který zní následovně: „ten, kdo vnímá“.) Poslední případ, jenž není v českém jazyce hojně zastoupen, je situace, kdy je lexikální význam obecnější (například XXX).
 
-Hlavní rozdíl mezi těmito dvěma významu je tedy ten, že slova značková mají pouze lexikální význam, jelikož jsou typicky na počátku případného derivačního řetězce, a nemohou proto nabývat významu slovotvorného. Například značkové slovo *les* má pouze význam lexikální, jenž lze najít ve výkladových slovnících, na druhou stranu výraz *lesnatý* je již slovem odvozeným, a proto u něj můžeme vydělit oba druhy významu. Lexikální význam zase z výkladového slovníku, ale nově i slovotvorný, který je dán určitým afixem, v tomto případě sufixem *-natý*, který je ve slovníku afixu definován takto: „mající v hojné míře to, co označuje základové substantivum“ \parencite{simandl2016}.
+Hlavní rozdíl mezi těmito dvěma významy je tedy ten, že slova značková mají pouze lexikální význam, jelikož jsou typicky na počátku případného derivačního řetězce, a nemohou proto nabývat významu slovotvorného. Například značkové slovo *les* má pouze význam lexikální, jenž lze najít ve výkladových slovnících, na druhou stranu výraz *lesnatý* je již slovem odvozeným, a proto u něj můžeme vydělit oba druhy významu. Lexikální význam zjistíme zase z výkladového slovníku, navíc zde ale můžeme identifikovat i význam slovotvorný, který je dán určitým afixem, v tomto případě sufixem *-natý*, který je ve slovníku afixu definován takto: „mající v hojné míře to, co označuje základové substantivum“ \parencite{simandl2016}.
 
 ## Morfologická stavba slov
 
@@ -107,7 +107,7 @@ Vztahy mezi pojmovou bází a příznakem při utváření nových slov mají v�
 
 #### Mutace
 
-Významnou pojmenovávací kategorií je kategorie mutační (relační), u nových pojmenování vzniklých mutací dochází k výrazné proměně obsahu výchozího pojmu \parencite[102]{dokulil00}, tuhle změnu určuje onomaziologický příznak, jenž je také určujícím rysem, který výsledný pojem od ostatních prvků dané třídy odlišuje. \parencite{enc-mutace17}
+Významnou pojmenovávací kategorií je kategorie mutační (relační). U nových pojmenování vzniklých mutací dochází k výrazné proměně obsahu výchozího pojmu \parencite[102]{dokulil00}. Tuhle změnu určuje onomaziologický příznak, jenž je také určujícím rysem, který výsledný pojem od ostatních prvků dané třídy odlišuje. \parencite{enc-mutace17}
 
 Za příklad si můžeme uvést pojem výrazu *učitel* (ten, kdo učí), jde o kategorii substance, která je vymezena vztahem k ději (konkrétně k ději *učit*). Tento dějový příznak tedy plně odlišuje výsledný pojem v rámci třídy podobných jevů, v tomto konkrétním případě jde o třídu činitelských jmen.
 
@@ -125,7 +125,7 @@ Tuto kategorii můžeme sledovat např. u zpředmětnění vlastností (*marniv�
 
 ## Slovotvorné třídy a typy
 
-V oblasti klasifikace slovotvorného systému pracuje OTS s dvěma základními termíny -- slovotvorný typ a slovotvorná třída.
+V oblasti klasifikace slovotvorného systému pracuje OTS s dvěma základními termíny -- slovotvorná třída a slovotvorný typ.
 
 Slovotvorná třída je považována za základní jednotku slovotvorného systému a hierarchicky je bezprostředně nadřazená slovotvorným typům. Tyto jednotky vydělujeme podle několika charakteristik, jednak podle slovnědruhové třídy (\ref{pojmovuxe9-kategorie}), dále podle slovotvorného základu (\ref{morfologickuxe1-stavba-slov}) a nakonec dle slovotvorného významu (\ref{slovotvornuxfd-a-lexikuxe1lnuxed-vuxfdznam}). \parencite[107]{dokulil00}
 
