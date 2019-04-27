@@ -1,6 +1,6 @@
 # Onomaziologická teorie slovotvorby
 
-Jak bylo v minulé kapitole naznačeno, onomaziologická teorie slovotvorby (dále jen OTS) je v českém prostředí spjata s dílem Miloše Dokulila -- *Tvoření slov v češtině* a *Tvoření slov v češtině 2* (TSČ a TSČ 2). Jeho teorie výrazně ovlivnila přístup ke slovotvorbě jako takové, protože si kladla za cíl popsat proces tvoření slov soudobé češtiny a zároveň definovat hranici s dalšími lingvistickými disciplínami jako jsou morfologie či lexikologie -- jedná se tedy o ryze synchronní přístup, který je založen na onomaziologii (obecné teorii pojmenovávání). \parencite{enc-ots17}
+Jak bylo v minulé kapitole naznačeno, onomaziologická teorie slovotvorby (dále jen OTS) je v českém prostředí spjata s dílem Miloše Dokulila -- *Tvoření slov v češtině* a *Tvoření slov v češtině 2* (TSČ a TSČ 2). Jeho teorie výrazně ovlivnila přístup ke slovotvorbě jako takové, protože si kladla za cíl popsat proces tvoření slov soudobé češtiny a zároveň definovat hranici s dalšími lingvistickými disciplínami, jako jsou morfologie či lexikologie. Jedná se tedy o ryze synchronní přístup, který je založen na onomaziologii (obecné teorii pojmenovávání). \parencite{enc-ots17}
 
 Onomaziologie zkoumá takové motivace, postupy a prostředky, prostřednictvím kterých jsou v daném jazyce vyjadřovány určité obsahy. Na rozdíl od sémaziologie postupuje od obsahu k formě, to znamená, že vychází od pojmu k pojmenování, kterým je daný pojem vyjádřen. \parencite{enc-onomaz17} Díky těmto termínům OTS terminologicky vyřešila problematiku výrazů *pojem* a *slovo*, která byla dříve často nesystematicky zaměňována. \parencite[267]{rousinova07}
 
@@ -10,9 +10,9 @@ Teorie jako taková je založena na propracovaném systému onomaziologických a
 
 ## Způsoby a prostředky tvoření nových pojmenování
 
-Potřebu nových pojmenování lze naplnit různými způsoby, prvním z nich je využití již vytvořených pojmenování z cizích jazyků -- k tomuto přejímání může docházet z vícero důvodů, například když nemá domácí jazyk pro daný pojem z nějaké příčiny výraz (*whiskey*), ale také může jít o nějakou formu jazykové módy (*cool*) nebo eufemismu (*toaleta*). \parencite[19]{dokulil62}
+Potřebu nových pojmenování lze naplnit různými způsoby, prvním z nich je využití již vytvořených pojmenování z cizích jazyků. K tomuto přejímání může docházet z vícero důvodů, například když nemá domácí jazyk pro daný pojem z nějaké příčiny výraz (*whiskey*), ale také může jít o nějakou formu jazykové módy (*cool*) nebo eufemismu (*toaleta*). \parencite[19]{dokulil62}
 
-Druhým způsobem, jak vytvářet nová pojmenování, je tvorba nových výrazů z vlastní slovní zásoby daného jazyka. Podle Dokulila lze v této oblasti mluvit o tvoření pojmenování víceslovných a jednoslovných. U víceslovných novotvarů jde typicky jen o novou kombinaci slov již existujících (*strojový překlad*), tento typ tvorby nových pojmenování je v českém jazyce nejčastější a nejjednodušší, nicméně existují důkazy, že čeština dává z důvodu své flektivní povahy přednost právě druhému typu. Ten je založen na tom, že nová jednoslovná pojmenování vznikají prostřednictvím morfologických změn ze slov už vytvořených -- může se tak jednat buď o skládání slov (kompozici) nebo odvozování slov (derivaci). \parencite[21]{dokulil62}
+Druhým způsobem, jak vytvářet nová pojmenování, je tvorba nových výrazů z vlastní slovní zásoby daného jazyka. Podle Dokulila lze v této oblasti mluvit o tvoření pojmenování víceslovných a jednoslovných. U víceslovných novotvarů jde typicky jen o novou kombinaci slov již existujících (*strojový překlad*). Tento typ tvorby nových pojmenování je v českém jazyce nejjednodušší, nicméně existují důkazy, že čeština dává častěji z důvodu své flektivní povahy přednost právě druhému typu. Ten je založen na tom, že nová jednoslovná pojmenování vznikají prostřednictvím morfologických změn ze slov už vytvořených -- může se tak jednat buď o skládání slov (kompozici) nebo odvozování slov (derivaci). \parencite[21]{dokulil62}
 
 ### Kompozice
 
@@ -26,7 +26,7 @@ Odvozování slov je založeno na tvoření slov od slov jiných (označujeme je
 
 Podle pozice jednotlivých formantů můžeme vydělit několik základních slovotvorných postupů:
 
- - prefixace -- před slovo základové je umístěn slovotvorný morfém (prefix), jenž u většiny slovních druhů nemění mluvnické charakteristiky (*vinný* --> *ne-vinný*), pouze u verb může a nemusí prefixace měnit slovesný vid (imperfektivum *dělat* --> perfektivum *dodělat*, ale imperfektivum *dělávat* --> imperfektivum *dodělávat*);
+ - prefixace -- před slovo základové je umístěn slovotvorný morfém (prefix), jenž u většiny slovních druhů nemění mluvnické charakteristiky (*vinný* \rightarrow *ne-vinný*), pouze u verb může a nemusí prefixace měnit slovesný vid (imperfektivum *dělat* --> perfektivum *dodělat*, ale imperfektivum *dělávat* --> imperfektivum *dodělávat*);
  - sufixace -- za slovo základové je umístěn slovotvorný morfém (sufix), ten se vždy připojuje za základ slova, nikoliv za celé základové slovo (*prav-ic-e*). Sufixace je nejdůležitější slovotvorný postup v češtině \parencite[23]{dokulil62} a je spjata se souborem koncovek určitého paradigmatu \parencite[93]{dokulil00};
  - reflexivizace -- odvozování zvratných sloves pomocí volných zvratných formantů *se*, *si* (*bavit se*);
  - postfixace -- odvozování od úplného slovního tvaru pomocí zvláštní přípony (*koho-si*);
