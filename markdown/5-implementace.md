@@ -69,9 +69,7 @@ V této podkapitole popíšeme hlavní vizuální prvky uživatelského rozhran�
 
 První obrazovka, se kterou uživatel přichází do styku po spuštění aplikace, je úvodní stránka, která uvádí základní informace o derivačním slovníku (viz obrázek \ref{1}). Pod těmito informacemi se vyskytují dvě velká navigační tlačítka (\emph{open index} a \emph{search}), která uživatele vedou k využití hlavních funkcionalit aplikace.
 
-Druhá možnost, jak využít navigačního systému aplikace, je pomocí navigačního vysouvacího menu (viz obrázek \ref{1}), jež nabízí čtyři možná přesměrování. Barevnou indikací je vždy označena aktuální pozice uživatele v systému -- tohle menu je vždy přístupné v levém horním rohu obrazovky.
-
-\begin{figure}[hb!]
+\begin{figure}[ht]
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=0.9\textwidth]{1-1}
   \end{subfigure}
@@ -79,9 +77,11 @@ Druhá možnost, jak využít navigačního systému aplikace, je pomocí naviga
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=0.9\textwidth]{1-2}
   \end{subfigure}
-  \caption{Úvodní stránka a navigační menu}
+  \caption{Úvodní stránka a~navigační menu}
   \label{1}
 \end{figure}
+
+Druhá možnost, jak využít navigačního systému aplikace, je pomocí navigačního vysouvacího menu (viz obrázek \ref{1}), jež nabízí čtyři možná přesměrování. Barevnou indikací je vždy označena aktuální pozice uživatele v systému -- tohle menu je vždy přístupné v levém horním rohu obrazovky.
 
 Nejdůležitějším prvkem celého uživatelského rozhraní je přístup k hlavní funkcionalitě \emph{insert word}. Domníváme se, že právě zde musí dojít k co nejpříjemnějšímu uživatelskému zážitku, protože na tomto místě dochází k uspokojení, či neuspokojení potřeb uživatele vzhledem k aplikaci.
 
