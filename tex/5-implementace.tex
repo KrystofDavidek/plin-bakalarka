@@ -8,7 +8,7 @@ procesu návrhu a~implementace.
 
 Derivační slovník je primárně koncipován jako edukační pomůcka pro
 cizince, kteří se učí češtinu jako druhý jazyk. Na rozdíl od rodilých
-mluvčí nedokáží cizinci podvědomě predikovat význam neznámých slov na
+mluvčí nedokážou cizinci podvědomě predikovat význam neznámých slov na
 základě slovotvorných morfému v~určitých kontextech. Chybí jim tedy
 podvědomá znalost významů určitých slovotvorných afixů, prostřednictvím
 kterých by si pak dokázali analogicky vyvodit význam slova neznámého.
@@ -56,7 +56,7 @@ shrnout v~následujících bodech:
 \end{itemize}
 
 Součástí zadání také bylo to, aby všechny funkcionality mobilní aplikace
-byly kompletně funkční bez připojení k~internetu -- tím párem nebylo
+byly kompletně funkční bez připojení k~internetu -- tím pádem nebylo
 zapotřebí řešit autentifikaci
 uživatele\footnote{Nicméně je tato možnost stále v~řešení, a~to pro případ, kdybychom v~aplikaci chtěli nabídnout možnost ukládání již naučených hesel do osobního adresáře atd.}
 či pracovat se vzdáleným uložištěm.
@@ -115,8 +115,8 @@ nativními funkcemi (například s~mikrofonem, fotoaparátem, lokálním
 uložištěm v~telefonu atd.). Výhoda hybridních aplikací je
 v~jednoduchosti vývoje, který je v~porovnání s~nativním rychlý a~snadný,
 a~to i~z~toho důvodu, že se u~něj pracuje pouze s~jedním zdrojem kódu,
-který je použitelný na větší počet platforem. Negativním aspektem je pak
-pomalejší výpočetní výkon, který je spojen s~využitím speciálních
+který je však použitelný na větší počet platforem. Negativním aspektem
+je pak pomalejší výpočetní výkon, který je spojen s~využitím speciálních
 knihoven pro převod do výsledné podoby mobilní aplikace.
 
 Jelikož se v~našem případě pracuje s~minimem nativních funkcí, aplikace
@@ -133,23 +133,22 @@ CSS a~JavaScript, proto si je v~následujících odstavcích v~krátkosti
 popíšeme.
 
 HTML (Hypertext Markup Language) a~CSS (Cascading Style Sheets) jsou dvě
-základní technologie, na nich jsou v~nejobecnější rovině postaveny
+základní technologie, na nichž jsou v~nejobecnější rovině postaveny
 webové stránky. HTML je značkovací jazyk, pomocí kterého popisujeme
-strukturu webových stránek, to znamená, že za použití speciálně
+strukturu webových stránek, což znamená, že za použití speciálně
 definovaných značek přiřazujeme jednotlivé významy částem obsahu. Pomocí
 CSS pak nastavujeme vizuální podobu dané webové stránky (barvy, fonty,
-odsazení atd.), důležitou vlastností CSS je nezávislost na HTML, tedy
-můžeme dle potřeby tyto dva jazyky separovat a~následně s~mírnými
-obměnami využít v~rámci jiného projektu/prostředí.~\parencite{htmlcss}
+odsazení atd.). Důležitou vlastností CSS je nezávislost na HTML, můžeme
+tedy dle potřeby tyto dva jazyky separovat a~následně s~mírnými obměnami
+využít v~rámci jiného projektu/prostředí.~\parencite{htmlcss}
 
 Před samotným vykreslením určité webové stránky musí dojít k~převedení
 HTML dokumentu do objektu zvaného DOM (Document Object Model) -- jde
 o~HTML uložené ve stromové struktuře, kde je o~každém jednotlivém uzlu
-(tedy značce) uložená informace o~jeho lokaci, s~tímto objektem dále
+(tedy značce) uložená informace o~jeho lokaci. S~tímto objektem dále
 pracuje CSS (aplikují se jednotlivá pravidla týkající se vykreslení)
-a~JavaScript, prostřednictvím kterého se pak může dynamicky měnit
-struktura a~zobrazení tohoto stromového objektu.
-\parencite{howbrowserswork}
+a~JavaScript, jehož prostřednictvím se pak může dynamicky měnit struktura
+a~zobrazení tohoto stromového objektu.~\parencite{howbrowserswork}
 
 JavaScript (obecněji ECMAscript) je
 skriptovací\footnote{Jako skriptovací jazyk je označován z~toho důvodu, že není při svém spuštění nijak kompilován (například na rozdíl od programovacích jazyků jako jsou Java nebo Objective-C) a~namísto toho je rovnou proveden daným webovým prohlížečem (ten je tak jeho interpretem).}
@@ -166,14 +165,14 @@ obsah.~\parencite{javascript}
 Při vývoji komplexnějších webových a~mobilních aplikací se často pracuje
 s~takzvanými webovými frameworky, které určitým způsobem zjednodušují
 vývoj. Ve stručnosti je jejich účelem umožnit vývojářům práci v~takovém
-prostředí, kde se můžou primárně zaměřit na požadavky daného projektu
+prostředí, v~němž se mohou primárně zaměřit na požadavky daného projektu
 a~nemusí řešit problematiku opakujících se funkcí nebo závislosti
 jednotlivých knihoven.
 
 My jsme v~rámci naší mobilní aplikace využili Ionic Framework, což je
 soubor nástrojů s~otevřeným zdrojovým kódem pod licencí
 MIT\footnote{https://opensource.org/licenses/MIT}, který se zaměřuje na
-uživatelský interface u~mobilních a~webových aplikací. Obsahuje velké
+uživatelské rozhraní u~mobilních a~webových aplikací. Obsahuje velké
 množství vizuálních komponent, jež jsou typické pro mobilní zařízení,
 a~taktéž je zde umožněno pomocí knihovny Ionic Native přistupovat
 k~nativním funkcím mobilního zařízení -- zde se využívá knihovna Cordova,
@@ -182,34 +181,33 @@ která slouží pro převod webové aplikace do aplikace mobilní.
 
 Dalším cílem Ionicu je poskytnout takové prostředí pro vývoj hybridních
 aplikací, které je kompatibilní s~dalšími frameworky, jako jsou
-například React nebo Vue, nicméně je jeho jádro a~struktura samotného
-kódu založena na webovém frameworku Angular.~\parencite{ionic}
+například React nebo Vue, nicméně jeho jádro a~struktura samotného kódu
+je založena na webovém frameworku Angular.~\parencite{ionic}
 
 Angular jako takový pracuje s~programovacím jazykem TypeScript, který je
 vyvíjen firmou Microsoft jako open-source. TypeScript je rozšíření již
 zmíněného JavaScriptu, to v~praxi znamená, že kód napsaný v~TypeScriptu
-je zapotřebí nejdříve zkompilovat (převést) do určité podoby
-JavaScriptového standardu a~ten je až poté možné interpretovat ve
-webových prohlížečích. Tento programovací jazyk se používá primárně
-z~důvodu své silné typové kontroly, pokud je tedy této možnosti využito,
-lze tak díky ní předcházet mnohým potenciálním chybám.
-\parencite{typescript}
+je zapotřebí nejdříve převést do určité podoby javaScriptového standardu
+a~ten je až poté možné interpretovat ve webových prohlížečích. Tento
+programovací jazyk se používá primárně z~důvodu své silné typové
+kontroly. Pokud je tedy této možnosti využito, lze tak díky ní
+předcházet mnohým potenciálním chybám.~\parencite{typescript}
 
 Architektura frameworku Angular se skládá z~mnoha vzájemně provázaných
-vrstev, zde si ve stručnosti popíšeme právě ty, které jsou pro pochopení
-naši aplikace klíčové. Základním prvkem architektury jsou
-\emph{komponenty}, v~rámci kterých dochází k~propojení aplikační logiky
-s~konkrétní HTML šablonou (ta určuje celkový vzhled) a~CSS. Jedna
-komponenta je většinou rovna jedné vizuální stránce v~aplikaci, nicméně
-Angular dokáže svými vlastními značkami (\emph{direktivami}) ovlivnit
-výslednou podobou šablony ještě před jejím zobrazením -- díky tomuto
-principu jednoduše dochází k~dynamické proměně obsahu stránek podle
-zadané aplikační logiky, protože ta právě ovlivňuje chování samotných
-direktiv. Další důležitou části jsou \emph{služby} -- ty už nejsou
-propojeny s~žádnou vizuální stránkou (s~HTML šablonou), ale slouží pro
-dekompozici jednotlivých funkcionalit napříč aplikací. Data, která jsou
-těmito službami zpracována, jsou pak dále přeposílána do určitých
-komponent.~\parencite{angulararchitecture}
+vrstev, ve stručnosti popíšeme právě ty, které jsou pro pochopení naši
+aplikace klíčové. Základním prvkem architektury jsou \emph{komponenty},
+v~rámci kterých dochází k~propojení aplikační logiky s~konkrétní HTML
+šablonou (ta určuje celkový vzhled) a~CSS. Jedna komponenta je většinou
+rovna jedné vizuální stránce v~aplikaci, nicméně Angular dokáže svými
+vlastními značkami (\emph{direktivami}) ovlivnit výslednou podobou
+šablony ještě před jejím zobrazením -- díky tomuto principu jednoduše
+dochází k~dynamické proměně obsahu stránek podle zadané aplikační
+logiky, protože ta ovlivňuje chování samotných direktiv. Další důležitou
+části jsou \emph{služby} -- ty už nejsou propojeny s~žádnou vizuální
+stránkou (s~HTML šablonou), ale slouží pro dekompozici jednotlivých
+funkcionalit napříč aplikací. Data, která jsou těmito službami
+zpracována, jsou pak dále přeposílána do určitých komponent.
+\parencite{angulararchitecture}
 
 \hypertarget{nuxe1vrh-uux17eivatelskuxe9ho-rozhranuxed}{%
 \subsection{Návrh uživatelského
@@ -251,8 +249,8 @@ k~co nejpříjemnějšímu uživatelskému zážitku, protože na tomto místě
 dochází k~uspokojení, či neuspokojení potřeb uživatele vzhledem
 k~aplikaci.
 
-S~ohledem na výše zmíněné, je výchozím stavem prázdné textové pole,
-které očekává vstup od uživatele. Po zadání jednotlivých znaků obrazovka
+S~ohledem na výše zmíněné je výchozím stavem prázdné textové pole, které
+očekává vstup od uživatele. Po zadání jednotlivých znaků obrazovka
 dynamicky zobrazuje pouze ta slova z~rejstříku zpracovaných slov, která
 začínají podřetězcem zadaného slovního tvaru (viz obrázek \ref{2}).
 A~právě přes tato vyselektovaná slova se lze dostat k~výslednému
@@ -278,9 +276,9 @@ Samotné slovníkové heslo je zobrazeno formou tří na sobě nezávislých
 karet (viz obrázek \ref{3}), z~nichž každá obsahuje určité lingvistické
 informace o~derivovaném výrazu (viz \ref{slovnuxedkovuxe9-heslo}).
 V~případě, kdy je heslo vytvořeno na základě slova vybraného z~rejstříku
-zpracovaných slov, může uživatel využít zobrazené navigační šipky (po
-kliknutí na textové pole), jež ho vrátí zpět na určité místo
-v~rejstříku.
+zpracovaných slov, může uživatel využít zobrazené navigační šipky (která
+se zobrazí vedle vstupního výrazu po kliknutí na textové pole), jež ho
+vrátí zpět na určité místo v~rejstříku.
 
 \begin{figure}[ht]
   \begin{subfigure}[b]{0.45\textwidth}
@@ -453,6 +451,6 @@ Angular přistoupit k~jednotlivým častém definice a~vykreslit je do
 označených míst v~šabloně (11).
 
 Výhoda tohoto objektového přístupu je taková, že se na jednotlivých
-jasně otypovaných místech v~kódu provádí pouze jeden specifický úkol,
-a~tím je do určité míry zajištěna robustnost celkové aplikace, kdy je při
-výpadku jedné služby/funkce jednoduché lokalizovat místo chyby.
+jasně otypovaných místech v~kódu provádí pouze jeden specifický úkol.
+Tím je do určité míry zajištěna robustnost celkové aplikace, u~níž je
+při výpadku jedné služby/funkce jednoduché lokalizovat místo chyby.
