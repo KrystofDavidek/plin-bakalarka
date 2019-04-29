@@ -1,6 +1,6 @@
 # Úvod
 
-U cizinců učících se češtinu, jakožto jazyk s vysoce rozvinutou flexí, se dříve či později objevuje potřeba pochopit významy jednotlivých odvozovacích prostředků. Tato potřeba pramení z častého vytváření novotvarů pomocí specifických jazykových prostředků, které pro takové účely český jazyk má. Vědomá znalost významů jednotlivých odvozovacích prostředků by mohla vést k podstatně rychlejšímu procesu akvizice češtiny jako druhého jazyka.
+Derivace v užším smyslu představuje v českém jazyce, jakožto v jazyce s vysoce rozvinutou flexí, nejčastější způsob utváření nových pojmenování. Její podstata je nejčastěji založena na přidávání slovotvorného morfému před (prefix) anebo za (sufix) slovní tvar. Rodilí mluvčí podvědomě chápou sémantiku jednotlivých morfémů, a proto jsou si nejen schopni vyložit významy slov, které v dané podobě nikdy neslyšeli, ale taktéž takové novotvary vytvářet. U cizinců učících se češtinu si je však potřeba sémantiku těchto odvozovacích prostředků nejprve vědomě osvojit. V současnosti neexistuje nástroj, který by byl určen pro účely osvojování derivačních prostředků češtiny.
 
 Cílem této práce je navrhnout a implementovat elektronický slovník s definicemi založenými na derivačních rysech slovotvorně motivovaných slov. Výsledná aplikace provádí pro zadaný vstup částečnou slovotvornou analýzu, na základě které zadanému slovu přiřazuje definici vycházející z jeho struktury (potažmo strukturního významu).
 
