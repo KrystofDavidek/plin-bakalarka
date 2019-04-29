@@ -1,11 +1,11 @@
 # Úvod
 
-Odvozování je v českém jazyce považováno za nejčastější způsob vzniku nových pojmenování. Na rozdíl od rodilých mluvčí existuje u cizinců studujících češtinu jako druhý jazyk potřeba znát jednotlivé odvozovací morfémy, díky kterým by byli schopni podvědomě predikovat významy neznámých slov. Tím by urychlili proces akvizice češtiny a rovněž by docílili většího pochopení studovaného jazyka jako takového.
+U cizinců učících se češtinu, jakožto jazyk s vysoce rozvinutou flexí, se dříve či později objevuje potřeba pochopit významy jednotlivých odvozovacích prostředků. Tato potřeba pramení z častého vytváření novotvarů pomocí specifických jazykových prostředků, které pro takové účely český jazyk má. Vědomá znalost významů jednotlivých odvozovacích prostředků by mohla vést k podstatně rychlejšímu procesu akvizice češtiny jako druhého jazyka.
 
-Cílem této práce je navrhnout a implementovat elektronický slovník s definicemi založenými na derivačních rysech slovotvorně motivovaných slov. Výsledná aplikace má pro zadaný vstup vytvářet částečnou slovotvornou analýzu a českou i anglickou definici založenou na strukturním významu zadaného slova.
+Cílem této práce je navrhnout a implementovat elektronický slovník s definicemi založenými na derivačních rysech slovotvorně motivovaných slov. Výsledná aplikace provádí pro zadaný vstup částečnou slovotvornou analýzu, na základě které zadanému slovu přiřazuje definici vycházející z jeho struktury (potažmo strukturního významu).
 
- Výsledný nástroj čerpá z teoretických východisek tradiční onomaziologické teorie slovotvorby Miloše Dokulila a pracuje s volně přístupnými daty derivační sítě DeriNet. Za využití moderních hybridních technologií pak tato data zpracovává do formy mobilní aplikace.
+ Teoretickým východiskem pro vývoj aplikace je onomaziologické teorie slovotvorby představená Milošem Dokulilem. Aplikace pracuje s volně přístupnými daty derivační sítě DeriNet, jež rovněž vychází z Dokulilovské teorie. Za využití moderních hybridních technologií pak tato data zpracovává formou mobilní aplikace.
 
-Práce samotná se tak skládá ze dvou částí -- teoretické a praktické. V teoretické části je rozebrána problematika české slovotvorby. Jsou zde představeny hlavní synchronní přístupy k této lingvistické disciplíně a je zde popsáná onomaziologická teorie slovotvorby. Dále jsou zde vypsána nejvýznamnější softwarová řešení pro práci s derivací v českém prostředí.
+Práce se skládá ze dvou částí -- teoretické a praktické. V teoretické části jsou nastíněny synchronní přístupy k české slovotvorbě a současně je zde hlouběji popsáná onomaziologická teorie slovotvorby. Dále jsou zde představeny již existující softwarové nástroje, které s českou slovotvorbou pracují.
 
-Praktická část se pak zabývá popisem výsledného nástroje, a to nejprve z hlediska vytváření slovotvorných definic (spolu s popisem zpracovaných slovotvorných sufixů). V poslední části práce je nástroj představen z technické stránky, tedy je zde rozebrán návrh a implementace samotné mobilní aplikace.
+Praktická část se soustřeďuje na popis výsledného nástroje, a to nejprve z hlediska vytváření slovotvorných definic (spolu s popisem zpracovaných slovotvorných sufixů). V neposlední řadě je nástroj představen z technické stránky, tedy je zde rozebrán návrh a implementace mobilní aplikace.
