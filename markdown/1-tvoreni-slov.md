@@ -4,8 +4,6 @@
 
 V této kapitole si představíme slovotvorbu tak, jak ji vnímá dnešní lingvistika, ve stručnosti si popíšeme hlavní přístupy k této problematice v českém prostředí a nastíníme vztah pojmu derivační morfologie k této disciplíně.
 
-## Uvedení do problematiky
-
 Za slovotvorbu lze v lingvistice v nejobecnějším pojetí považovat nauku o tvoření slov, jde tedy o takovou vědní disciplínu, která zkoumá a popisuje procesy, které doprovází vznik nových pojmenování v daném jazyce.
 
 V užším pojetí pod tvořením slov myslíme právě ty procesy, jež pod sebou zahrnují různé způsoby, postupy a prostředky, díky nimž dochází k produkci nových slov (tyto slovotvorné postupy jsou často reprodukovány). Důležitou součástí slovotvorby jsou pak výsledné stavy těchto procesů, které označujeme jako slovotvornou stavbu.  \parencite[92]{dokulil00}
