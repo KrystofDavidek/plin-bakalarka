@@ -1,6 +1,6 @@
 # Elektronický derivační slovník
 
-V této kapitole popisujeme výsledek praktické části, a to jednak z hlediska formálních požadavků na nástroj jako takový, tak z hlediska procesu návrhu a implementace.
+V této kapitole popisujeme výsledek praktické části, a to jak z hlediska formálních požadavků na nástroj jako takový, tak z hlediska procesu návrhu a implementace.
 
 Derivační slovník je primárně koncipován jako edukační pomůcka pro cizince, kteří se učí češtinu jako druhý jazyk. Na rozdíl od rodilých mluvčí nedokážou cizinci podvědomě predikovat význam neznámých slov na základě slovotvorných morfému v určitých kontextech. Chybí jim tedy podvědomá znalost významů určitých slovotvorných afixů, prostřednictvím kterých by si pak dokázali analogicky vyvodit význam slova neznámého.
 
@@ -10,7 +10,7 @@ Díky pravidelnému využívání slovníku taktéž očekáváme zejména u ciz
 
 ## Požadavky na aplikaci
 
-Primárním zadáním praktické části bylo vytvořit derivační slovník ve formě mobilní aplikace, který bude využívat slovotvorných informací z derivační sítě DeriNet. Dalším požadavkem, který vychází přímo z povahy samotného slovníku jakožto podpůrného nástroje pro výuku cizinců, bylo vyhledat a implementovat dvojjazyčný česko-anglický slovník, a to proto, aby byla celá aplikace včetně slovotvorných definic kompletně lokalizovaná v anglickém jazyce.
+Cílem práce bylo vytvořit derivační slovník ve formě mobilní aplikace, který bude využívat slovotvorných informací z derivační sítě DeriNet. Dílčím požadavkem, který vychází přímo z povahy samotného slovníku jakožto podpůrného nástroje pro výuku cizinců, bylo vyhledat a implementovat dvojjazyčný česko-anglický slovník, a to proto, aby byla celá aplikace včetně slovotvorných definic kompletně lokalizovaná v anglickém jazyce.
 
 Požadavky na funkcionalitu slovníku jako takového můžeme ve stručnosti shrnout v následujících bodech:
 
@@ -61,7 +61,7 @@ Dalším cílem Ionicu je poskytnout takové prostředí pro vývoj hybridních 
 
 Angular jako takový pracuje s programovacím jazykem TypeScript, který je vyvíjen firmou Microsoft jako open-source. TypeScript je rozšíření již zmíněného JavaScriptu, to v praxi znamená, že kód napsaný v TypeScriptu je zapotřebí nejdříve převést do určité podoby javaScriptového standardu a ten je až poté možné interpretovat ve webových prohlížečích. Tento programovací jazyk se používá primárně z důvodu své silné typové kontroly. Pokud je tedy této možnosti využito, lze tak díky ní předcházet mnohým potenciálním chybám. \parencite{typescript}
 
-Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrstev, ve stručnosti popíšeme právě ty, které jsou pro pochopení naši aplikace klíčové. Základním prvkem architektury jsou *komponenty*, v rámci kterých dochází k propojení aplikační logiky s konkrétní HTML šablonou (ta určuje celkový vzhled) a CSS. Jedna komponenta je většinou rovna jedné vizuální stránce v aplikaci, nicméně Angular dokáže svými vlastními značkami (*direktivami*) ovlivnit výslednou podobou šablony ještě před jejím zobrazením -- díky tomuto principu jednoduše dochází k dynamické proměně obsahu stránek podle zadané aplikační logiky, protože ta ovlivňuje chování samotných direktiv. Další důležitou části jsou *služby* -- ty už nejsou propojeny s žádnou vizuální stránkou (s HTML šablonou), ale slouží pro dekompozici jednotlivých funkcionalit napříč aplikací. Data, která jsou těmito službami zpracována, jsou pak dále přeposílána do určitých komponent. \parencite{angulararchitecture}
+Architektura frameworku Angular se skládá z mnoha vzájemně provázaných vrstev, ve stručnosti popíšeme právě ty, které jsou pro pochopení naši aplikace klíčové. Základním prvkem architektury jsou *komponenty*, v rámci kterých dochází k propojení aplikační logiky s konkrétní HTML šablonou a CSS (ty společně určují celkový vzhled). Jedna komponenta je většinou rovna jedné vizuální stránce v aplikaci, nicméně Angular dokáže svými vlastními značkami (*direktivami*) ovlivnit výslednou podobou šablony ještě před jejím zobrazením -- díky tomuto principu jednoduše dochází k dynamické proměně obsahu stránek podle zadané aplikační logiky, protože ta ovlivňuje chování samotných direktiv. Další důležitou části jsou *služby* -- ty už nejsou propojeny s žádnou vizuální stránkou (s HTML šablonou), ale slouží pro dekompozici jednotlivých funkcionalit napříč aplikací. Data, která jsou těmito službami zpracována, jsou pak dále přeposílána do určitých komponent. \parencite{angulararchitecture}
 
 ### Návrh uživatelského rozhraní
 

@@ -1,7 +1,7 @@
 
 # Nástroje pro práci s derivací
 
-V rámci české slovotvorby vzniklo nemalé množství počítačových programů, prostřednictvím kterých lze dosahovat různých výzkumných, edukačních či komerčních výsledků. Proto si v první část této kapitoly popíšeme nejvýznamnější softwarové nástroje, které se využívají pro práci s derivací v českém prostředí. V druhé části si pak hlouběji představíme derivační síť DeriNet, na níž je postaveno řešení praktické části této bakalářské práce.
+V rámci české slovotvorby vzniklo nemalé množství počítačových programů, prostřednictvím kterých lze dosahovat různých výzkumných, edukačních či komerčních výsledků. Proto si v první části této kapitoly popíšeme nejvýznamnější softwarové nástroje, které se využívají pro práci s derivací v českém prostředí. V druhé části si pak hlouběji představíme derivační síť DeriNet, na níž je postaveno řešení praktické části této bakalářské práce.
 
 ## Přehled nástrojů
 

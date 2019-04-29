@@ -10,7 +10,7 @@ Při výběru slovotvorných typů ke zpracování byl brán zřetel na jejich f
 
 ### Charakteristika
 
-Pro účely této bylo důležité vybrat takový slovotvorný typ, u něhož se převážně shoduje slovotvorný a lexikální význam. Tato podmínka je zde splněna, protože z 1 129 zkoumaných lemmat zakončených sufixem *-tel* pouze u 3,03 % z nich strukturní význam neodpovídá významu lexikálnímu (to se týká převážně neživotných substantiv typu *jmenovatel*, *dělitel* atd.) a celkově je u 4,42 % strukturní význam obecnější (např. *vnímatel*\footnote{Význam slova vnímatel je dle SSJČ „kdo uvědoměle vnímá umělecké dílo“ \parencite{ssjc}, došlo tedy k zúžení lexikálního významu.}). Tento lingvistický výzkum byl založen na datech z korpusu SYNv6 a jednotlivé typy významů byly porovnávány prostřednictvím výkladových slovníků.  \parencite{adri}
+Pro účely této bylo důležité vybrat takový slovotvorný typ, u něhož se převážně shoduje slovotvorný a lexikální význam. Tato podmínka je zde splněna, protože z 1 129 zkoumaných lemmat zakončených sufixem *-tel* pouze u 3,03 % z nich strukturní význam neodpovídá významu lexikálnímu (to se týká neživotných substantiv typu *jmenovatel* anebo takových substantiv, u nichž je jejich slovesný základ sporný, např. *datel*) a celkově je u 4,42 % strukturní význam obecnější (např. *vnímatel*\footnote{Význam slova vnímatel je dle SSJČ „kdo uvědoměle vnímá umělecké dílo“ \parencite{ssjc}, došlo tedy k zúžení lexikálního významu.}). Tento lingvistický výzkum byl založen na datech z korpusu SYNv6 a jednotlivé typy významů byly porovnávány prostřednictvím výkladových slovníků.  \parencite{adri}
 
 Jak bylo již naznačeno, obecný význam činitelských jmen je podle Dokulila definován jako „názvy osob a živých bytostí vůbec podle povahy a druhu jejich činností“ \parencite[17]{dokulil67}. Sufix *-tel* tak vyjadřuje, že takto odvozený pojem je subjektem děje základového slovesa s tím, že nejčastěji jde o aktivní\footnote{To neplatí u substantiv trpitel, truchlitel a bydlitel, která jsou odvozena ze stavových sloves. \parencite[17]{dokulil67}} účast subjektu na ději (např. subjekt označen slovem *učitel* vykonává takovou činnost, kterou vyjadřuje sloveso *učit*, z něhož je výraz odvozený). U tohoto slovotvorného typu se typicky jedná o mužská životná substantiva, nicméně se najdou i výjimky v podobě neživotných substantiv (viz výše). \parencite{simandl2016}
 
@@ -35,8 +35,8 @@ Slovotvorná definice je utvářena prostřednictvím dvou po sobě jdoucích kr
 
  Verbální aspekt lze do určité míry vyextrahovat z derivační sítě DeriNet -- a to analýzou slovotvorného řetězce:
 
- - sloveso je perfektum: řetězec obsahuje tutéž slovesnou formu v neprefigované podobě ve dvou předchozích slovotvorných krocích. Mějme například řetězec *pracovat* (2. krok) --> ***z**pracovat* (1. krok) --> *zpracovatel* -- slovotvorná definice tak bude znít „ten, kdo zpracoval nebo zpracuje“;
- - sloveso je sekundární imperfektivum: řetězec obsahuje rozdíl ve dvou předchozích slovotvorných krocích v rámci specifického sufixu u jedné slovesné formy, příkladem může být řetězec *pracovat* --> *zpracovat* (2. krok) --> *zpraco**vá**vat* (1. krok) --> *zpracovávatel* -- slovotvorná definice tak bude znít „ten, kdo zpracovává“;
+ - sloveso je perfektum: pokud řetězec obsahuje tutéž slovesnou formu v neprefigované podobě ve dvou předchozích slovotvorných krocích. Mějme například řetězec *pracovat* (2. krok) --> ***z**pracovat* (1. krok) --> *zpracovatel* -- slovotvorná definice tak bude znít „ten, kdo zpracoval nebo zpracuje“;
+ - sloveso je sekundární imperfektivum: pokud řetězec obsahuje rozdíl ve dvou předchozích slovotvorných krocích v rámci specifického sufixu u jedné slovesné formy, příkladem může být řetězec *pracovat* --> *zpracovat* (2. krok) --> *zpraco**vá**vat* (1. krok) --> *zpracovávatel* -- slovotvorná definice tak bude znít „ten, kdo zpracovává“;
  - sloveso je imperfektivum: pokud není perfektum a zároveň není sekundární imperfektivum, například *myslit* --> *myslitel* -- slovotvorná definice je „ten, kdo myslí“.
 
 \hypertarget{druha-faze}{%
@@ -74,11 +74,11 @@ Pro potřeby automatického zpracování jsme vytvářeli definice na základě 
 	-  ne --> „ten, kdo .\*bá“ (.\*be)
 	- ano --> „ten, kdo .\*bal nebo .\*bá“ (.\*be)
 - p[ií]satel --> Je prefigované?
-	- ne --> „ten, kdo píše“
+	- ne --> „ten, kdo píše“\footnote{U nejfrekventovanějších slovesných tvarů, u nichž v rámci jednoho slovotvorného kroku docházelo k výraznější hláskové alternaci, byla slovotvorná definice ručně specifikována -- jde například o sloveso *přemoci*, jehož derivátem je činitelské jméno *přemožitel*.}
 
 Veškerá výše zmíněná pravidla jsou taktéž aplikovatelná na slovotvorný typ *-telka*, pro kterou je slovotvorná definice v obecné rovině: „ta, která .\*“. Pokud budeme mít například za vstup slovo *vybudovatelka*, tak jeho definice bude znít „ta, která vybudovala nebo vybuduje (vybudovat)“. Za definicí samotnou je v závorce uvedeno základové sloveso v infinitivním tvaru, z něhož bylo činitelské jméno derivováno.
 
-Slovník vytváří slovotvorné definice i v anglickém jazyce, v rámci kterého je definice zobecněná na „someone who .\*“ s tím že je na konci v závorce specifikováno, o jaký se jedná jedná rod, příkladem může být znovu výraz *vybudovatelka* s anglickou definicí „someone who builds (feminine)“.
+Slovník vytváří slovotvorné definice i v anglickém jazyce, v rámci kterého je definice zobecněná na „someone who .\*“ s tím, že je na konci v závorce specifikováno, o jaký se jedná jedná rod. Příkladem může být znovu výraz *vybudovatelka* s anglickou definicí „someone who builds (feminine)“.
 
 #### Derivační a morfologická informace
 

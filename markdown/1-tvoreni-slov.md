@@ -12,7 +12,7 @@ Vznik (geneze) nového slova je tak odrazem určité slovotvorné stavby -- to z
 
 ## Přístupy a teorie
 
-Jako většina lingvistických disciplín, prošla si i tato oblast svým vlastním vývojem, jejž dobře mapuje kapitola *Slovotvorba* v publikaci Zdenky Rousínové -- *Dějiny českého jazykovědného myšlení*. Vzhledem k účelům této práce ponecháme historický exkurz stranou a zaměřujeme se na nejvýznamnější synchronní přístupy v rámci tvoření slov ve 20. a 21. století.
+Jako většina lingvistických disciplín, prošla si i tato oblast svým vlastním vývojem, jejž dobře mapuje kapitola *Slovotvorba* v publikaci Zdenky Rousínové -- *Dějiny českého jazykovědného myšlení*. Vzhledem k účelům této práce ponecháváme historický exkurz stranou a zaměřujeme se na nejvýznamnější synchronní přístupy v rámci tvoření slov ve 20. a 21. století.
 
 Za jedno z prvních významných děl lze považovat *Mluvnici spisovné češtiny* od Františka Trávníčka (1. vydání vyšlo v roce 1948), která jako jedna z prvních gramatik synchronně popisuje problematiku slovotvorby. Zde je nutno podotknout, že Trávníček tvoření nových slov úzce spojoval s lexikologií, a nevyčlenil jej tak jako samostatnou disciplínu. \parencite[263]{rousinova07}
 
@@ -28,4 +28,4 @@ Za jedno z nejnovějších děl pojednávajících o české slovotvorbě lze po
 
 Pojetí slovotvorby se může napříč různými přístupy značně odlišovat, v anglosaských zemích na rozdíl od slovanské tradice existuje označení derivační morfologie (*derivational morphology*), která spolu s flektivní morfologií tvoří morfologii jako celek (tento přístup je v českém jazyce taktéž reflektován, nicméně nepřevládá). \parencite{lieber14}
 
-V českém prostředí se tradičně slovotvorba od morfologie odděluje, protože zde na úrovni morfologie pracujeme výhradně s gramatickými prostředky, které slouží k vyjadřování gramatických kategorií (flektivní morfologie v anglosaském pojetí), a nikoliv se slovotvornými vztahy a prostředky (derivační morfologie v anglosaském pojetí). Pojem derivační morfologie je tedy srovnatelný s pojmem derivace jakožto s jedním ze tří slovotvorných způsobů české slovotvorby.
+V českém prostředí se tradičně slovotvorba od morfologie odděluje. Na úrovni morfologie se tradičně pracuje s morfémy jako s prostředky mající primárně gramatickou funkci (flektivní morfologie v anglosaském pojetí), a nikoliv jako s prostředky slovotvornými. Pojem derivační morfologie je tedy srovnatelný s pojmem derivace jakožto s jedním ze tří slovotvorných způsobů české slovotvorby.
