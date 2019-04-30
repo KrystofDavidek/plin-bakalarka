@@ -160,13 +160,15 @@ Implementačně nejkomplexnější  je komponenta s funkcionalitou *insert word*
     \label{algoritmus}
  \end{figure}
 
-V prvé řadě musí aplikace nějakým způsobem získat vstup pro následnou analýzu, existují dva způsoby, jak k tomu docílit -- v případě kroku 1.a je za vstup považováno takové slovo, které bylo vybráno v rámci komponenty *index*, tedy je vstupní slovo vybráno na stránce s rejstříkem zpracovaných slov. Druhou možností (1.b) je zadat slovo ručně prostřednictvím funkce *fromUser* z textového pole, v takovém případě se po zadání prvního písmena (a následně dalších znaků) vyselektují všechna slova z rejstříku, která začínají zadaným podřetězcem.
+V prvé řadě musí aplikace nějakým způsobem získat vstup pro následnou analýzu, existují dva způsoby, jak k tomu docílit. V případě kroku 1.a je za vstup považováno takové slovo, které bylo vybráno v rámci komponenty *index*, tedy je vstupní slovo vybráno na stránce s rejstříkem zpracovaných slov. Druhou možností (1.b) je zadat slovo ručně prostřednictvím funkce *fromUser* z textového pole, v takovém případě se po zadání prvního písmena (a následně dalších znaků) vyselektují všechna slova z rejstříku, která začínají zadaným podřetězcem.
 
 V okamžiku, kdy je vybráno vstupní slovo, je tento řetězec zaslán do služby *analyze* (2), která řeší všechny záležitosti týkající se derivační sítě DeriNet a překladu. V této službě se při jejím volání inicializuje objekt, který bude cílovým výstupem této služby -- tento objekt nazýváme *infoBase* a skládá se z několika atributů:
 
 - vstup v českém jazyce (při inicializaci je za jeho hodnotu přiřazeno vstupní slovo);
 - vstup v anglickém jazyce (při inicializaci je spuštěn automatický překlad);
-- slovotvorný typ (tento a zbytek atributů zůstávají při inicializaci prázdné);
+- základové slovo v českém jazyce (tento a zbytek atributů zůstávají při inicializaci prázdné);
+- základové slovo v anglickém jazyce;
+- slovotvorný typ;
 - prefigovanost;
 - prefix;
 - derivační proces;

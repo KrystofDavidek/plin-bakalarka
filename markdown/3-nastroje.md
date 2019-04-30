@@ -57,10 +57,10 @@ Další možnost, jak pracovat s databází DeriNet, je prostřednictvím jednod
 
 Každý záznam (řádek) v tomto souboru obsahuje několik atributů, jde o vlastní identifikační číslo, lemma, derivační informaci přejatou z morfologického slovníku MorFlex CZ, značku slovního druhu a u slov derivovaných identifikační číslo slova základového -- tím je jednoznačně vyznačen derivační vztah. Pro lepší ilustraci zde mějme derivační řetězec *žít* --> *užít* --> ... --> *superuživatel*, v této formě DeriNetu je reprezentován pěti záznamy, které jsou vzájemně propojeny identifikačními čísly (poslední atribut odkazuje na první), pouze u značkového slovesa *žít* žádný další odkaz neexistuje. \parencite{derinet} 
 
+A právě tento formát DeriNetu slouží jako základ derivačního slovníku v rámci praktické části této práce.
+
     692744	superuživatel	superuživatel	N	775428
     775428	uživatel	uživatel	N	775440
     775440	užívat	užívat_:T_^(*3t)	V	775402
     775402	užít	užít_:T	V	1006682
     1006682	žít	žít_:T	V
-
-A právě tento formát DeriNetu slouží jako základ derivačního slovníku v rámci praktické části této práce.

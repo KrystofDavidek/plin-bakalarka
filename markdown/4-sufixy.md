@@ -74,7 +74,7 @@ Pro potřeby automatického zpracování jsme vytvářeli definice na základě 
 	-  ne --> „ten, kdo .\*bá“ (.\*be)
 	- ano --> „ten, kdo .\*bal nebo .\*bá“ (.\*be)
 - p[ií]satel --> Je prefigované?
-	- ne --> „ten, kdo píše“\footnote{U nejfrekventovanějších slovesných tvarů, u nichž v rámci jednoho slovotvorného kroku docházelo k výraznější hláskové alternaci, byla slovotvorná definice ručně specifikována -- jde například o sloveso *přemoci*, jehož derivátem je činitelské jméno *přemožitel*.}
+	- ne --> „ten, kdo píše“\footnote{U nejfrekventovanějších slovesných tvarů, u nichž v rámci jednoho slovotvorného kroku docházelo k výraznější hláskové alternaci, byla slovotvorná definice ručně specifikována -- jde například o sloveso přemoci, jehož derivátem je činitelské jméno přemožitel.}
 
 Veškerá výše zmíněná pravidla jsou taktéž aplikovatelná na slovotvorný typ *-telka*, pro kterou je slovotvorná definice v obecné rovině: „ta, která .\*“. Pokud budeme mít například za vstup slovo *vybudovatelka*, tak jeho definice bude znít „ta, která vybudovala nebo vybuduje (vybudovat)“. Za definicí samotnou je v závorce uvedeno základové sloveso v infinitivním tvaru, z něhož bylo činitelské jméno derivováno.
 
