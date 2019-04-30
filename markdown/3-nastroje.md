@@ -9,7 +9,7 @@ V rámci české slovotvorby vzniklo nemalé množství počítačových program
 
 Webová aplikace Morfio je jedním z projektů Českého národního korpusu (veřejně přístupný bez nutnosti registrace), která „slouží k odhadování rozsahu a produktivity slovotvorných modelů v češtině na základě korpusových dat“ \parencite{cvrcek13}. Jde tedy o systém, který se snaží ve zvoleném korpusu (SYN2000, SYN2010 nebo SYN2015) najít takové n-tice formálně podobných slov, které se shodují určitým slovotvorným základem a liší se specifickým slovotvorným formantem (těch může být i více, navíc je zde reflektována problematika hláskových alternací). Nástroj je tedy vhodný spíše jako výzkumná pomůcka nežli jako prostředek k nacházení slovotvorných vztahů mezi slovy,  protože při manipulaci s korpusovými daty, jež nejsou nijak sémanticky označkována, může docházet k chybám například z důvodu homonymie. \parencite{cvrcek13}
 
-### Morfologické analyzátory Ajka
+### Ajka
 
 Dalším nástrojem je morfologický analyzátor Ajka (taktéž veřejně přístupný bez nutnosti registrace), jehož hlavní složkou je analýza flektivní morfologie. To znamená, že obsahuje rozsáhlý systém vzorů spolu se sadami určitých koncovek a morfologických značek. Ve webovém rozhraní je možnost vstupní text buď segmentovat na jednotlivé morfologické segmenty, analyzovat z hlediska morfologických charakteristik (vstupnímu slovu je přiřazena určitá morfologická značka), nebo vyhledat existující akcentovaný výraz (například pro vstup *blázen* je výstupem výraz *blažen*).  Nástroj nicméně akcentuje i složku derivační, a to ve formě hierarchického systému morfologických paradigmat, který slouží pro zachycení různých úrovní derivační morfologie. \parencite{ajka}
 
